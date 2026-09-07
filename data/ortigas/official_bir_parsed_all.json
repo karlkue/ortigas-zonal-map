@@ -1,0 +1,5970 @@
+{
+  "san_antonio": [
+    {
+      "name": "ADB AVE",
+      "vicinity": "ORTIGAS AVE-JULIA VARGAS AVE",
+      "class": "CR",
+      "value": 325000.0,
+      "brgy": "San Antonio",
+      "rdo": "RDO 43 (Pasig)",
+      "do": "D.O. 024-2023",
+      "row": 2646
+    },
+    {
+      "name": "AMETHYST ROAD",
+      "vicinity": "PEARL DRIVE",
+      "class": "CR",
+      "value": 200000.0,
+      "brgy": "San Antonio",
+      "rdo": "RDO 43 (Pasig)",
+      "do": "D.O. 024-2023",
+      "row": 2647
+    },
+    {
+      "name": "DONA JULIA VARGAS",
+      "vicinity": "ADB AVE - MERALCO AVE.",
+      "class": "CR",
+      "value": 325000.0,
+      "brgy": "San Antonio",
+      "rdo": "RDO 43 (Pasig)",
+      "do": "D.O. 024-2023",
+      "row": 2648
+    },
+    {
+      "name": "EXCHANGE ROAD  (TEKTITE ROAD)",
+      "vicinity": "SAN MIGUEL AVE. - MERALCO AVE.",
+      "class": "CR",
+      "value": 290000.0,
+      "brgy": "San Antonio",
+      "rdo": "RDO 43 (Pasig)",
+      "do": "D.O. 024-2023",
+      "row": 2649
+    },
+    {
+      "name": "F ORTRIGAZ JR. AVE (EMERALD AVE)",
+      "vicinity": "ORTIGAS AVE-JULIA VARGAS AVE",
+      "class": "CR",
+      "value": 290000.0,
+      "brgy": "San Antonio",
+      "rdo": "RDO 43 (Pasig)",
+      "do": "D.O. 024-2023",
+      "row": 2650
+    },
+    {
+      "name": "GARNET ROAD",
+      "vicinity": "ADB AVE. - JULIA VARGAS",
+      "class": "CR",
+      "value": 290000.0,
+      "brgy": "San Antonio",
+      "rdo": "RDO 43 (Pasig)",
+      "do": "D.O. 024-2023",
+      "row": 2651
+    },
+    {
+      "name": "GOLD LOOP CIRCLE",
+      "vicinity": "PEARL DRIVE - J. MA. ESCRIVA DR.",
+      "class": "CR",
+      "value": 240000.0,
+      "brgy": "San Antonio",
+      "rdo": "RDO 43 (Pasig)",
+      "do": "D.O. 024-2023",
+      "row": 2652
+    },
+    {
+      "name": "JADE DRIVE",
+      "vicinity": "EXCHANGE ROAD",
+      "class": "CR",
+      "value": 290000.0,
+      "brgy": "San Antonio",
+      "rdo": "RDO 43 (Pasig)",
+      "do": "D.O. 024-2023",
+      "row": 2653
+    },
+    {
+      "name": "JOSE MA. ESCRIVA DRIVE  (Formerly Amber Drive) *",
+      "vicinity": "SHAW BLVD. - AMBER DRIVE",
+      "class": "CR",
+      "value": 190000.0,
+      "brgy": "San Antonio",
+      "rdo": "RDO 43 (Pasig)",
+      "do": "D.O. 024-2023",
+      "row": 2654
+    },
+    {
+      "name": "LOURDES ST",
+      "vicinity": "PEARL DRIVE",
+      "class": "CR",
+      "value": 190000.0,
+      "brgy": "San Antonio",
+      "rdo": "RDO 43 (Pasig)",
+      "do": "D.O. 024-2023",
+      "row": 2655
+    },
+    {
+      "name": "MERALCO AVE",
+      "vicinity": "ORTIGAS AVE - GEN. LIM",
+      "class": "CR",
+      "value": 315000.0,
+      "brgy": "San Antonio",
+      "rdo": "RDO 43 (Pasig)",
+      "do": "D.O. 024-2023",
+      "row": 2656
+    },
+    {
+      "name": "MERALCO AVE",
+      "vicinity": "GEN. LIM - SHAW BLVD",
+      "class": "CR",
+      "value": 280000.0,
+      "brgy": "San Antonio",
+      "rdo": "RDO 43 (Pasig)",
+      "do": "D.O. 024-2023",
+      "row": 2657
+    },
+    {
+      "name": "ONYX ROAD",
+      "vicinity": "GARNET ROAD - MERALCO AVE.",
+      "class": "CR",
+      "value": 290000.0,
+      "brgy": "San Antonio",
+      "rdo": "RDO 43 (Pasig)",
+      "do": "D.O. 024-2023",
+      "row": 2658
+    },
+    {
+      "name": "OPAL ROAD",
+      "vicinity": "ADB AVE. - RUBY ROAD",
+      "class": "CR",
+      "value": 290000.0,
+      "brgy": "San Antonio",
+      "rdo": "RDO 43 (Pasig)",
+      "do": "D.O. 024-2023",
+      "row": 2659
+    },
+    {
+      "name": "ORTIGAS AVENUE",
+      "vicinity": "QUEZON CITY BDRY - MERALCO AVE.",
+      "class": "CR",
+      "value": 290000.0,
+      "brgy": "San Antonio",
+      "rdo": "RDO 43 (Pasig)",
+      "do": "D.O. 024-2023",
+      "row": 2660
+    },
+    {
+      "name": "ORTIGAS AVENUE",
+      "vicinity": "QUEZON CITY BDRY - MERALCO AVE.",
+      "class": "X",
+      "value": 225000.0,
+      "brgy": "San Antonio",
+      "rdo": "RDO 43 (Pasig)",
+      "do": "D.O. 024-2023",
+      "row": 2661
+    },
+    {
+      "name": "PEARL DRIVE",
+      "vicinity": "GOLDLOOP -EXCHANGE ROAD",
+      "class": "CR",
+      "value": 240000.0,
+      "brgy": "San Antonio",
+      "rdo": "RDO 43 (Pasig)",
+      "do": "D.O. 024-2023",
+      "row": 2662
+    },
+    {
+      "name": "RUBY ROAD",
+      "vicinity": "GARNET ROAD - JULIA VARGAS",
+      "class": "CR",
+      "value": 290000.0,
+      "brgy": "San Antonio",
+      "rdo": "RDO 43 (Pasig)",
+      "do": "D.O. 024-2023",
+      "row": 2663
+    },
+    {
+      "name": "SAN MIGUEL AVE",
+      "vicinity": "JULIA VARGA AVE-SHAW BLVD",
+      "class": "CR",
+      "value": 325000.0,
+      "brgy": "San Antonio",
+      "rdo": "RDO 43 (Pasig)",
+      "do": "D.O. 024-2023",
+      "row": 2664
+    },
+    {
+      "name": "SAPPHIRE ROAD",
+      "vicinity": "ADB AVE. - JULIA VARGAS",
+      "class": "CR",
+      "value": 290000.0,
+      "brgy": "San Antonio",
+      "rdo": "RDO 43 (Pasig)",
+      "do": "D.O. 024-2023",
+      "row": 2665
+    },
+    {
+      "name": "SHAW BLVD",
+      "vicinity": "MERALCO AVE. - SAN MIGUEL AVE.",
+      "class": "CR",
+      "value": 290000.0,
+      "brgy": "San Antonio",
+      "rdo": "RDO 43 (Pasig)",
+      "do": "D.O. 024-2023",
+      "row": 2666
+    },
+    {
+      "name": "TOPAZ ROAD",
+      "vicinity": "RUBY ROAD - GARNET ROAD",
+      "class": "CR",
+      "value": 290000.0,
+      "brgy": "San Antonio",
+      "rdo": "RDO 43 (Pasig)",
+      "do": "D.O. 024-2023",
+      "row": 2667
+    },
+    {
+      "name": "CHASON TOWNHOUSE (TH- REGULAR) *",
+      "vicinity": "GEN. ATIENZA",
+      "class": "RR",
+      "value": 100000.0,
+      "brgy": "San Antonio",
+      "rdo": "RDO 43 (Pasig)",
+      "do": "D.O. 024-2023",
+      "row": 2678
+    },
+    {
+      "name": "MAGARA TOWNHOUSE",
+      "vicinity": "SAN ANTONIO",
+      "class": "RR",
+      "value": 100000.0,
+      "brgy": "San Antonio",
+      "rdo": "RDO 43 (Pasig)",
+      "do": "D.O. 024-2023",
+      "row": 2679
+    },
+    {
+      "name": "SAN ANTONIO VILLAGE                      *",
+      "vicinity": "GEN. ARANETA",
+      "class": "RR",
+      "value": 100000.0,
+      "brgy": "San Antonio",
+      "rdo": "RDO 43 (Pasig)",
+      "do": "D.O. 024-2023",
+      "row": 2680
+    },
+    {
+      "name": "SAN ANTONIO VILLAGE                      *",
+      "vicinity": "GEN. ATIENZA",
+      "class": "RR",
+      "value": 100000.0,
+      "brgy": "San Antonio",
+      "rdo": "RDO 43 (Pasig)",
+      "do": "D.O. 024-2023",
+      "row": 2681
+    },
+    {
+      "name": "SAN ANTONIO VILLAGE                      *",
+      "vicinity": "GEN. CAPINPIN",
+      "class": "RR",
+      "value": 100000.0,
+      "brgy": "San Antonio",
+      "rdo": "RDO 43 (Pasig)",
+      "do": "D.O. 024-2023",
+      "row": 2682
+    },
+    {
+      "name": "SAN ANTONIO VILLAGE                      *",
+      "vicinity": "GEN. DELGADO",
+      "class": "RR",
+      "value": 100000.0,
+      "brgy": "San Antonio",
+      "rdo": "RDO 43 (Pasig)",
+      "do": "D.O. 024-2023",
+      "row": 2683
+    },
+    {
+      "name": "SAN ANTONIO VILLAGE                      *",
+      "vicinity": "GEN. LIM",
+      "class": "RR",
+      "value": 100000.0,
+      "brgy": "San Antonio",
+      "rdo": "RDO 43 (Pasig)",
+      "do": "D.O. 024-2023",
+      "row": 2684
+    },
+    {
+      "name": "SAN ANTONIO VILLAGE                      *",
+      "vicinity": "GEN. LUKBAN",
+      "class": "RR",
+      "value": 100000.0,
+      "brgy": "San Antonio",
+      "rdo": "RDO 43 (Pasig)",
+      "do": "D.O. 024-2023",
+      "row": 2685
+    },
+    {
+      "name": "SAN ANTONIO VILLAGE                      *",
+      "vicinity": "GEN. MALVAR",
+      "class": "RR",
+      "value": 100000.0,
+      "brgy": "San Antonio",
+      "rdo": "RDO 43 (Pasig)",
+      "do": "D.O. 024-2023",
+      "row": 2686
+    },
+    {
+      "name": "SAN ANTONIO VILLAGE                      *",
+      "vicinity": "GEN. ROXAS",
+      "class": "RR",
+      "value": 100000.0,
+      "brgy": "San Antonio",
+      "rdo": "RDO 43 (Pasig)",
+      "do": "D.O. 024-2023",
+      "row": 2687
+    },
+    {
+      "name": "SAN ANTONIO VILLAGE                      *",
+      "vicinity": "GEN. SEGUNDO",
+      "class": "RR",
+      "value": 100000.0,
+      "brgy": "San Antonio",
+      "rdo": "RDO 43 (Pasig)",
+      "do": "D.O. 024-2023",
+      "row": 2688
+    },
+    {
+      "name": "SAN ANTONIO VILLAGE                      *",
+      "vicinity": "SAN ANTONIO VILLAGE",
+      "class": "CR",
+      "value": 128000.0,
+      "brgy": "San Antonio",
+      "rdo": "RDO 43 (Pasig)",
+      "do": "D.O. 024-2023",
+      "row": 2689
+    },
+    {
+      "name": "(TH- REGULAR)       *",
+      "vicinity": "ORTIGAS CENTER",
+      "class": "RR",
+      "value": 100000.0,
+      "brgy": "San Antonio",
+      "rdo": "RDO 43 (Pasig)",
+      "do": "D.O. 024-2023",
+      "row": 2691
+    },
+    {
+      "name": "8137 PEARL PLAZA",
+      "vicinity": "JOSE MA. ESCRIBA DRIVE",
+      "class": "CC",
+      "value": 133000.0,
+      "brgy": "San Antonio",
+      "rdo": "RDO 43 (Pasig)",
+      "do": "D.O. 024-2023",
+      "row": 2711
+    },
+    {
+      "name": "8137 PEARL PLAZA",
+      "vicinity": "JOSE MA. ESCRIBA DRIVE",
+      "class": "PS",
+      "value": 93100.0,
+      "brgy": "San Antonio",
+      "rdo": "RDO 43 (Pasig)",
+      "do": "D.O. 024-2023",
+      "row": 2712
+    },
+    {
+      "name": "ADB AVE TOWER",
+      "vicinity": "ADB AVE TOPAZ ROAD",
+      "class": "RC",
+      "value": 133000.0,
+      "brgy": "San Antonio",
+      "rdo": "RDO 43 (Pasig)",
+      "do": "D.O. 024-2023",
+      "row": 2713
+    },
+    {
+      "name": "ADB AVE TOWER",
+      "vicinity": "ADB AVE TOPAZ ROAD",
+      "class": "CC",
+      "value": 159000.0,
+      "brgy": "San Antonio",
+      "rdo": "RDO 43 (Pasig)",
+      "do": "D.O. 024-2023",
+      "row": 2714
+    },
+    {
+      "name": "ADB AVE TOWER",
+      "vicinity": "ADB AVE TOPAZ ROAD",
+      "class": "PS",
+      "value": 111300.0,
+      "brgy": "San Antonio",
+      "rdo": "RDO 43 (Pasig)",
+      "do": "D.O. 024-2023",
+      "row": 2715
+    },
+    {
+      "name": "AGUSTIN I BLDG",
+      "vicinity": "F. ORTIGAS - RUBY ROAD",
+      "class": "CC",
+      "value": 125000.0,
+      "brgy": "San Antonio",
+      "rdo": "RDO 43 (Pasig)",
+      "do": "D.O. 024-2023",
+      "row": 2716
+    },
+    {
+      "name": "AHM PROPERTIES",
+      "vicinity": "GENERAL MALVAR",
+      "class": "RC",
+      "value": 108000.0,
+      "brgy": "San Antonio",
+      "rdo": "RDO 43 (Pasig)",
+      "do": "D.O. 024-2023",
+      "row": 2717
+    },
+    {
+      "name": "AHM PROPERTIES",
+      "vicinity": "GENERAL MALVAR",
+      "class": "PS",
+      "value": 75600.0,
+      "brgy": "San Antonio",
+      "rdo": "RDO 43 (Pasig)",
+      "do": "D.O. 024-2023",
+      "row": 2718
+    },
+    {
+      "name": "AIC EMPIRE TOWER",
+      "vicinity": "GARNET COR SAPPHIRE",
+      "class": "RC",
+      "value": 125000.0,
+      "brgy": "San Antonio",
+      "rdo": "RDO 43 (Pasig)",
+      "do": "D.O. 024-2023",
+      "row": 2719
+    },
+    {
+      "name": "AIC EMPIRE TOWER",
+      "vicinity": "GARNET COR SAPPHIRE",
+      "class": "CC",
+      "value": 150000.0,
+      "brgy": "San Antonio",
+      "rdo": "RDO 43 (Pasig)",
+      "do": "D.O. 024-2023",
+      "row": 2720
+    },
+    {
+      "name": "AIC EMPIRE TOWER",
+      "vicinity": "GARNET COR SAPPHIRE",
+      "class": "PS",
+      "value": 105000.0,
+      "brgy": "San Antonio",
+      "rdo": "RDO 43 (Pasig)",
+      "do": "D.O. 024-2023",
+      "row": 2721
+    },
+    {
+      "name": "AIC GOLD TOWER",
+      "vicinity": "SAPPHIRE COR EMERALD",
+      "class": "RC",
+      "value": 125000.0,
+      "brgy": "San Antonio",
+      "rdo": "RDO 43 (Pasig)",
+      "do": "D.O. 024-2023",
+      "row": 2722
+    },
+    {
+      "name": "AIC GOLD TOWER",
+      "vicinity": "SAPPHIRE COR EMERALD",
+      "class": "CC",
+      "value": 150000.0,
+      "brgy": "San Antonio",
+      "rdo": "RDO 43 (Pasig)",
+      "do": "D.O. 024-2023",
+      "row": 2723
+    },
+    {
+      "name": "AIC GOLD TOWER",
+      "vicinity": "SAPPHIRE COR EMERALD",
+      "class": "PS",
+      "value": 105000.0,
+      "brgy": "San Antonio",
+      "rdo": "RDO 43 (Pasig)",
+      "do": "D.O. 024-2023",
+      "row": 2724
+    },
+    {
+      "name": "AIC GRANDE TOWER",
+      "vicinity": "GARNET-SAPPHIRE",
+      "class": "RC",
+      "value": 125000.0,
+      "brgy": "San Antonio",
+      "rdo": "RDO 43 (Pasig)",
+      "do": "D.O. 024-2023",
+      "row": 2725
+    },
+    {
+      "name": "AIC GRANDE TOWER",
+      "vicinity": "GARNET-SAPPHIRE",
+      "class": "CC",
+      "value": 150000.0,
+      "brgy": "San Antonio",
+      "rdo": "RDO 43 (Pasig)",
+      "do": "D.O. 024-2023",
+      "row": 2726
+    },
+    {
+      "name": "AIC GRANDE TOWER",
+      "vicinity": "GARNET-SAPPHIRE",
+      "class": "PS",
+      "value": 105000.0,
+      "brgy": "San Antonio",
+      "rdo": "RDO 43 (Pasig)",
+      "do": "D.O. 024-2023",
+      "row": 2727
+    },
+    {
+      "name": "ALEXANDRA CONDO",
+      "vicinity": "AMBER AVE - SAN ANTONIO SUBD - MERALCO AVE",
+      "class": "RC",
+      "value": 125000.0,
+      "brgy": "San Antonio",
+      "rdo": "RDO 43 (Pasig)",
+      "do": "D.O. 024-2023",
+      "row": 2728
+    },
+    {
+      "name": "ALEXANDRA CONDO",
+      "vicinity": "AMBER AVE - SAN ANTONIO SUBD - MERALCO AVE",
+      "class": "PS",
+      "value": 87500.0,
+      "brgy": "San Antonio",
+      "rdo": "RDO 43 (Pasig)",
+      "do": "D.O. 024-2023",
+      "row": 2729
+    },
+    {
+      "name": "AMA COMPUTER COLLEGE",
+      "vicinity": "SAN MIGUEL AVE",
+      "class": "CC",
+      "value": 141000.0,
+      "brgy": "San Antonio",
+      "rdo": "RDO 43 (Pasig)",
+      "do": "D.O. 024-2023",
+      "row": 2730
+    },
+    {
+      "name": "AMBER PLACE",
+      "vicinity": "JOSE MA. ESCRIBA DRIVE",
+      "class": "CC",
+      "value": 138000.0,
+      "brgy": "San Antonio",
+      "rdo": "RDO 43 (Pasig)",
+      "do": "D.O. 024-2023",
+      "row": 2731
+    },
+    {
+      "name": "AMBER PLACE",
+      "vicinity": "JOSE MA. ESCRIBA DRIVE",
+      "class": "PS",
+      "value": 96600.0,
+      "brgy": "San Antonio",
+      "rdo": "RDO 43 (Pasig)",
+      "do": "D.O. 024-2023",
+      "row": 2732
+    },
+    {
+      "name": "AMBER SQUARE",
+      "vicinity": "JOSE MA. ESCRIBA DRIVE",
+      "class": "CC",
+      "value": 138000.0,
+      "brgy": "San Antonio",
+      "rdo": "RDO 43 (Pasig)",
+      "do": "D.O. 024-2023",
+      "row": 2733
+    },
+    {
+      "name": "AMBER SQUARE",
+      "vicinity": "JOSE MA. ESCRIBA DRIVE",
+      "class": "PS",
+      "value": 96600.0,
+      "brgy": "San Antonio",
+      "rdo": "RDO 43 (Pasig)",
+      "do": "D.O. 024-2023",
+      "row": 2734
+    },
+    {
+      "name": "AMBERLAND PLAZA CONDO",
+      "vicinity": "JADE DRIVE - J. VARGAS",
+      "class": "RC",
+      "value": 120000.0,
+      "brgy": "San Antonio",
+      "rdo": "RDO 43 (Pasig)",
+      "do": "D.O. 024-2023",
+      "row": 2735
+    },
+    {
+      "name": "AMBERLAND PLAZA CONDO",
+      "vicinity": "JADE DRIVE - J. VARGAS",
+      "class": "CC",
+      "value": 144000.0,
+      "brgy": "San Antonio",
+      "rdo": "RDO 43 (Pasig)",
+      "do": "D.O. 024-2023",
+      "row": 2736
+    },
+    {
+      "name": "AMBERLAND PLAZA CONDO",
+      "vicinity": "JADE DRIVE - J. VARGAS",
+      "class": "PS",
+      "value": 100800.0,
+      "brgy": "San Antonio",
+      "rdo": "RDO 43 (Pasig)",
+      "do": "D.O. 024-2023",
+      "row": 2737
+    },
+    {
+      "name": "ANGELICA MANOR",
+      "vicinity": "GEN. CAPINPIN ST.",
+      "class": "RC",
+      "value": 110000.0,
+      "brgy": "San Antonio",
+      "rdo": "RDO 43 (Pasig)",
+      "do": "D.O. 024-2023",
+      "row": 2738
+    },
+    {
+      "name": "ANGELICA MANOR",
+      "vicinity": "GEN. CAPINPIN ST.",
+      "class": "PS",
+      "value": 77000.0,
+      "brgy": "San Antonio",
+      "rdo": "RDO 43 (Pasig)",
+      "do": "D.O. 024-2023",
+      "row": 2739
+    },
+    {
+      "name": "ANSONS BLDG",
+      "vicinity": "ADB AVE. - TOPAZ ROAD",
+      "class": "CC",
+      "value": 141000.0,
+      "brgy": "San Antonio",
+      "rdo": "RDO 43 (Pasig)",
+      "do": "D.O. 024-2023",
+      "row": 2747
+    },
+    {
+      "name": "ANTEL GLOBAL CORPORATE CTR",
+      "vicinity": "JULIA VARGAS AVE.",
+      "class": "CC",
+      "value": 143000.0,
+      "brgy": "San Antonio",
+      "rdo": "RDO 43 (Pasig)",
+      "do": "D.O. 024-2023",
+      "row": 2748
+    },
+    {
+      "name": "ANTEL GLOBAL CORPORATE CTR",
+      "vicinity": "JULIA VARGAS AVE.",
+      "class": "PS",
+      "value": 100100.0,
+      "brgy": "San Antonio",
+      "rdo": "RDO 43 (Pasig)",
+      "do": "D.O. 024-2023",
+      "row": 2749
+    },
+    {
+      "name": "ASPEN SUITES",
+      "vicinity": "GEN. CAPINPIN ST.",
+      "class": "RC",
+      "value": 110000.0,
+      "brgy": "San Antonio",
+      "rdo": "RDO 43 (Pasig)",
+      "do": "D.O. 024-2023",
+      "row": 2750
+    },
+    {
+      "name": "ASPEN SUITES",
+      "vicinity": "GEN. CAPINPIN ST.",
+      "class": "PS",
+      "value": 77000.0,
+      "brgy": "San Antonio",
+      "rdo": "RDO 43 (Pasig)",
+      "do": "D.O. 024-2023",
+      "row": 2751
+    },
+    {
+      "name": "ASTORIA PLAZA CONDO",
+      "vicinity": "AMBER AVE COR GEN ARANETA ST.",
+      "class": "RC",
+      "value": 130000.0,
+      "brgy": "San Antonio",
+      "rdo": "RDO 43 (Pasig)",
+      "do": "D.O. 024-2023",
+      "row": 2752
+    },
+    {
+      "name": "ASTORIA PLAZA CONDO",
+      "vicinity": "AMBER AVE COR GEN ARANETA ST.",
+      "class": "CC",
+      "value": 156000.0,
+      "brgy": "San Antonio",
+      "rdo": "RDO 43 (Pasig)",
+      "do": "D.O. 024-2023",
+      "row": 2753
+    },
+    {
+      "name": "ASTORIA PLAZA CONDO",
+      "vicinity": "AMBER AVE COR GEN ARANETA ST.",
+      "class": "PS",
+      "value": 109200.0,
+      "brgy": "San Antonio",
+      "rdo": "RDO 43 (Pasig)",
+      "do": "D.O. 024-2023",
+      "row": 2754
+    },
+    {
+      "name": "AVANT GARDE RESIDENCES",
+      "vicinity": "MERALCO AVE JADE DRIVE",
+      "class": "RC",
+      "value": 133000.0,
+      "brgy": "San Antonio",
+      "rdo": "RDO 43 (Pasig)",
+      "do": "D.O. 024-2023",
+      "row": 2755
+    },
+    {
+      "name": "AVANT GARDE RESIDENCES",
+      "vicinity": "MERALCO AVE JADE DRIVE",
+      "class": "CC",
+      "value": 159000.0,
+      "brgy": "San Antonio",
+      "rdo": "RDO 43 (Pasig)",
+      "do": "D.O. 024-2023",
+      "row": 2756
+    },
+    {
+      "name": "AVANT GARDE RESIDENCES",
+      "vicinity": "MERALCO AVE JADE DRIVE",
+      "class": "PS",
+      "value": 111300.0,
+      "brgy": "San Antonio",
+      "rdo": "RDO 43 (Pasig)",
+      "do": "D.O. 024-2023",
+      "row": 2757
+    },
+    {
+      "name": "BELVEDERE TOWER CONDO",
+      "vicinity": "SAN MIGUEL AVE",
+      "class": "RC",
+      "value": 130000.0,
+      "brgy": "San Antonio",
+      "rdo": "RDO 43 (Pasig)",
+      "do": "D.O. 024-2023",
+      "row": 2758
+    },
+    {
+      "name": "BELVEDERE TOWER CONDO",
+      "vicinity": "SAN MIGUEL AVE",
+      "class": "CC",
+      "value": 156000.0,
+      "brgy": "San Antonio",
+      "rdo": "RDO 43 (Pasig)",
+      "do": "D.O. 024-2023",
+      "row": 2759
+    },
+    {
+      "name": "BELVEDERE TOWER CONDO",
+      "vicinity": "SAN MIGUEL AVE",
+      "class": "PS",
+      "value": 109200.0,
+      "brgy": "San Antonio",
+      "rdo": "RDO 43 (Pasig)",
+      "do": "D.O. 024-2023",
+      "row": 2760
+    },
+    {
+      "name": "BUENAVIDA CONDO",
+      "vicinity": "Cor. GEN SEGUNDO & GEN. ATIENZA ST",
+      "class": "RC",
+      "value": 105000.0,
+      "brgy": "San Antonio",
+      "rdo": "RDO 43 (Pasig)",
+      "do": "D.O. 024-2023",
+      "row": 2761
+    },
+    {
+      "name": "BUENAVIDA CONDO",
+      "vicinity": "Cor. GEN SEGUNDO & GEN. ATIENZA ST",
+      "class": "PS",
+      "value": 73500.0,
+      "brgy": "San Antonio",
+      "rdo": "RDO 43 (Pasig)",
+      "do": "D.O. 024-2023",
+      "row": 2762
+    },
+    {
+      "name": "CAPINPIN PLACE",
+      "vicinity": "GEN. CAPINPIN ST.",
+      "class": "RC",
+      "value": 110000.0,
+      "brgy": "San Antonio",
+      "rdo": "RDO 43 (Pasig)",
+      "do": "D.O. 024-2023",
+      "row": 2763
+    },
+    {
+      "name": "CAPINPIN PLACE",
+      "vicinity": "GEN. CAPINPIN ST.",
+      "class": "PS",
+      "value": 77000.0,
+      "brgy": "San Antonio",
+      "rdo": "RDO 43 (Pasig)",
+      "do": "D.O. 024-2023",
+      "row": 2764
+    },
+    {
+      "name": "CDC MILLENIUM ORTIGAS   *",
+      "vicinity": "ORTIGAS AVE. COR SAPPHIRE ROAD",
+      "class": "RC",
+      "value": 125000.0,
+      "brgy": "San Antonio",
+      "rdo": "RDO 43 (Pasig)",
+      "do": "D.O. 024-2023",
+      "row": 2765
+    },
+    {
+      "name": "CDC MILLENIUM ORTIGAS   *",
+      "vicinity": "ORTIGAS AVE. COR SAPPHIRE ROAD",
+      "class": "PS",
+      "value": 87500.0,
+      "brgy": "San Antonio",
+      "rdo": "RDO 43 (Pasig)",
+      "do": "D.O. 024-2023",
+      "row": 2766
+    },
+    {
+      "name": "CEDAR MANSION CONDO I & II",
+      "vicinity": "JOSE MARIA ESCRIBA DRIVE",
+      "class": "RC",
+      "value": 118000.0,
+      "brgy": "San Antonio",
+      "rdo": "RDO 43 (Pasig)",
+      "do": "D.O. 024-2023",
+      "row": 2767
+    },
+    {
+      "name": "CEDAR MANSION CONDO I & II",
+      "vicinity": "JOSE MARIA ESCRIBA DRIVE",
+      "class": "CC",
+      "value": 141000.0,
+      "brgy": "San Antonio",
+      "rdo": "RDO 43 (Pasig)",
+      "do": "D.O. 024-2023",
+      "row": 2768
+    },
+    {
+      "name": "CEDAR MANSION CONDO I & II",
+      "vicinity": "JOSE MARIA ESCRIBA DRIVE",
+      "class": "PS",
+      "value": 98700.0,
+      "brgy": "San Antonio",
+      "rdo": "RDO 43 (Pasig)",
+      "do": "D.O. 024-2023",
+      "row": 2769
+    },
+    {
+      "name": "CENTREPOINT CONDO",
+      "vicinity": "GARNET ST - JULIA VARGAS",
+      "class": "CC",
+      "value": 133000.0,
+      "brgy": "San Antonio",
+      "rdo": "RDO 43 (Pasig)",
+      "do": "D.O. 024-2023",
+      "row": 2770
+    },
+    {
+      "name": "CENTREPOINT CONDO",
+      "vicinity": "GARNET ST - JULIA VARGAS",
+      "class": "PS",
+      "value": 93100.0,
+      "brgy": "San Antonio",
+      "rdo": "RDO 43 (Pasig)",
+      "do": "D.O. 024-2023",
+      "row": 2771
+    },
+    {
+      "name": "CHAMPAGNE EDITION CONDOMINIUM",
+      "vicinity": "JOSE MA. ESCRIBA DRIVE",
+      "class": "RC",
+      "value": 125000.0,
+      "brgy": "San Antonio",
+      "rdo": "RDO 43 (Pasig)",
+      "do": "D.O. 024-2023",
+      "row": 2781
+    },
+    {
+      "name": "CHAMPAGNE EDITION CONDOMINIUM",
+      "vicinity": "JOSE MA. ESCRIBA DRIVE",
+      "class": "PS",
+      "value": 87500.0,
+      "brgy": "San Antonio",
+      "rdo": "RDO 43 (Pasig)",
+      "do": "D.O. 024-2023",
+      "row": 2782
+    },
+    {
+      "name": "CHASON TOWNHOUSE",
+      "vicinity": "GEN ATIENZA",
+      "class": "RC",
+      "value": 105000.0,
+      "brgy": "San Antonio",
+      "rdo": "RDO 43 (Pasig)",
+      "do": "D.O. 024-2023",
+      "row": 2783
+    },
+    {
+      "name": "CHASON TOWNHOUSE",
+      "vicinity": "GEN ATIENZA",
+      "class": "PS",
+      "value": 73500.0,
+      "brgy": "San Antonio",
+      "rdo": "RDO 43 (Pasig)",
+      "do": "D.O. 024-2023",
+      "row": 2784
+    },
+    {
+      "name": "CITY & LAND MEGA PLAZA CONDO",
+      "vicinity": "ADB AVE-GARNET-TOPAZ",
+      "class": "RC",
+      "value": 120000.0,
+      "brgy": "San Antonio",
+      "rdo": "RDO 43 (Pasig)",
+      "do": "D.O. 024-2023",
+      "row": 2785
+    },
+    {
+      "name": "CITY & LAND MEGA PLAZA CONDO",
+      "vicinity": "ADB AVE-GARNET-TOPAZ",
+      "class": "CC",
+      "value": 144000.0,
+      "brgy": "San Antonio",
+      "rdo": "RDO 43 (Pasig)",
+      "do": "D.O. 024-2023",
+      "row": 2786
+    },
+    {
+      "name": "CITY & LAND MEGA PLAZA CONDO",
+      "vicinity": "ADB AVE-GARNET-TOPAZ",
+      "class": "PS",
+      "value": 100800.0,
+      "brgy": "San Antonio",
+      "rdo": "RDO 43 (Pasig)",
+      "do": "D.O. 024-2023",
+      "row": 2787
+    },
+    {
+      "name": "CORBELL PLACE",
+      "vicinity": "GEN. ATIENZA ST.",
+      "class": "RC",
+      "value": 110000.0,
+      "brgy": "San Antonio",
+      "rdo": "RDO 43 (Pasig)",
+      "do": "D.O. 024-2023",
+      "row": 2788
+    },
+    {
+      "name": "CORBELL PLACE",
+      "vicinity": "GEN. ATIENZA ST.",
+      "class": "PS",
+      "value": 77000.0,
+      "brgy": "San Antonio",
+      "rdo": "RDO 43 (Pasig)",
+      "do": "D.O. 024-2023",
+      "row": 2789
+    },
+    {
+      "name": "CORINTHIAN EXECUTIVE REGENCY",
+      "vicinity": "ADB AVE. - SAPPHIRE ROAD",
+      "class": "RC",
+      "value": 125000.0,
+      "brgy": "San Antonio",
+      "rdo": "RDO 43 (Pasig)",
+      "do": "D.O. 024-2023",
+      "row": 2790
+    },
+    {
+      "name": "CORINTHIAN EXECUTIVE REGENCY",
+      "vicinity": "ADB AVE. - SAPPHIRE ROAD",
+      "class": "CC",
+      "value": 150000.0,
+      "brgy": "San Antonio",
+      "rdo": "RDO 43 (Pasig)",
+      "do": "D.O. 024-2023",
+      "row": 2791
+    },
+    {
+      "name": "CORINTHIAN EXECUTIVE REGENCY",
+      "vicinity": "ADB AVE. - SAPPHIRE ROAD",
+      "class": "PS",
+      "value": 105000.0,
+      "brgy": "San Antonio",
+      "rdo": "RDO 43 (Pasig)",
+      "do": "D.O. 024-2023",
+      "row": 2792
+    },
+    {
+      "name": "CORPORATE FINANCE PLAZA",
+      "vicinity": "RUBY RD - TOPAZ RD - ORTIGAS",
+      "class": "CC",
+      "value": 205000.0,
+      "brgy": "San Antonio",
+      "rdo": "RDO 43 (Pasig)",
+      "do": "D.O. 024-2023",
+      "row": 2793
+    },
+    {
+      "name": "CORPORATE FINANCE PLAZA",
+      "vicinity": "RUBY RD - TOPAZ RD - ORTIGAS",
+      "class": "PS",
+      "value": 143500.0,
+      "brgy": "San Antonio",
+      "rdo": "RDO 43 (Pasig)",
+      "do": "D.O. 024-2023",
+      "row": 2794
+    },
+    {
+      "name": "CYBERSPACE ALPHA BLDG.",
+      "vicinity": "SAPPHIRE RD.",
+      "class": "CC",
+      "value": 143000.0,
+      "brgy": "San Antonio",
+      "rdo": "RDO 43 (Pasig)",
+      "do": "D.O. 024-2023",
+      "row": 2795
+    },
+    {
+      "name": "CYBERSPACE ALPHA BLDG.",
+      "vicinity": "SAPPHIRE RD.",
+      "class": "PS",
+      "value": 100100.0,
+      "brgy": "San Antonio",
+      "rdo": "RDO 43 (Pasig)",
+      "do": "D.O. 024-2023",
+      "row": 2796
+    },
+    {
+      "name": "CYBERSPACE BETA BLDG.",
+      "vicinity": "SAPPHIRE RD.",
+      "class": "CC",
+      "value": 143000.0,
+      "brgy": "San Antonio",
+      "rdo": "RDO 43 (Pasig)",
+      "do": "D.O. 024-2023",
+      "row": 2797
+    },
+    {
+      "name": "CYBERSPACE BETA BLDG.",
+      "vicinity": "SAPPHIRE RD.",
+      "class": "PS",
+      "value": 100100.0,
+      "brgy": "San Antonio",
+      "rdo": "RDO 43 (Pasig)",
+      "do": "D.O. 024-2023",
+      "row": 2798
+    },
+    {
+      "name": "DELGADO PLACE",
+      "vicinity": "GEN. DELGADO ST.",
+      "class": "RC",
+      "value": 110000.0,
+      "brgy": "San Antonio",
+      "rdo": "RDO 43 (Pasig)",
+      "do": "D.O. 024-2023",
+      "row": 2799
+    },
+    {
+      "name": "DELGADO PLACE",
+      "vicinity": "GEN. DELGADO ST.",
+      "class": "PS",
+      "value": 77000.0,
+      "brgy": "San Antonio",
+      "rdo": "RDO 43 (Pasig)",
+      "do": "D.O. 024-2023",
+      "row": 2800
+    },
+    {
+      "name": "DISCOVERY SUITES CENTER",
+      "vicinity": "ADB AVENUE-SAN MIGUEL AVE",
+      "class": "CC",
+      "value": 190000.0,
+      "brgy": "San Antonio",
+      "rdo": "RDO 43 (Pasig)",
+      "do": "D.O. 024-2023",
+      "row": 2801
+    },
+    {
+      "name": "DISCOVERY SUITES CENTER",
+      "vicinity": "ADB AVENUE-SAN MIGUEL AVE",
+      "class": "PS",
+      "value": 133000.0,
+      "brgy": "San Antonio",
+      "rdo": "RDO 43 (Pasig)",
+      "do": "D.O. 024-2023",
+      "row": 2802
+    },
+    {
+      "name": "EAST OF GALLERIA",
+      "vicinity": "TOPAZ RD - RUBY RD",
+      "class": "RC",
+      "value": 120000.0,
+      "brgy": "San Antonio",
+      "rdo": "RDO 43 (Pasig)",
+      "do": "D.O. 024-2023",
+      "row": 2803
+    },
+    {
+      "name": "EAST OF GALLERIA",
+      "vicinity": "TOPAZ RD - RUBY RD",
+      "class": "CC",
+      "value": 144000.0,
+      "brgy": "San Antonio",
+      "rdo": "RDO 43 (Pasig)",
+      "do": "D.O. 024-2023",
+      "row": 2804
+    },
+    {
+      "name": "EAST OF GALLERIA",
+      "vicinity": "TOPAZ RD - RUBY RD",
+      "class": "PS",
+      "value": 100800.0,
+      "brgy": "San Antonio",
+      "rdo": "RDO 43 (Pasig)",
+      "do": "D.O. 024-2023",
+      "row": 2805
+    },
+    {
+      "name": "EMERALD MANSIONS CONDO",
+      "vicinity": "GARNET RD",
+      "class": "RC",
+      "value": 120000.0,
+      "brgy": "San Antonio",
+      "rdo": "RDO 43 (Pasig)",
+      "do": "D.O. 024-2023",
+      "row": 2806
+    },
+    {
+      "name": "EMERALD MANSIONS CONDO",
+      "vicinity": "GARNET RD",
+      "class": "CC",
+      "value": 144000.0,
+      "brgy": "San Antonio",
+      "rdo": "RDO 43 (Pasig)",
+      "do": "D.O. 024-2023",
+      "row": 2807
+    },
+    {
+      "name": "EMERALD MANSIONS CONDO",
+      "vicinity": "GARNET RD",
+      "class": "PS",
+      "value": 100800.0,
+      "brgy": "San Antonio",
+      "rdo": "RDO 43 (Pasig)",
+      "do": "D.O. 024-2023",
+      "row": 2808
+    },
+    {
+      "name": "ETON EMERALD LOFTS",
+      "vicinity": "F. ORTIGAS JR. AVE - SAPPHIRE",
+      "class": "RC",
+      "value": 125000.0,
+      "brgy": "San Antonio",
+      "rdo": "RDO 43 (Pasig)",
+      "do": "D.O. 024-2023",
+      "row": 2809
+    },
+    {
+      "name": "ETON EMERALD LOFTS",
+      "vicinity": "F. ORTIGAS JR. AVE - SAPPHIRE",
+      "class": "CC",
+      "value": 150000.0,
+      "brgy": "San Antonio",
+      "rdo": "RDO 43 (Pasig)",
+      "do": "D.O. 024-2023",
+      "row": 2810
+    },
+    {
+      "name": "ETON EMERALD LOFTS",
+      "vicinity": "F. ORTIGAS JR. AVE - SAPPHIRE",
+      "class": "PS",
+      "value": 105000.0,
+      "brgy": "San Antonio",
+      "rdo": "RDO 43 (Pasig)",
+      "do": "D.O. 024-2023",
+      "row": 2811
+    },
+    {
+      "name": "FLINTRIDGE SUITES",
+      "vicinity": "GEN. CAPINPIN ST.",
+      "class": "RC",
+      "value": 110000.0,
+      "brgy": "San Antonio",
+      "rdo": "RDO 43 (Pasig)",
+      "do": "D.O. 024-2023",
+      "row": 2819
+    },
+    {
+      "name": "FLINTRIDGE SUITES",
+      "vicinity": "GEN. CAPINPIN ST.",
+      "class": "PS",
+      "value": 77000.0,
+      "brgy": "San Antonio",
+      "rdo": "RDO 43 (Pasig)",
+      "do": "D.O. 024-2023",
+      "row": 2820
+    },
+    {
+      "name": "GABRIEL III",
+      "vicinity": "SAN MIGUEL AVE",
+      "class": "RC",
+      "value": 125000.0,
+      "brgy": "San Antonio",
+      "rdo": "RDO 43 (Pasig)",
+      "do": "D.O. 024-2023",
+      "row": 2821
+    },
+    {
+      "name": "GABRIEL III",
+      "vicinity": "SAN MIGUEL AVE",
+      "class": "PS",
+      "value": 87500.0,
+      "brgy": "San Antonio",
+      "rdo": "RDO 43 (Pasig)",
+      "do": "D.O. 024-2023",
+      "row": 2822
+    },
+    {
+      "name": "GABRIELLE HOMES",
+      "vicinity": "GEN. ATIENZA ; SAN ANTONIO",
+      "class": "RC",
+      "value": 106000.0,
+      "brgy": "San Antonio",
+      "rdo": "RDO 43 (Pasig)",
+      "do": "D.O. 024-2023",
+      "row": 2823
+    },
+    {
+      "name": "GLOBAL BUSINESS TOWER",
+      "vicinity": "JULIA VARGAS-JADE DRIVE ; SAN ANTONIO",
+      "class": "CC",
+      "value": 175000.0,
+      "brgy": "San Antonio",
+      "rdo": "RDO 43 (Pasig)",
+      "do": "D.O. 024-2023",
+      "row": 2824
+    },
+    {
+      "name": "GLOBAL BUSINESS TOWER",
+      "vicinity": "JULIA VARGAS-JADE DRIVE ; SAN ANTONIO",
+      "class": "PS",
+      "value": 122499.99999999999,
+      "brgy": "San Antonio",
+      "rdo": "RDO 43 (Pasig)",
+      "do": "D.O. 024-2023",
+      "row": 2825
+    },
+    {
+      "name": "GOLDLAND MILLENIA SUITES *",
+      "vicinity": "JOSE MA ESCRIVA DRIVE",
+      "class": "RC",
+      "value": 125000.0,
+      "brgy": "San Antonio",
+      "rdo": "RDO 43 (Pasig)",
+      "do": "D.O. 024-2023",
+      "row": 2826
+    },
+    {
+      "name": "GOLDLAND MILLENIA SUITES *",
+      "vicinity": "JOSE MA ESCRIVA DRIVE",
+      "class": "CC",
+      "value": 150000.0,
+      "brgy": "San Antonio",
+      "rdo": "RDO 43 (Pasig)",
+      "do": "D.O. 024-2023",
+      "row": 2827
+    },
+    {
+      "name": "GOLDLAND MILLENIA SUITES *",
+      "vicinity": "JOSE MA ESCRIVA DRIVE",
+      "class": "PS",
+      "value": 105000.0,
+      "brgy": "San Antonio",
+      "rdo": "RDO 43 (Pasig)",
+      "do": "D.O. 024-2023",
+      "row": 2828
+    },
+    {
+      "name": "GOLD LOOP TOWERS",
+      "vicinity": "JOSE MA. ESCRIBA DRIVE",
+      "class": "RC",
+      "value": 120000.0,
+      "brgy": "San Antonio",
+      "rdo": "RDO 43 (Pasig)",
+      "do": "D.O. 024-2023",
+      "row": 2829
+    },
+    {
+      "name": "GOLD LOOP TOWERS",
+      "vicinity": "JOSE MA. ESCRIBA DRIVE",
+      "class": "CC",
+      "value": 144000.0,
+      "brgy": "San Antonio",
+      "rdo": "RDO 43 (Pasig)",
+      "do": "D.O. 024-2023",
+      "row": 2830
+    },
+    {
+      "name": "GOLD LOOP TOWERS",
+      "vicinity": "JOSE MA. ESCRIBA DRIVE",
+      "class": "PS",
+      "value": 100800.0,
+      "brgy": "San Antonio",
+      "rdo": "RDO 43 (Pasig)",
+      "do": "D.O. 024-2023",
+      "row": 2831
+    },
+    {
+      "name": "GRAND EMERALD TOWER",
+      "vicinity": "COR RUBY & GARNET STS",
+      "class": "RC",
+      "value": 120000.0,
+      "brgy": "San Antonio",
+      "rdo": "RDO 43 (Pasig)",
+      "do": "D.O. 024-2023",
+      "row": 2832
+    },
+    {
+      "name": "GRAND EMERALD TOWER",
+      "vicinity": "COR RUBY & GARNET STS",
+      "class": "CC",
+      "value": 144000.0,
+      "brgy": "San Antonio",
+      "rdo": "RDO 43 (Pasig)",
+      "do": "D.O. 024-2023",
+      "row": 2833
+    },
+    {
+      "name": "GRAND EMERALD TOWER",
+      "vicinity": "COR RUBY & GARNET STS",
+      "class": "PS",
+      "value": 100800.0,
+      "brgy": "San Antonio",
+      "rdo": "RDO 43 (Pasig)",
+      "do": "D.O. 024-2023",
+      "row": 2834
+    },
+    {
+      "name": "GREENRICH MANSION          *",
+      "vicinity": "PEARL DRIVE-LOURDES ST.",
+      "class": "RC",
+      "value": 120000.0,
+      "brgy": "San Antonio",
+      "rdo": "RDO 43 (Pasig)",
+      "do": "D.O. 024-2023",
+      "row": 2835
+    },
+    {
+      "name": "GREENRICH MANSION          *",
+      "vicinity": "PEARL DRIVE-LOURDES ST.",
+      "class": "CC",
+      "value": 144000.0,
+      "brgy": "San Antonio",
+      "rdo": "RDO 43 (Pasig)",
+      "do": "D.O. 024-2023",
+      "row": 2836
+    },
+    {
+      "name": "GREENRICH MANSION          *",
+      "vicinity": "PEARL DRIVE-LOURDES ST.",
+      "class": "PS",
+      "value": 100800.0,
+      "brgy": "San Antonio",
+      "rdo": "RDO 43 (Pasig)",
+      "do": "D.O. 024-2023",
+      "row": 2837
+    },
+    {
+      "name": "HANSTON SQUARE",
+      "vicinity": "SAN MIGUEL AVE",
+      "class": "CC",
+      "value": 139000.0,
+      "brgy": "San Antonio",
+      "rdo": "RDO 43 (Pasig)",
+      "do": "D.O. 024-2023",
+      "row": 2838
+    },
+    {
+      "name": "HANSTON SQUARE",
+      "vicinity": "SAN MIGUEL AVE",
+      "class": "PS",
+      "value": 97300.0,
+      "brgy": "San Antonio",
+      "rdo": "RDO 43 (Pasig)",
+      "do": "D.O. 024-2023",
+      "row": 2839
+    },
+    {
+      "name": "HORIZON CONDO",
+      "vicinity": "MERALCO AVE. near ONYX ROAD",
+      "class": "RC",
+      "value": 125000.0,
+      "brgy": "San Antonio",
+      "rdo": "RDO 43 (Pasig)",
+      "do": "D.O. 024-2023",
+      "row": 2840
+    },
+    {
+      "name": "HORIZON CONDO",
+      "vicinity": "MERALCO AVE. near ONYX ROAD",
+      "class": "CC",
+      "value": 150000.0,
+      "brgy": "San Antonio",
+      "rdo": "RDO 43 (Pasig)",
+      "do": "D.O. 024-2023",
+      "row": 2841
+    },
+    {
+      "name": "HORIZON CONDO",
+      "vicinity": "MERALCO AVE. near ONYX ROAD",
+      "class": "PS",
+      "value": 105000.0,
+      "brgy": "San Antonio",
+      "rdo": "RDO 43 (Pasig)",
+      "do": "D.O. 024-2023",
+      "row": 2842
+    },
+    {
+      "name": "IBP TOWER",
+      "vicinity": "JULIA VARGAS",
+      "class": "CC",
+      "value": 155000.0,
+      "brgy": "San Antonio",
+      "rdo": "RDO 43 (Pasig)",
+      "do": "D.O. 024-2023",
+      "row": 2843
+    },
+    {
+      "name": "IBP TOWER",
+      "vicinity": "JULIA VARGAS",
+      "class": "PS",
+      "value": 108500.0,
+      "brgy": "San Antonio",
+      "rdo": "RDO 43 (Pasig)",
+      "do": "D.O. 024-2023",
+      "row": 2844
+    },
+    {
+      "name": "I-SQUARE BLDG",
+      "vicinity": "MERALCO AVE.",
+      "class": "CC",
+      "value": 141000.0,
+      "brgy": "San Antonio",
+      "rdo": "RDO 43 (Pasig)",
+      "do": "D.O. 024-2023",
+      "row": 2845
+    },
+    {
+      "name": "I-SQUARE BLDG",
+      "vicinity": "MERALCO AVE.",
+      "class": "PS",
+      "value": 98700.0,
+      "brgy": "San Antonio",
+      "rdo": "RDO 43 (Pasig)",
+      "do": "D.O. 024-2023",
+      "row": 2846
+    },
+    {
+      "name": "JINJANG INN",
+      "vicinity": "SAN MIGUEL AVE",
+      "class": "CC",
+      "value": 139000.0,
+      "brgy": "San Antonio",
+      "rdo": "RDO 43 (Pasig)",
+      "do": "D.O. 024-2023",
+      "row": 2859
+    },
+    {
+      "name": "JINJANG INN",
+      "vicinity": "SAN MIGUEL AVE",
+      "class": "PS",
+      "value": 97300.0,
+      "brgy": "San Antonio",
+      "rdo": "RDO 43 (Pasig)",
+      "do": "D.O. 024-2023",
+      "row": 2860
+    },
+    {
+      "name": "JMT CORPORATE CONDO",
+      "vicinity": "ADB AVENUE (beside Discovery Suites)",
+      "class": "CC",
+      "value": 141000.0,
+      "brgy": "San Antonio",
+      "rdo": "RDO 43 (Pasig)",
+      "do": "D.O. 024-2023",
+      "row": 2861
+    },
+    {
+      "name": "JMT CORPORATE CONDO",
+      "vicinity": "ADB AVENUE (beside Discovery Suites)",
+      "class": "PS",
+      "value": 98700.0,
+      "brgy": "San Antonio",
+      "rdo": "RDO 43 (Pasig)",
+      "do": "D.O. 024-2023",
+      "row": 2862
+    },
+    {
+      "name": "JOLLIBEE CENTER               *",
+      "vicinity": "SAN MIGUEL AVE-GOLD LOOP",
+      "class": "CC",
+      "value": 158000.0,
+      "brgy": "San Antonio",
+      "rdo": "RDO 43 (Pasig)",
+      "do": "D.O. 024-2023",
+      "row": 2863
+    },
+    {
+      "name": "JOLLIBEE CENTER               *",
+      "vicinity": "SAN MIGUEL AVE-GOLD LOOP",
+      "class": "PS",
+      "value": 110600.0,
+      "brgy": "San Antonio",
+      "rdo": "RDO 43 (Pasig)",
+      "do": "D.O. 024-2023",
+      "row": 2864
+    },
+    {
+      "name": "JOLLIBEE PLAZA",
+      "vicinity": "F. ORTIGAS JR AVE-RUBY ROAD",
+      "class": "CC",
+      "value": 146000.0,
+      "brgy": "San Antonio",
+      "rdo": "RDO 43 (Pasig)",
+      "do": "D.O. 024-2023",
+      "row": 2865
+    },
+    {
+      "name": "JOLLIBEE PLAZA",
+      "vicinity": "F. ORTIGAS JR AVE-RUBY ROAD",
+      "class": "PS",
+      "value": 102200.0,
+      "brgy": "San Antonio",
+      "rdo": "RDO 43 (Pasig)",
+      "do": "D.O. 024-2023",
+      "row": 2866
+    },
+    {
+      "name": "JOLLIBEE TOWER",
+      "vicinity": "F. ORTIGAS JR. RD.",
+      "class": "CC",
+      "value": 160000.0,
+      "brgy": "San Antonio",
+      "rdo": "RDO 43 (Pasig)",
+      "do": "D.O. 024-2023",
+      "row": 2867
+    },
+    {
+      "name": "JOLLIBEE TOWER",
+      "vicinity": "F. ORTIGAS JR. RD.",
+      "class": "PS",
+      "value": 112000.0,
+      "brgy": "San Antonio",
+      "rdo": "RDO 43 (Pasig)",
+      "do": "D.O. 024-2023",
+      "row": 2868
+    },
+    {
+      "name": "JOY-NOSTALG CENTER",
+      "vicinity": "ADB AVE.",
+      "class": "CC",
+      "value": 158000.0,
+      "brgy": "San Antonio",
+      "rdo": "RDO 43 (Pasig)",
+      "do": "D.O. 024-2023",
+      "row": 2869
+    },
+    {
+      "name": "JOY-NOSTALG CENTER",
+      "vicinity": "ADB AVE.",
+      "class": "PS",
+      "value": 110600.0,
+      "brgy": "San Antonio",
+      "rdo": "RDO 43 (Pasig)",
+      "do": "D.O. 024-2023",
+      "row": 2870
+    },
+    {
+      "name": "K-APARTMENT CONDO",
+      "vicinity": "GEN ATIENZA COR GEN CAPINPIN",
+      "class": "RC",
+      "value": 110000.0,
+      "brgy": "San Antonio",
+      "rdo": "RDO 43 (Pasig)",
+      "do": "D.O. 024-2023",
+      "row": 2871
+    },
+    {
+      "name": "K-APARTMENT CONDO",
+      "vicinity": "GEN ATIENZA COR GEN CAPINPIN",
+      "class": "PS",
+      "value": 77000.0,
+      "brgy": "San Antonio",
+      "rdo": "RDO 43 (Pasig)",
+      "do": "D.O. 024-2023",
+      "row": 2872
+    },
+    {
+      "name": "KARINA OFFICE BUILDING",
+      "vicinity": "SHAW BLVD",
+      "class": "CC",
+      "value": 165000.0,
+      "brgy": "San Antonio",
+      "rdo": "RDO 43 (Pasig)",
+      "do": "D.O. 024-2023",
+      "row": 2873
+    },
+    {
+      "name": "KL MALVAR RESIDENCES",
+      "vicinity": "GEN. MALVAR",
+      "class": "RC",
+      "value": 110000.0,
+      "brgy": "San Antonio",
+      "rdo": "RDO 43 (Pasig)",
+      "do": "D.O. 024-2023",
+      "row": 2874
+    },
+    {
+      "name": "KL MALVAR RESIDENCES",
+      "vicinity": "GEN. MALVAR",
+      "class": "PS",
+      "value": 77000.0,
+      "brgy": "San Antonio",
+      "rdo": "RDO 43 (Pasig)",
+      "do": "D.O. 024-2023",
+      "row": 2875
+    },
+    {
+      "name": "LA ISLA CONDO",
+      "vicinity": "TOPAZ - OPAL - RUBY",
+      "class": "RC",
+      "value": 120000.0,
+      "brgy": "San Antonio",
+      "rdo": "RDO 43 (Pasig)",
+      "do": "D.O. 024-2023",
+      "row": 2876
+    },
+    {
+      "name": "LA ISLA CONDO",
+      "vicinity": "TOPAZ - OPAL - RUBY",
+      "class": "CC",
+      "value": 144000.0,
+      "brgy": "San Antonio",
+      "rdo": "RDO 43 (Pasig)",
+      "do": "D.O. 024-2023",
+      "row": 2877
+    },
+    {
+      "name": "LA ISLA CONDO",
+      "vicinity": "TOPAZ - OPAL - RUBY",
+      "class": "PS",
+      "value": 100800.0,
+      "brgy": "San Antonio",
+      "rdo": "RDO 43 (Pasig)",
+      "do": "D.O. 024-2023",
+      "row": 2878
+    },
+    {
+      "name": "MALAYAN PLAZA",
+      "vicinity": "ADB AVE. - OPAL ROAD",
+      "class": "RC",
+      "value": 130000.0,
+      "brgy": "San Antonio",
+      "rdo": "RDO 43 (Pasig)",
+      "do": "D.O. 024-2023",
+      "row": 2880
+    },
+    {
+      "name": "MALAYAN PLAZA",
+      "vicinity": "ADB AVE. - OPAL ROAD",
+      "class": "CC",
+      "value": 160000.0,
+      "brgy": "San Antonio",
+      "rdo": "RDO 43 (Pasig)",
+      "do": "D.O. 024-2023",
+      "row": 2881
+    },
+    {
+      "name": "MALAYAN PLAZA",
+      "vicinity": "ADB AVE. - OPAL ROAD",
+      "class": "PS",
+      "value": 112000.0,
+      "brgy": "San Antonio",
+      "rdo": "RDO 43 (Pasig)",
+      "do": "D.O. 024-2023",
+      "row": 2882
+    },
+    {
+      "name": "MANILA LUXURY CONDO",
+      "vicinity": "PEARL DRIVE - GOLD LOOP",
+      "class": "RC",
+      "value": 125000.0,
+      "brgy": "San Antonio",
+      "rdo": "RDO 43 (Pasig)",
+      "do": "D.O. 024-2023",
+      "row": 2883
+    },
+    {
+      "name": "MANILA LUXURY CONDO",
+      "vicinity": "PEARL DRIVE - GOLD LOOP",
+      "class": "CC",
+      "value": 150000.0,
+      "brgy": "San Antonio",
+      "rdo": "RDO 43 (Pasig)",
+      "do": "D.O. 024-2023",
+      "row": 2884
+    },
+    {
+      "name": "MANILA LUXURY CONDO",
+      "vicinity": "PEARL DRIVE - GOLD LOOP",
+      "class": "PS",
+      "value": 105000.0,
+      "brgy": "San Antonio",
+      "rdo": "RDO 43 (Pasig)",
+      "do": "D.O. 024-2023",
+      "row": 2885
+    },
+    {
+      "name": "MEDICAL PLAZA ORTIGAS CONDO",
+      "vicinity": "SAN MIGUEL AVE",
+      "class": "RC",
+      "value": 128000.0,
+      "brgy": "San Antonio",
+      "rdo": "RDO 43 (Pasig)",
+      "do": "D.O. 024-2023",
+      "row": 2898
+    },
+    {
+      "name": "MEDICAL PLAZA ORTIGAS CONDO",
+      "vicinity": "SAN MIGUEL AVE",
+      "class": "CC",
+      "value": 153000.0,
+      "brgy": "San Antonio",
+      "rdo": "RDO 43 (Pasig)",
+      "do": "D.O. 024-2023",
+      "row": 2899
+    },
+    {
+      "name": "MEDICAL PLAZA ORTIGAS CONDO",
+      "vicinity": "SAN MIGUEL AVE",
+      "class": "PS",
+      "value": 107100.0,
+      "brgy": "San Antonio",
+      "rdo": "RDO 43 (Pasig)",
+      "do": "D.O. 024-2023",
+      "row": 2900
+    },
+    {
+      "name": "MERCURE HOTEL",
+      "vicinity": "SAN MIGUEL AVE",
+      "class": "CC",
+      "value": 155000.0,
+      "brgy": "San Antonio",
+      "rdo": "RDO 43 (Pasig)",
+      "do": "D.O. 024-2023",
+      "row": 2901
+    },
+    {
+      "name": "MILLENIUM PLACE",
+      "vicinity": "MERALCO AVE - SAPPHIRE ROAD",
+      "class": "RC",
+      "value": 135000.0,
+      "brgy": "San Antonio",
+      "rdo": "RDO 43 (Pasig)",
+      "do": "D.O. 024-2023",
+      "row": 2902
+    },
+    {
+      "name": "MILLENIUM PLACE",
+      "vicinity": "MERALCO AVE - SAPPHIRE ROAD",
+      "class": "CC",
+      "value": 162000.0,
+      "brgy": "San Antonio",
+      "rdo": "RDO 43 (Pasig)",
+      "do": "D.O. 024-2023",
+      "row": 2903
+    },
+    {
+      "name": "MILLENIUM PLACE",
+      "vicinity": "MERALCO AVE - SAPPHIRE ROAD",
+      "class": "PS",
+      "value": 113400.0,
+      "brgy": "San Antonio",
+      "rdo": "RDO 43 (Pasig)",
+      "do": "D.O. 024-2023",
+      "row": 2904
+    },
+    {
+      "name": "ONE CARLOS RESIDENCES",
+      "vicinity": "GEN . ATIENZA ST.",
+      "class": "RC",
+      "value": 110000.0,
+      "brgy": "San Antonio",
+      "rdo": "RDO 43 (Pasig)",
+      "do": "D.O. 024-2023",
+      "row": 2905
+    },
+    {
+      "name": "ONE CARLOS RESIDENCES",
+      "vicinity": "GEN . ATIENZA ST.",
+      "class": "PS",
+      "value": 77000.0,
+      "brgy": "San Antonio",
+      "rdo": "RDO 43 (Pasig)",
+      "do": "D.O. 024-2023",
+      "row": 2906
+    },
+    {
+      "name": "ONE CORPORATE CENTER",
+      "vicinity": "MERALCO AVE-JULIA VARGAS AVE",
+      "class": "CC",
+      "value": 165000.0,
+      "brgy": "San Antonio",
+      "rdo": "RDO 43 (Pasig)",
+      "do": "D.O. 024-2023",
+      "row": 2907
+    },
+    {
+      "name": "ONE CORPORATE CENTER",
+      "vicinity": "MERALCO AVE-JULIA VARGAS AVE",
+      "class": "PS",
+      "value": 115499.99999999999,
+      "brgy": "San Antonio",
+      "rdo": "RDO 43 (Pasig)",
+      "do": "D.O. 024-2023",
+      "row": 2908
+    },
+    {
+      "name": "ONE MAGNIFICENT MILE (OMM-CITRA)",
+      "vicinity": "SAN MIGUEL AVE",
+      "class": "CC",
+      "value": 136000.0,
+      "brgy": "San Antonio",
+      "rdo": "RDO 43 (Pasig)",
+      "do": "D.O. 024-2023",
+      "row": 2909
+    },
+    {
+      "name": "ONE MAGNIFICENT MILE (OMM-CITRA)",
+      "vicinity": "SAN MIGUEL AVE",
+      "class": "PS",
+      "value": 95200.0,
+      "brgy": "San Antonio",
+      "rdo": "RDO 43 (Pasig)",
+      "do": "D.O. 024-2023",
+      "row": 2910
+    },
+    {
+      "name": "ONE SAN MIGUEL AVE CONDO",
+      "vicinity": "SHAW BLVD COR SAN MIGUEL AVE",
+      "class": "CC",
+      "value": 145000.0,
+      "brgy": "San Antonio",
+      "rdo": "RDO 43 (Pasig)",
+      "do": "D.O. 024-2023",
+      "row": 2911
+    },
+    {
+      "name": "ONE SAN MIGUEL AVE CONDO",
+      "vicinity": "SHAW BLVD COR SAN MIGUEL AVE",
+      "class": "PS",
+      "value": 101500.0,
+      "brgy": "San Antonio",
+      "rdo": "RDO 43 (Pasig)",
+      "do": "D.O. 024-2023",
+      "row": 2912
+    },
+    {
+      "name": "PACIFIC CENTER",
+      "vicinity": "SAN MIGUEL AVE-AMETHYST ST",
+      "class": "CC",
+      "value": 136000.0,
+      "brgy": "San Antonio",
+      "rdo": "RDO 43 (Pasig)",
+      "do": "D.O. 024-2023",
+      "row": 2913
+    },
+    {
+      "name": "PACIFIC CENTER",
+      "vicinity": "SAN MIGUEL AVE-AMETHYST ST",
+      "class": "PS",
+      "value": 95200.0,
+      "brgy": "San Antonio",
+      "rdo": "RDO 43 (Pasig)",
+      "do": "D.O. 024-2023",
+      "row": 2914
+    },
+    {
+      "name": "PACIFIC PLACE CONDO",
+      "vicinity": "AMETHYST - PEARL DRIVE",
+      "class": "RC",
+      "value": 125000.0,
+      "brgy": "San Antonio",
+      "rdo": "RDO 43 (Pasig)",
+      "do": "D.O. 024-2023",
+      "row": 2915
+    },
+    {
+      "name": "PACIFIC PLACE CONDO",
+      "vicinity": "AMETHYST - PEARL DRIVE",
+      "class": "CC",
+      "value": 150000.0,
+      "brgy": "San Antonio",
+      "rdo": "RDO 43 (Pasig)",
+      "do": "D.O. 024-2023",
+      "row": 2916
+    },
+    {
+      "name": "PACIFIC PLACE CONDO",
+      "vicinity": "AMETHYST - PEARL DRIVE",
+      "class": "PS",
+      "value": 105000.0,
+      "brgy": "San Antonio",
+      "rdo": "RDO 43 (Pasig)",
+      "do": "D.O. 024-2023",
+      "row": 2917
+    },
+    {
+      "name": "PADILLA BLDG.",
+      "vicinity": "F. ORTIGAS JR. RD.",
+      "class": "CC",
+      "value": 131000.0,
+      "brgy": "San Antonio",
+      "rdo": "RDO 43 (Pasig)",
+      "do": "D.O. 024-2023",
+      "row": 2918
+    },
+    {
+      "name": "PARC CHATEAU   *",
+      "vicinity": "GARNET-ONYX-SAPPHIRE",
+      "class": "RC",
+      "value": 120000.0,
+      "brgy": "San Antonio",
+      "rdo": "RDO 43 (Pasig)",
+      "do": "D.O. 024-2023",
+      "row": 2919
+    },
+    {
+      "name": "PARC CHATEAU   *",
+      "vicinity": "GARNET-ONYX-SAPPHIRE",
+      "class": "CC",
+      "value": 144000.0,
+      "brgy": "San Antonio",
+      "rdo": "RDO 43 (Pasig)",
+      "do": "D.O. 024-2023",
+      "row": 2920
+    },
+    {
+      "name": "PARC CHATEAU   *",
+      "vicinity": "GARNET-ONYX-SAPPHIRE",
+      "class": "PS",
+      "value": 100800.0,
+      "brgy": "San Antonio",
+      "rdo": "RDO 43 (Pasig)",
+      "do": "D.O. 024-2023",
+      "row": 2921
+    },
+    {
+      "name": "PARC ROYALE     *",
+      "vicinity": "JADE DRIVE - JULIA VARGAS",
+      "class": "RC",
+      "value": 125000.0,
+      "brgy": "San Antonio",
+      "rdo": "RDO 43 (Pasig)",
+      "do": "D.O. 024-2023",
+      "row": 2922
+    },
+    {
+      "name": "PARC ROYALE     *",
+      "vicinity": "JADE DRIVE - JULIA VARGAS",
+      "class": "CC",
+      "value": 150000.0,
+      "brgy": "San Antonio",
+      "rdo": "RDO 43 (Pasig)",
+      "do": "D.O. 024-2023",
+      "row": 2923
+    },
+    {
+      "name": "PARC ROYALE     *",
+      "vicinity": "JADE DRIVE - JULIA VARGAS",
+      "class": "PS",
+      "value": 105000.0,
+      "brgy": "San Antonio",
+      "rdo": "RDO 43 (Pasig)",
+      "do": "D.O. 024-2023",
+      "row": 2924
+    },
+    {
+      "name": "PEARL  CONDO/ THE PEARL PLACE",
+      "vicinity": "Cor. LOURDES & PEARL DRIVE",
+      "class": "RC",
+      "value": 120000.0,
+      "brgy": "San Antonio",
+      "rdo": "RDO 43 (Pasig)",
+      "do": "D.O. 024-2023",
+      "row": 2925
+    },
+    {
+      "name": "PEARL  CONDO/ THE PEARL PLACE",
+      "vicinity": "Cor. LOURDES & PEARL DRIVE",
+      "class": "CC",
+      "value": 144000.0,
+      "brgy": "San Antonio",
+      "rdo": "RDO 43 (Pasig)",
+      "do": "D.O. 024-2023",
+      "row": 2926
+    },
+    {
+      "name": "PEARL  CONDO/ THE PEARL PLACE",
+      "vicinity": "Cor. LOURDES & PEARL DRIVE",
+      "class": "PS",
+      "value": 100800.0,
+      "brgy": "San Antonio",
+      "rdo": "RDO 43 (Pasig)",
+      "do": "D.O. 024-2023",
+      "row": 2927
+    },
+    {
+      "name": "PEARL PLAZA 8101",
+      "vicinity": "PEARL DRIVE",
+      "class": "CC",
+      "value": 142000.0,
+      "brgy": "San Antonio",
+      "rdo": "RDO 43 (Pasig)",
+      "do": "D.O. 024-2023",
+      "row": 2928
+    },
+    {
+      "name": "PEARL PLAZA 8101",
+      "vicinity": "PEARL DRIVE",
+      "class": "PS",
+      "value": 99400.0,
+      "brgy": "San Antonio",
+      "rdo": "RDO 43 (Pasig)",
+      "do": "D.O. 024-2023",
+      "row": 2929
+    },
+    {
+      "name": "PHIL. STOCK EXCHANGE CTR (Formerly  \"Tektite Tower)",
+      "vicinity": "EXCHANGE ROAD",
+      "class": "CC",
+      "value": 141000.0,
+      "brgy": "San Antonio",
+      "rdo": "RDO 43 (Pasig)",
+      "do": "D.O. 024-2023",
+      "row": 2930
+    },
+    {
+      "name": "PHIL. STOCK EXCHANGE CTR (Formerly  \"Tektite Tower)",
+      "vicinity": "EXCHANGE ROAD",
+      "class": "PS",
+      "value": 98700.0,
+      "brgy": "San Antonio",
+      "rdo": "RDO 43 (Pasig)",
+      "do": "D.O. 024-2023",
+      "row": 2931
+    },
+    {
+      "name": "PRESTIGE TOWER CONDO",
+      "vicinity": "F. ORTIGAS JR. AVE - GARNET ROAD",
+      "class": "CC",
+      "value": 144000.0,
+      "brgy": "San Antonio",
+      "rdo": "RDO 43 (Pasig)",
+      "do": "D.O. 024-2023",
+      "row": 2932
+    },
+    {
+      "name": "PRESTIGE TOWER CONDO",
+      "vicinity": "F. ORTIGAS JR. AVE - GARNET ROAD",
+      "class": "PS",
+      "value": 100800.0,
+      "brgy": "San Antonio",
+      "rdo": "RDO 43 (Pasig)",
+      "do": "D.O. 024-2023",
+      "row": 2933
+    },
+    {
+      "name": "RAFFLES CORPORATE CENTER",
+      "vicinity": "F. ORTIGAS JR. AVE - GARNET ROAD",
+      "class": "CC",
+      "value": 141000.0,
+      "brgy": "San Antonio",
+      "rdo": "RDO 43 (Pasig)",
+      "do": "D.O. 024-2023",
+      "row": 2934
+    },
+    {
+      "name": "RAFFLES CORPORATE CENTER",
+      "vicinity": "F. ORTIGAS JR. AVE - GARNET ROAD",
+      "class": "PS",
+      "value": 98700.0,
+      "brgy": "San Antonio",
+      "rdo": "RDO 43 (Pasig)",
+      "do": "D.O. 024-2023",
+      "row": 2935
+    },
+    {
+      "name": "RESIDENCIA 8888",
+      "vicinity": "PEARL ST EL CORTEJO SUBD",
+      "class": "RC",
+      "value": 125000.0,
+      "brgy": "San Antonio",
+      "rdo": "RDO 43 (Pasig)",
+      "do": "D.O. 024-2023",
+      "row": 2936
+    },
+    {
+      "name": "RESIDENCIA 8888",
+      "vicinity": "PEARL ST EL CORTEJO SUBD",
+      "class": "PS",
+      "value": 87500.0,
+      "brgy": "San Antonio",
+      "rdo": "RDO 43 (Pasig)",
+      "do": "D.O. 024-2023",
+      "row": 2937
+    },
+    {
+      "name": "RICHMONDE HOTEL ORTIGAS",
+      "vicinity": "LOURDES ST COR SAN MIGUEL AVE",
+      "class": "CC",
+      "value": 143000.0,
+      "brgy": "San Antonio",
+      "rdo": "RDO 43 (Pasig)",
+      "do": "D.O. 024-2023",
+      "row": 2938
+    },
+    {
+      "name": "RICHMONDE HOTEL ORTIGAS",
+      "vicinity": "LOURDES ST COR SAN MIGUEL AVE",
+      "class": "PS",
+      "value": 100100.0,
+      "brgy": "San Antonio",
+      "rdo": "RDO 43 (Pasig)",
+      "do": "D.O. 024-2023",
+      "row": 2939
+    },
+    {
+      "name": "ROBINS DESIGN CENTER",
+      "vicinity": "MERALCO AVE.",
+      "class": "CC",
+      "value": 138000.0,
+      "brgy": "San Antonio",
+      "rdo": "RDO 43 (Pasig)",
+      "do": "D.O. 024-2023",
+      "row": 2940
+    },
+    {
+      "name": "ROBINSON PCI BANK TOWER",
+      "vicinity": "SAN MIGUEL COR POVEDA",
+      "class": "CC",
+      "value": 145000.0,
+      "brgy": "San Antonio",
+      "rdo": "RDO 43 (Pasig)",
+      "do": "D.O. 024-2023",
+      "row": 2941
+    },
+    {
+      "name": "ROBINSON PCI BANK TOWER",
+      "vicinity": "SAN MIGUEL COR POVEDA",
+      "class": "PS",
+      "value": 101500.0,
+      "brgy": "San Antonio",
+      "rdo": "RDO 43 (Pasig)",
+      "do": "D.O. 024-2023",
+      "row": 2942
+    },
+    {
+      "name": "ROPALI PLAZA",
+      "vicinity": "ESCRIVA DRIVE",
+      "class": "CC",
+      "value": 135000.0,
+      "brgy": "San Antonio",
+      "rdo": "RDO 43 (Pasig)",
+      "do": "D.O. 024-2023",
+      "row": 2955
+    },
+    {
+      "name": "RSG TOWNHOUSE",
+      "vicinity": "SAN ANTONIO",
+      "class": "RC",
+      "value": 105000.0,
+      "brgy": "San Antonio",
+      "rdo": "RDO 43 (Pasig)",
+      "do": "D.O. 024-2023",
+      "row": 2956
+    },
+    {
+      "name": "RSG TOWNHOUSE",
+      "vicinity": "SAN ANTONIO",
+      "class": "PS",
+      "value": 73500.0,
+      "brgy": "San Antonio",
+      "rdo": "RDO 43 (Pasig)",
+      "do": "D.O. 024-2023",
+      "row": 2957
+    },
+    {
+      "name": "STRATA 100 BLDG",
+      "vicinity": "F. ORTIGAS JR. AVE - RUBY ROAD",
+      "class": "CC",
+      "value": 141000.0,
+      "brgy": "San Antonio",
+      "rdo": "RDO 43 (Pasig)",
+      "do": "D.O. 024-2023",
+      "row": 2958
+    },
+    {
+      "name": "STRATA 100 BLDG",
+      "vicinity": "F. ORTIGAS JR. AVE - RUBY ROAD",
+      "class": "PS",
+      "value": 98700.0,
+      "brgy": "San Antonio",
+      "rdo": "RDO 43 (Pasig)",
+      "do": "D.O. 024-2023",
+      "row": 2959
+    },
+    {
+      "name": "STRATA 2000 BLDG",
+      "vicinity": "F. ORTIGAS JR. AVE - GARNET ROAD",
+      "class": "CC",
+      "value": 141000.0,
+      "brgy": "San Antonio",
+      "rdo": "RDO 43 (Pasig)",
+      "do": "D.O. 024-2023",
+      "row": 2960
+    },
+    {
+      "name": "STRATA 2000 BLDG",
+      "vicinity": "F. ORTIGAS JR. AVE - GARNET ROAD",
+      "class": "PS",
+      "value": 98700.0,
+      "brgy": "San Antonio",
+      "rdo": "RDO 43 (Pasig)",
+      "do": "D.O. 024-2023",
+      "row": 2961
+    },
+    {
+      "name": "SUNTREE TOWER BLDG.",
+      "vicinity": "MERALCO AVE.",
+      "class": "CC",
+      "value": 147000.0,
+      "brgy": "San Antonio",
+      "rdo": "RDO 43 (Pasig)",
+      "do": "D.O. 024-2023",
+      "row": 2962
+    },
+    {
+      "name": "SUNTREE TOWER BLDG.",
+      "vicinity": "MERALCO AVE.",
+      "class": "PS",
+      "value": 102900.0,
+      "brgy": "San Antonio",
+      "rdo": "RDO 43 (Pasig)",
+      "do": "D.O. 024-2023",
+      "row": 2963
+    },
+    {
+      "name": "TAIPAN PLACE CONDO",
+      "vicinity": "F. ORTIGAS, JR ROAD - GARNET ROAD",
+      "class": "CC",
+      "value": 142000.0,
+      "brgy": "San Antonio",
+      "rdo": "RDO 43 (Pasig)",
+      "do": "D.O. 024-2023",
+      "row": 2964
+    },
+    {
+      "name": "TAIPAN PLACE CONDO",
+      "vicinity": "F. ORTIGAS, JR ROAD - GARNET ROAD",
+      "class": "PS",
+      "value": 99400.0,
+      "brgy": "San Antonio",
+      "rdo": "RDO 43 (Pasig)",
+      "do": "D.O. 024-2023",
+      "row": 2965
+    },
+    {
+      "name": "THE ANNEX",
+      "vicinity": "GEN. ATIENZA ST.",
+      "class": "RC",
+      "value": 110000.0,
+      "brgy": "San Antonio",
+      "rdo": "RDO 43 (Pasig)",
+      "do": "D.O. 024-2023",
+      "row": 2966
+    },
+    {
+      "name": "THE ANNEX",
+      "vicinity": "GEN. ATIENZA ST.",
+      "class": "PS",
+      "value": 77000.0,
+      "brgy": "San Antonio",
+      "rdo": "RDO 43 (Pasig)",
+      "do": "D.O. 024-2023",
+      "row": 2967
+    },
+    {
+      "name": "THE CENTRIA RESIDENCIA",
+      "vicinity": "GEN. DELGADO ST.",
+      "class": "RC",
+      "value": 110000.0,
+      "brgy": "San Antonio",
+      "rdo": "RDO 43 (Pasig)",
+      "do": "D.O. 024-2023",
+      "row": 2968
+    },
+    {
+      "name": "THE CENTRIA RESIDENCIA",
+      "vicinity": "GEN. DELGADO ST.",
+      "class": "PS",
+      "value": 77000.0,
+      "brgy": "San Antonio",
+      "rdo": "RDO 43 (Pasig)",
+      "do": "D.O. 024-2023",
+      "row": 2969
+    },
+    {
+      "name": "THE CRESCENT CONDO *",
+      "vicinity": "SAN MIGUEL AVE",
+      "class": "RC",
+      "value": 125000.0,
+      "brgy": "San Antonio",
+      "rdo": "RDO 43 (Pasig)",
+      "do": "D.O. 024-2023",
+      "row": 2970
+    },
+    {
+      "name": "THE CRESCENT CONDO *",
+      "vicinity": "SAN MIGUEL AVE",
+      "class": "PS",
+      "value": 87500.0,
+      "brgy": "San Antonio",
+      "rdo": "RDO 43 (Pasig)",
+      "do": "D.O. 024-2023",
+      "row": 2971
+    },
+    {
+      "name": "THE CURRENCY TOWER      *",
+      "vicinity": "J.VARGAS COR. EMERALD-GARNET ; SAN ANTONIO",
+      "class": "RC",
+      "value": 160000.0,
+      "brgy": "San Antonio",
+      "rdo": "RDO 43 (Pasig)",
+      "do": "D.O. 024-2023",
+      "row": 2972
+    },
+    {
+      "name": "THE CURRENCY TOWER      *",
+      "vicinity": "J.VARGAS COR. EMERALD-GARNET ; SAN ANTONIO",
+      "class": "CC",
+      "value": 200000.0,
+      "brgy": "San Antonio",
+      "rdo": "RDO 43 (Pasig)",
+      "do": "D.O. 024-2023",
+      "row": 2973
+    },
+    {
+      "name": "THE CURRENCY TOWER      *",
+      "vicinity": "J.VARGAS COR. EMERALD-GARNET ; SAN ANTONIO",
+      "class": "PS",
+      "value": 140000.0,
+      "brgy": "San Antonio",
+      "rdo": "RDO 43 (Pasig)",
+      "do": "D.O. 024-2023",
+      "row": 2974
+    },
+    {
+      "name": "THE EXCHANGE REGENCY      *",
+      "vicinity": "JADE DRIVE COR MERALCO AVE - EXCHANGE RD  *",
+      "class": "RC",
+      "value": 135000.0,
+      "brgy": "San Antonio",
+      "rdo": "RDO 43 (Pasig)",
+      "do": "D.O. 024-2023",
+      "row": 2985
+    },
+    {
+      "name": "THE EXCHANGE REGENCY      *",
+      "vicinity": "JADE DRIVE COR MERALCO AVE - EXCHANGE RD  *",
+      "class": "CC",
+      "value": 162000.0,
+      "brgy": "San Antonio",
+      "rdo": "RDO 43 (Pasig)",
+      "do": "D.O. 024-2023",
+      "row": 2986
+    },
+    {
+      "name": "THE EXCHANGE REGENCY      *",
+      "vicinity": "JADE DRIVE COR MERALCO AVE - EXCHANGE RD  *",
+      "class": "PS",
+      "value": 113400.0,
+      "brgy": "San Antonio",
+      "rdo": "RDO 43 (Pasig)",
+      "do": "D.O. 024-2023",
+      "row": 2987
+    },
+    {
+      "name": "RESIDENCES AT THE GALLEON",
+      "vicinity": "ADB AVENUE",
+      "class": "RC",
+      "value": 275000.0,
+      "brgy": "San Antonio",
+      "rdo": "RDO 43 (Pasig)",
+      "do": "D.O. 024-2023",
+      "row": 2989
+    },
+    {
+      "name": "RESIDENCES AT THE GALLEON",
+      "vicinity": "ADB AVENUE",
+      "class": "PS",
+      "value": 192500.0,
+      "brgy": "San Antonio",
+      "rdo": "RDO 43 (Pasig)",
+      "do": "D.O. 024-2023",
+      "row": 2990
+    },
+    {
+      "name": "OFFICES AT THE GALLEON",
+      "vicinity": "ADB AVENUE",
+      "class": "CC",
+      "value": 315000.0,
+      "brgy": "San Antonio",
+      "rdo": "RDO 43 (Pasig)",
+      "do": "D.O. 024-2023",
+      "row": 2991
+    },
+    {
+      "name": "OFFICES AT THE GALLEON",
+      "vicinity": "ADB AVENUE",
+      "class": "PS",
+      "value": 220500.0,
+      "brgy": "San Antonio",
+      "rdo": "RDO 43 (Pasig)",
+      "do": "D.O. 024-2023",
+      "row": 2992
+    },
+    {
+      "name": "THE GRAND MIDORI",
+      "vicinity": "EXCHANGE ROAD ORTIGAS",
+      "class": "RC",
+      "value": 190000.0,
+      "brgy": "San Antonio",
+      "rdo": "RDO 43 (Pasig)",
+      "do": "D.O. 024-2023",
+      "row": 2993
+    },
+    {
+      "name": "THE GRAND MIDORI",
+      "vicinity": "EXCHANGE ROAD ORTIGAS",
+      "class": "CC",
+      "value": 228000.0,
+      "brgy": "San Antonio",
+      "rdo": "RDO 43 (Pasig)",
+      "do": "D.O. 024-2023",
+      "row": 2994
+    },
+    {
+      "name": "THE GRAND MIDORI",
+      "vicinity": "EXCHANGE ROAD ORTIGAS",
+      "class": "PS",
+      "value": 159600.0,
+      "brgy": "San Antonio",
+      "rdo": "RDO 43 (Pasig)",
+      "do": "D.O. 024-2023",
+      "row": 2995
+    },
+    {
+      "name": "THE LINDEN SUITES",
+      "vicinity": "SAN MIGUEL AVE",
+      "class": "CC",
+      "value": 155000.0,
+      "brgy": "San Antonio",
+      "rdo": "RDO 43 (Pasig)",
+      "do": "D.O. 024-2023",
+      "row": 2996
+    },
+    {
+      "name": "THE LINK CENTRE",
+      "vicinity": "GEN. ATIENZA ST.",
+      "class": "RC",
+      "value": 110000.0,
+      "brgy": "San Antonio",
+      "rdo": "RDO 43 (Pasig)",
+      "do": "D.O. 024-2023",
+      "row": 2997
+    },
+    {
+      "name": "THE LINK CENTRE",
+      "vicinity": "GEN. ATIENZA ST.",
+      "class": "CC",
+      "value": 132000.0,
+      "brgy": "San Antonio",
+      "rdo": "RDO 43 (Pasig)",
+      "do": "D.O. 024-2023",
+      "row": 2998
+    },
+    {
+      "name": "THE LINK CENTRE",
+      "vicinity": "GEN. ATIENZA ST.",
+      "class": "PS",
+      "value": 92400.0,
+      "brgy": "San Antonio",
+      "rdo": "RDO 43 (Pasig)",
+      "do": "D.O. 024-2023",
+      "row": 2999
+    },
+    {
+      "name": "THE NEW VALLE VERDE TERRACES",
+      "vicinity": "MERALCO AVE-SAN ANTONIO VILLAGE",
+      "class": "RC",
+      "value": 125000.0,
+      "brgy": "San Antonio",
+      "rdo": "RDO 43 (Pasig)",
+      "do": "D.O. 024-2023",
+      "row": 3000
+    },
+    {
+      "name": "THE NEW VALLE VERDE TERRACES",
+      "vicinity": "MERALCO AVE-SAN ANTONIO VILLAGE",
+      "class": "PS",
+      "value": 87500.0,
+      "brgy": "San Antonio",
+      "rdo": "RDO 43 (Pasig)",
+      "do": "D.O. 024-2023",
+      "row": 3001
+    },
+    {
+      "name": "THE ORIENT SQUARE",
+      "vicinity": "F. ORTIGAS, JR. AVE.",
+      "class": "CC",
+      "value": 136000.0,
+      "brgy": "San Antonio",
+      "rdo": "RDO 43 (Pasig)",
+      "do": "D.O. 024-2023",
+      "row": 3002
+    },
+    {
+      "name": "THE ORIENT SQUARE",
+      "vicinity": "F. ORTIGAS, JR. AVE.",
+      "class": "PS",
+      "value": 95200.0,
+      "brgy": "San Antonio",
+      "rdo": "RDO 43 (Pasig)",
+      "do": "D.O. 024-2023",
+      "row": 3003
+    },
+    {
+      "name": "THE SAPPHIRE BLOC  ORTIGAS - NORTH & WEST TOWER *",
+      "vicinity": "ONYX-SAPPHIRE-GARNET RD.",
+      "class": "RC",
+      "value": 205000.0,
+      "brgy": "San Antonio",
+      "rdo": "RDO 43 (Pasig)",
+      "do": "D.O. 024-2023",
+      "row": 3004
+    },
+    {
+      "name": "THE SAPPHIRE BLOC  ORTIGAS - NORTH & WEST TOWER *",
+      "vicinity": "ONYX-SAPPHIRE-GARNET RD.",
+      "class": "CC",
+      "value": 246000.0,
+      "brgy": "San Antonio",
+      "rdo": "RDO 43 (Pasig)",
+      "do": "D.O. 024-2023",
+      "row": 3005
+    },
+    {
+      "name": "THE SAPPHIRE BLOC  ORTIGAS - NORTH & WEST TOWER *",
+      "vicinity": "ONYX-SAPPHIRE-GARNET RD.",
+      "class": "PS",
+      "value": 172200.0,
+      "brgy": "San Antonio",
+      "rdo": "RDO 43 (Pasig)",
+      "do": "D.O. 024-2023",
+      "row": 3006
+    },
+    {
+      "name": "THE SAPPHIRE BLOC  ORTIGAS - SOUTH & EAST TOWER *",
+      "vicinity": "ONYX-SAPPHIRE-GARNET RD.",
+      "class": "RC",
+      "value": 225000.0,
+      "brgy": "San Antonio",
+      "rdo": "RDO 43 (Pasig)",
+      "do": "D.O. 024-2023",
+      "row": 3007
+    },
+    {
+      "name": "THE SAPPHIRE BLOC  ORTIGAS - SOUTH & EAST TOWER *",
+      "vicinity": "ONYX-SAPPHIRE-GARNET RD.",
+      "class": "CC",
+      "value": 270000.0,
+      "brgy": "San Antonio",
+      "rdo": "RDO 43 (Pasig)",
+      "do": "D.O. 024-2023",
+      "row": 3008
+    },
+    {
+      "name": "THE SAPPHIRE BLOC  ORTIGAS - SOUTH & EAST TOWER *",
+      "vicinity": "ONYX-SAPPHIRE-GARNET RD.",
+      "class": "PS",
+      "value": 189000.0,
+      "brgy": "San Antonio",
+      "rdo": "RDO 43 (Pasig)",
+      "do": "D.O. 024-2023",
+      "row": 3009
+    },
+    {
+      "name": "THE SPECTRUM ORTIGAS",
+      "vicinity": "J. VARGAS COR. GARNET",
+      "class": "RC",
+      "value": 245000.0,
+      "brgy": "San Antonio",
+      "rdo": "RDO 43 (Pasig)",
+      "do": "D.O. 024-2023",
+      "row": 3010
+    },
+    {
+      "name": "THE SPECTRUM ORTIGAS",
+      "vicinity": "J. VARGAS COR. GARNET",
+      "class": "CC",
+      "value": 294000.0,
+      "brgy": "San Antonio",
+      "rdo": "RDO 43 (Pasig)",
+      "do": "D.O. 024-2023",
+      "row": 3011
+    },
+    {
+      "name": "THE SPECTRUM ORTIGAS",
+      "vicinity": "J. VARGAS COR. GARNET",
+      "class": "PS",
+      "value": 205800.0,
+      "brgy": "San Antonio",
+      "rdo": "RDO 43 (Pasig)",
+      "do": "D.O. 024-2023",
+      "row": 3012
+    },
+    {
+      "name": "TYCOON CENTER",
+      "vicinity": "PEARL DRIVE - AMETHYST",
+      "class": "CC",
+      "value": 136000.0,
+      "brgy": "San Antonio",
+      "rdo": "RDO 43 (Pasig)",
+      "do": "D.O. 024-2023",
+      "row": 3013
+    },
+    {
+      "name": "TYCOON CENTER",
+      "vicinity": "PEARL DRIVE - AMETHYST",
+      "class": "PS",
+      "value": 95200.0,
+      "brgy": "San Antonio",
+      "rdo": "RDO 43 (Pasig)",
+      "do": "D.O. 024-2023",
+      "row": 3014
+    },
+    {
+      "name": "UNION BANK CENTER",
+      "vicinity": "MERALCO AVE",
+      "class": "CC",
+      "value": 150000.0,
+      "brgy": "San Antonio",
+      "rdo": "RDO 43 (Pasig)",
+      "do": "D.O. 024-2023",
+      "row": 3015
+    },
+    {
+      "name": "UNION BANK CENTER",
+      "vicinity": "MERALCO AVE",
+      "class": "PS",
+      "value": 105000.0,
+      "brgy": "San Antonio",
+      "rdo": "RDO 43 (Pasig)",
+      "do": "D.O. 024-2023",
+      "row": 3016
+    },
+    {
+      "name": "VITTORIA",
+      "vicinity": "GEN. CAPINPIN ST.",
+      "class": "RC",
+      "value": 110000.0,
+      "brgy": "San Antonio",
+      "rdo": "RDO 43 (Pasig)",
+      "do": "D.O. 024-2023",
+      "row": 3028
+    },
+    {
+      "name": "VITTORIA",
+      "vicinity": "GEN. CAPINPIN ST.",
+      "class": "PS",
+      "value": 77000.0,
+      "brgy": "San Antonio",
+      "rdo": "RDO 43 (Pasig)",
+      "do": "D.O. 024-2023",
+      "row": 3029
+    },
+    {
+      "name": "WYNSUM CORPORATE PLAZA",
+      "vicinity": "F. ORTIGAS JR. AVE - RUBY ROAD",
+      "class": "CC",
+      "value": 141000.0,
+      "brgy": "San Antonio",
+      "rdo": "RDO 43 (Pasig)",
+      "do": "D.O. 024-2023",
+      "row": 3030
+    },
+    {
+      "name": "WYNSUM CORPORATE PLAZA",
+      "vicinity": "F. ORTIGAS JR. AVE - RUBY ROAD",
+      "class": "PS",
+      "value": 98700.0,
+      "brgy": "San Antonio",
+      "rdo": "RDO 43 (Pasig)",
+      "do": "D.O. 024-2023",
+      "row": 3031
+    },
+    {
+      "name": "ALL OTHER CONDOMINIUMS",
+      "vicinity": "ORTIGAS CENTER",
+      "class": "RC",
+      "value": 103000.0,
+      "brgy": "San Antonio",
+      "rdo": "RDO 43 (Pasig)",
+      "do": "D.O. 024-2023",
+      "row": 3032
+    },
+    {
+      "name": "ALL OTHER CONDOMINIUMS",
+      "vicinity": "ORTIGAS CENTER",
+      "class": "CC",
+      "value": 123000.0,
+      "brgy": "San Antonio",
+      "rdo": "RDO 43 (Pasig)",
+      "do": "D.O. 024-2023",
+      "row": 3033
+    },
+    {
+      "name": "ALL OTHER CONDOMINIUMS",
+      "vicinity": "ORTIGAS CENTER",
+      "class": "PS",
+      "value": 86100.0,
+      "brgy": "San Antonio",
+      "rdo": "RDO 43 (Pasig)",
+      "do": "D.O. 024-2023",
+      "row": 3034
+    },
+    {
+      "name": "ALL OTHER CONDOMINIUMS",
+      "vicinity": "SAN ANTONIO VILLAGE",
+      "class": "RC",
+      "value": 95000.0,
+      "brgy": "San Antonio",
+      "rdo": "RDO 43 (Pasig)",
+      "do": "D.O. 024-2023",
+      "row": 3035
+    },
+    {
+      "name": "ALL OTHER CONDOMINIUMS",
+      "vicinity": "SAN ANTONIO VILLAGE",
+      "class": "CC",
+      "value": 105000.0,
+      "brgy": "San Antonio",
+      "rdo": "RDO 43 (Pasig)",
+      "do": "D.O. 024-2023",
+      "row": 3036
+    },
+    {
+      "name": "ALL OTHER CONDOMINIUMS",
+      "vicinity": "SAN ANTONIO VILLAGE",
+      "class": "PS",
+      "value": 73500.0,
+      "brgy": "San Antonio",
+      "rdo": "RDO 43 (Pasig)",
+      "do": "D.O. 024-2023",
+      "row": 3037
+    },
+    {
+      "name": "ALL OTHER TOWNHOUSES",
+      "vicinity": "ORTIGAS CENTER ; SAN ANTONIO",
+      "class": "RC",
+      "value": 100000.0,
+      "brgy": "San Antonio",
+      "rdo": "RDO 43 (Pasig)",
+      "do": "D.O. 024-2023",
+      "row": 3038
+    },
+    {
+      "name": "ALL OTHER TOWNHOUSES",
+      "vicinity": "ORTIGAS CENTER ; SAN ANTONIO",
+      "class": "PS",
+      "value": 70000.0,
+      "brgy": "San Antonio",
+      "rdo": "RDO 43 (Pasig)",
+      "do": "D.O. 024-2023",
+      "row": 3039
+    }
+  ],
+  "ugong_pasig": [
+    {
+      "name": "RENAISSANCE 1000 (FIL-ESTATE)*",
+      "vicinity": "MERALCO AVE-MOLAVE",
+      "class": "RC",
+      "value": 125000.0,
+      "brgy": "Ugong (Pasig)",
+      "rdo": "RDO 43 (Pasig)",
+      "do": "D.O. 024-2023",
+      "row": 4139
+    },
+    {
+      "name": "RENAISSANCE 1000 (FIL-ESTATE)*",
+      "vicinity": "MERALCO AVE-MOLAVE",
+      "class": "CC",
+      "value": 150000.0,
+      "brgy": "Ugong (Pasig)",
+      "rdo": "RDO 43 (Pasig)",
+      "do": "D.O. 024-2023",
+      "row": 4140
+    },
+    {
+      "name": "RENAISSANCE 1000 (FIL-ESTATE)*",
+      "vicinity": "MERALCO AVE-MOLAVE",
+      "class": "PS",
+      "value": 105000.0,
+      "brgy": "Ugong (Pasig)",
+      "rdo": "RDO 43 (Pasig)",
+      "do": "D.O. 024-2023",
+      "row": 4141
+    },
+    {
+      "name": "RENAISSANCE 2000",
+      "vicinity": "MERALCO AVE.",
+      "class": "RC",
+      "value": 125000.0,
+      "brgy": "Ugong (Pasig)",
+      "rdo": "RDO 43 (Pasig)",
+      "do": "D.O. 024-2023",
+      "row": 4142
+    },
+    {
+      "name": "RENAISSANCE 2000",
+      "vicinity": "MERALCO AVE.",
+      "class": "PS",
+      "value": 87500.0,
+      "brgy": "Ugong (Pasig)",
+      "rdo": "RDO 43 (Pasig)",
+      "do": "D.O. 024-2023",
+      "row": 4143
+    },
+    {
+      "name": "RENAISSANCE 3000",
+      "vicinity": "MERALCO AVE.",
+      "class": "RC",
+      "value": 125000.0,
+      "brgy": "Ugong (Pasig)",
+      "rdo": "RDO 43 (Pasig)",
+      "do": "D.O. 024-2023",
+      "row": 4144
+    },
+    {
+      "name": "RENAISSANCE 3000",
+      "vicinity": "MERALCO AVE.",
+      "class": "PS",
+      "value": 87500.0,
+      "brgy": "Ugong (Pasig)",
+      "rdo": "RDO 43 (Pasig)",
+      "do": "D.O. 024-2023",
+      "row": 4145
+    },
+    {
+      "name": "RENAISSANCE CENTER",
+      "vicinity": "MERALCO AVE.",
+      "class": "RC",
+      "value": 110000.0,
+      "brgy": "Ugong (Pasig)",
+      "rdo": "RDO 43 (Pasig)",
+      "do": "D.O. 024-2023",
+      "row": 4146
+    },
+    {
+      "name": "RENAISSANCE CENTER",
+      "vicinity": "MERALCO AVE.",
+      "class": "PS",
+      "value": 77000.0,
+      "brgy": "Ugong (Pasig)",
+      "rdo": "RDO 43 (Pasig)",
+      "do": "D.O. 024-2023",
+      "row": 4147
+    },
+    {
+      "name": "ROCKWELL BUSINESS TOWER",
+      "vicinity": "MERALCO AVE.",
+      "class": "CC",
+      "value": 175000.0,
+      "brgy": "Ugong (Pasig)",
+      "rdo": "RDO 43 (Pasig)",
+      "do": "D.O. 024-2023",
+      "row": 4148
+    },
+    {
+      "name": "ROSE RESIDENCES",
+      "vicinity": "MERALCO AVE.",
+      "class": "RC",
+      "value": 110000.0,
+      "brgy": "Ugong (Pasig)",
+      "rdo": "RDO 43 (Pasig)",
+      "do": "D.O. 024-2023",
+      "row": 4149
+    },
+    {
+      "name": "ROSE RESIDENCES",
+      "vicinity": "MERALCO AVE.",
+      "class": "PS",
+      "value": 77000.0,
+      "brgy": "Ugong (Pasig)",
+      "rdo": "RDO 43 (Pasig)",
+      "do": "D.O. 024-2023",
+      "row": 4150
+    },
+    {
+      "name": "SAN MIGUEL COURT                  *",
+      "vicinity": "VALLE VERDE 5-CELERY DRIVE",
+      "class": "RC",
+      "value": 100000.0,
+      "brgy": "Ugong (Pasig)",
+      "rdo": "RDO 43 (Pasig)",
+      "do": "D.O. 024-2023",
+      "row": 4151
+    },
+    {
+      "name": "SHINE RESIDENCES",
+      "vicinity": "MERALCO AVE. ; UGONG",
+      "class": "RC",
+      "value": 130000.0,
+      "brgy": "Ugong (Pasig)",
+      "rdo": "RDO 43 (Pasig)",
+      "do": "D.O. 024-2023",
+      "row": 4152
+    },
+    {
+      "name": "SHINE RESIDENCES",
+      "vicinity": "MERALCO AVE. ; UGONG",
+      "class": "PS",
+      "value": 91000.0,
+      "brgy": "Ugong (Pasig)",
+      "rdo": "RDO 43 (Pasig)",
+      "do": "D.O. 024-2023",
+      "row": 4153
+    },
+    {
+      "name": "SMB CONDO",
+      "vicinity": "C. CRUZ - UGONG",
+      "class": "RC",
+      "value": 90000.0,
+      "brgy": "Ugong (Pasig)",
+      "rdo": "RDO 43 (Pasig)",
+      "do": "D.O. 024-2023",
+      "row": 4154
+    },
+    {
+      "name": "THE 5TH PROJECT",
+      "vicinity": "MERALCO AVE (WITHIN RENAISSANCE)",
+      "class": "RC",
+      "value": 155000.0,
+      "brgy": "Ugong (Pasig)",
+      "rdo": "RDO 43 (Pasig)",
+      "do": "D.O. 024-2023",
+      "row": 4155
+    },
+    {
+      "name": "THE 5TH PROJECT",
+      "vicinity": "MERALCO AVE (WITHIN RENAISSANCE)",
+      "class": "PS",
+      "value": 108500.0,
+      "brgy": "Ugong (Pasig)",
+      "rdo": "RDO 43 (Pasig)",
+      "do": "D.O. 024-2023",
+      "row": 4156
+    },
+    {
+      "name": "THE ALEXIS",
+      "vicinity": "FIREFLY ROAD VALLE VERDE 6",
+      "class": "RC",
+      "value": 110000.0,
+      "brgy": "Ugong (Pasig)",
+      "rdo": "RDO 43 (Pasig)",
+      "do": "D.O. 024-2023",
+      "row": 4157
+    },
+    {
+      "name": "THE GLASTON TOWER",
+      "vicinity": "ORTIGAS EAST - E RODRIGUEZ",
+      "class": "CC",
+      "value": 260000.0,
+      "brgy": "Ugong (Pasig)",
+      "rdo": "RDO 43 (Pasig)",
+      "do": "D.O. 024-2023",
+      "row": 4158
+    },
+    {
+      "name": "THE GLASTON TOWER",
+      "vicinity": "ORTIGAS EAST - E RODRIGUEZ",
+      "class": "PS",
+      "value": 182000.0,
+      "brgy": "Ugong (Pasig)",
+      "rdo": "RDO 43 (Pasig)",
+      "do": "D.O. 024-2023",
+      "row": 4159
+    },
+    {
+      "name": "THE GROVE BY ROCKWELL TOWER A&B",
+      "vicinity": "E. RODRIGUEZ AVE JR / C.P. GARCIA",
+      "class": "RC",
+      "value": 158000.0,
+      "brgy": "Ugong (Pasig)",
+      "rdo": "RDO 43 (Pasig)",
+      "do": "D.O. 024-2023",
+      "row": 4160
+    },
+    {
+      "name": "THE GROVE BY ROCKWELL TOWER A&B",
+      "vicinity": "E. RODRIGUEZ AVE JR / C.P. GARCIA",
+      "class": "PS",
+      "value": 110600.0,
+      "brgy": "Ugong (Pasig)",
+      "rdo": "RDO 43 (Pasig)",
+      "do": "D.O. 024-2023",
+      "row": 4161
+    },
+    {
+      "name": "THE GROVE BY ROCKWELL TOWER C&D",
+      "vicinity": "E. RODRIGUEZ AVE JR / C.P. GARCIA",
+      "class": "RC",
+      "value": 158000.0,
+      "brgy": "Ugong (Pasig)",
+      "rdo": "RDO 43 (Pasig)",
+      "do": "D.O. 024-2023",
+      "row": 4162
+    },
+    {
+      "name": "THE GROVE BY ROCKWELL TOWER C&D",
+      "vicinity": "E. RODRIGUEZ AVE JR / C.P. GARCIA",
+      "class": "PS",
+      "value": 110600.0,
+      "brgy": "Ugong (Pasig)",
+      "rdo": "RDO 43 (Pasig)",
+      "do": "D.O. 024-2023",
+      "row": 4163
+    },
+    {
+      "name": "THE GROVE BY ROCKWELL TOWER E&F",
+      "vicinity": "E. RODRIGUEZ AVE JR / C.P. GARCIA",
+      "class": "RC",
+      "value": 158000.0,
+      "brgy": "Ugong (Pasig)",
+      "rdo": "RDO 43 (Pasig)",
+      "do": "D.O. 024-2023",
+      "row": 4164
+    },
+    {
+      "name": "THE GROVE BY ROCKWELL TOWER E&F",
+      "vicinity": "E. RODRIGUEZ AVE JR / C.P. GARCIA",
+      "class": "PS",
+      "value": 110600.0,
+      "brgy": "Ugong (Pasig)",
+      "rdo": "RDO 43 (Pasig)",
+      "do": "D.O. 024-2023",
+      "row": 4165
+    },
+    {
+      "name": "VALLE VERDE BLISS 3",
+      "vicinity": "UGONG - E RODRIGUEZ",
+      "class": "RC",
+      "value": 65000.0,
+      "brgy": "Ugong (Pasig)",
+      "rdo": "RDO 43 (Pasig)",
+      "do": "D.O. 024-2023",
+      "row": 4167
+    },
+    {
+      "name": "VALLE VERDE FM III (BLCA) - KAIMITO VILLE",
+      "vicinity": "KAIMITO",
+      "class": "RC",
+      "value": 88000.0,
+      "brgy": "Ugong (Pasig)",
+      "rdo": "RDO 43 (Pasig)",
+      "do": "D.O. 024-2023",
+      "row": 4168
+    }
+  ],
+  "wack_wack": [
+    {
+      "name": "ADB AVE.",
+      "vicinity": "GUADIX DRIVE -DONA J.VARGAS",
+      "class": "CR",
+      "value": 250000.0,
+      "brgy": "Wack-Wack Greenhills",
+      "rdo": "RDO 41 (Mandaluyong)",
+      "do": "D.O. 059-2022",
+      "row": 1487
+    },
+    {
+      "name": "DONA JULIA VARGAS",
+      "vicinity": "EDSA -ADB AVE.",
+      "class": "CR",
+      "value": 250000.0,
+      "brgy": "Wack-Wack Greenhills",
+      "rdo": "RDO 41 (Mandaluyong)",
+      "do": "D.O. 059-2022",
+      "row": 1488
+    },
+    {
+      "name": "EDSA",
+      "vicinity": "CONNECTICUT - ORTIGAS AVE.",
+      "class": "RR",
+      "value": 200000.0,
+      "brgy": "Wack-Wack Greenhills",
+      "rdo": "RDO 41 (Mandaluyong)",
+      "do": "D.O. 059-2022",
+      "row": 1489
+    },
+    {
+      "name": "EDSA",
+      "vicinity": "CONNECTICUT - ORTIGAS AVE.",
+      "class": "CR",
+      "value": 250000.0,
+      "brgy": "Wack-Wack Greenhills",
+      "rdo": "RDO 41 (Mandaluyong)",
+      "do": "D.O. 059-2022",
+      "row": 1490
+    },
+    {
+      "name": "EDSA",
+      "vicinity": "ORTIGAS AVE-SHAW BLVD",
+      "class": "CR",
+      "value": 250000.0,
+      "brgy": "Wack-Wack Greenhills",
+      "rdo": "RDO 41 (Mandaluyong)",
+      "do": "D.O. 059-2022",
+      "row": 1491
+    },
+    {
+      "name": "GUADIX DRIVE",
+      "vicinity": "ADB AVE - EDSA",
+      "class": "CR",
+      "value": 150000.0,
+      "brgy": "Wack-Wack Greenhills",
+      "rdo": "RDO 41 (Mandaluyong)",
+      "do": "D.O. 059-2022",
+      "row": 1492
+    },
+    {
+      "name": "LOURDES",
+      "vicinity": "ST. FRANCIS - SAN MIGUEL AVE.",
+      "class": "X",
+      "value": 120000.0,
+      "brgy": "Wack-Wack Greenhills",
+      "rdo": "RDO 41 (Mandaluyong)",
+      "do": "D.O. 059-2022",
+      "row": 1493
+    },
+    {
+      "name": "LOURDES",
+      "vicinity": "ST. FRANCIS - SAN MIGUEL AVE.",
+      "class": "CR",
+      "value": 150000.0,
+      "brgy": "Wack-Wack Greenhills",
+      "rdo": "RDO 41 (Mandaluyong)",
+      "do": "D.O. 059-2022",
+      "row": 1494
+    },
+    {
+      "name": "ORTIGAS",
+      "vicinity": "CONNECTICUT - EDSA",
+      "class": "RR",
+      "value": 150000.0,
+      "brgy": "Wack-Wack Greenhills",
+      "rdo": "RDO 41 (Mandaluyong)",
+      "do": "D.O. 059-2022",
+      "row": 1495
+    },
+    {
+      "name": "ORTIGAS",
+      "vicinity": "CONNECTICUT - EDSA",
+      "class": "CR",
+      "value": 200000.0,
+      "brgy": "Wack-Wack Greenhills",
+      "rdo": "RDO 41 (Mandaluyong)",
+      "do": "D.O. 059-2022",
+      "row": 1496
+    },
+    {
+      "name": "POVEDA",
+      "vicinity": "GUADIX DRIVE - BOUNDARY",
+      "class": "CR",
+      "value": 150000.0,
+      "brgy": "Wack-Wack Greenhills",
+      "rdo": "RDO 41 (Mandaluyong)",
+      "do": "D.O. 059-2022",
+      "row": 1497
+    },
+    {
+      "name": "SAN MIGUEL AVE",
+      "vicinity": "DONA JULIA VARGAS - SHAW BLVD.",
+      "class": "CR",
+      "value": 200000.0,
+      "brgy": "Wack-Wack Greenhills",
+      "rdo": "RDO 41 (Mandaluyong)",
+      "do": "D.O. 059-2022",
+      "row": 1498
+    },
+    {
+      "name": "SHAW BLVD",
+      "vicinity": "SAN MIGUEL AVE. - LEE",
+      "class": "CR",
+      "value": 200000.0,
+      "brgy": "Wack-Wack Greenhills",
+      "rdo": "RDO 41 (Mandaluyong)",
+      "do": "D.O. 059-2022",
+      "row": 1499
+    },
+    {
+      "name": "ST FRANCIS",
+      "vicinity": "SHAW BLVD - BANK DR.",
+      "class": "CR",
+      "value": 200000.0,
+      "brgy": "Wack-Wack Greenhills",
+      "rdo": "RDO 41 (Mandaluyong)",
+      "do": "D.O. 059-2022",
+      "row": 1500
+    },
+    {
+      "name": "WACK-WACK ROAD",
+      "vicinity": "SHAW BLVD - HARVARD",
+      "class": "RR",
+      "value": 126000.0,
+      "brgy": "Wack-Wack Greenhills",
+      "rdo": "RDO 41 (Mandaluyong)",
+      "do": "D.O. 059-2022",
+      "row": 1501
+    },
+    {
+      "name": "WACK-WACK ROAD",
+      "vicinity": "SHAW BLVD - HARVARD",
+      "class": "CR",
+      "value": 142000.0,
+      "brgy": "Wack-Wack Greenhills",
+      "rdo": "RDO 41 (Mandaluyong)",
+      "do": "D.O. 059-2022",
+      "row": 1502
+    },
+    {
+      "name": "ALL OTHER STREETS",
+      "vicinity": "SHAW BLVD - HARVARD",
+      "class": "RR",
+      "value": 120000.0,
+      "brgy": "Wack-Wack Greenhills",
+      "rdo": "RDO 41 (Mandaluyong)",
+      "do": "D.O. 059-2022",
+      "row": 1503
+    },
+    {
+      "name": "ALL OTHER STREETS",
+      "vicinity": "SHAW BLVD - HARVARD",
+      "class": "CR",
+      "value": 140000.0,
+      "brgy": "Wack-Wack Greenhills",
+      "rdo": "RDO 41 (Mandaluyong)",
+      "do": "D.O. 059-2022",
+      "row": 1504
+    },
+    {
+      "name": "ALL OTHER STREETS",
+      "vicinity": "SHAW BLVD - HARVARD",
+      "class": "X",
+      "value": 116000.0,
+      "brgy": "Wack-Wack Greenhills",
+      "rdo": "RDO 41 (Mandaluyong)",
+      "do": "D.O. 059-2022",
+      "row": 1505
+    },
+    {
+      "name": "BUFFALO",
+      "vicinity": "DUKE - MICHIGAN",
+      "class": "RR",
+      "value": 147000.0,
+      "brgy": "Wack-Wack Greenhills",
+      "rdo": "RDO 41 (Mandaluyong)",
+      "do": "D.O. 059-2022",
+      "row": 1507
+    },
+    {
+      "name": "COLGATE",
+      "vicinity": "MARYLAND - DUKE",
+      "class": "RR",
+      "value": 147000.0,
+      "brgy": "Wack-Wack Greenhills",
+      "rdo": "RDO 41 (Mandaluyong)",
+      "do": "D.O. 059-2022",
+      "row": 1508
+    },
+    {
+      "name": "COLUMBIA",
+      "vicinity": "ORTIGAS - CONNECTICUT",
+      "class": "RR",
+      "value": 147000.0,
+      "brgy": "Wack-Wack Greenhills",
+      "rdo": "RDO 41 (Mandaluyong)",
+      "do": "D.O. 059-2022",
+      "row": 1509
+    },
+    {
+      "name": "CONNECTICUT",
+      "vicinity": "EDSA / ORTIGAS AVE.",
+      "class": "RR",
+      "value": 147000.0,
+      "brgy": "Wack-Wack Greenhills",
+      "rdo": "RDO 41 (Mandaluyong)",
+      "do": "D.O. 059-2022",
+      "row": 1510
+    },
+    {
+      "name": "CONNECTICUT",
+      "vicinity": "EDSA / ORTIGAS AVE.",
+      "class": "CR",
+      "value": 200000.0,
+      "brgy": "Wack-Wack Greenhills",
+      "rdo": "RDO 41 (Mandaluyong)",
+      "do": "D.O. 059-2022",
+      "row": 1511
+    },
+    {
+      "name": "DUKE",
+      "vicinity": "NORTHWESTERN - COLUMBIA",
+      "class": "RR",
+      "value": 147000.0,
+      "brgy": "Wack-Wack Greenhills",
+      "rdo": "RDO 41 (Mandaluyong)",
+      "do": "D.O. 059-2022",
+      "row": 1512
+    },
+    {
+      "name": "FLORIDA",
+      "vicinity": "EDSA - CONNECTICUT",
+      "class": "RR",
+      "value": 147000.0,
+      "brgy": "Wack-Wack Greenhills",
+      "rdo": "RDO 41 (Mandaluyong)",
+      "do": "D.O. 059-2022",
+      "row": 1513
+    },
+    {
+      "name": "HOLY CROSS",
+      "vicinity": "ORTIGAS - DUKE",
+      "class": "RR",
+      "value": 147000.0,
+      "brgy": "Wack-Wack Greenhills",
+      "rdo": "RDO 41 (Mandaluyong)",
+      "do": "D.O. 059-2022",
+      "row": 1514
+    },
+    {
+      "name": "KANSAS",
+      "vicinity": "HOLY CROSS - COLUMBIA",
+      "class": "RR",
+      "value": 147000.0,
+      "brgy": "Wack-Wack Greenhills",
+      "rdo": "RDO 41 (Mandaluyong)",
+      "do": "D.O. 059-2022",
+      "row": 1515
+    },
+    {
+      "name": "LAFAYETTE",
+      "vicinity": "KANSAS - COLUMBIA",
+      "class": "RR",
+      "value": 147000.0,
+      "brgy": "Wack-Wack Greenhills",
+      "rdo": "RDO 41 (Mandaluyong)",
+      "do": "D.O. 059-2022",
+      "row": 1516
+    },
+    {
+      "name": "LA SALLE",
+      "vicinity": "ORTIGAS - CONNECTICUT",
+      "class": "RR",
+      "value": 147000.0,
+      "brgy": "Wack-Wack Greenhills",
+      "rdo": "RDO 41 (Mandaluyong)",
+      "do": "D.O. 059-2022",
+      "row": 1517
+    },
+    {
+      "name": "MARYLAND",
+      "vicinity": "LA SALLE - HOLY CROSS",
+      "class": "RR",
+      "value": 147000.0,
+      "brgy": "Wack-Wack Greenhills",
+      "rdo": "RDO 41 (Mandaluyong)",
+      "do": "D.O. 059-2022",
+      "row": 1518
+    },
+    {
+      "name": "MICHIGAN",
+      "vicinity": "WYOMING - DUKE",
+      "class": "RR",
+      "value": 147000.0,
+      "brgy": "Wack-Wack Greenhills",
+      "rdo": "RDO 41 (Mandaluyong)",
+      "do": "D.O. 059-2022",
+      "row": 1519
+    },
+    {
+      "name": "MISSOURI",
+      "vicinity": "DUKE - CONNECTICUT",
+      "class": "RR",
+      "value": 147000.0,
+      "brgy": "Wack-Wack Greenhills",
+      "rdo": "RDO 41 (Mandaluyong)",
+      "do": "D.O. 059-2022",
+      "row": 1520
+    },
+    {
+      "name": "NORTHWESTERN",
+      "vicinity": "CONNECTICUT - LA SALLE",
+      "class": "RR",
+      "value": 147000.0,
+      "brgy": "Wack-Wack Greenhills",
+      "rdo": "RDO 41 (Mandaluyong)",
+      "do": "D.O. 059-2022",
+      "row": 1521
+    },
+    {
+      "name": "ORTIGAS AVENUE",
+      "vicinity": "EDSA - CONNECTICUT",
+      "class": "RR",
+      "value": 147000.0,
+      "brgy": "Wack-Wack Greenhills",
+      "rdo": "RDO 41 (Mandaluyong)",
+      "do": "D.O. 059-2022",
+      "row": 1523
+    },
+    {
+      "name": "ORTIGAS AVENUE",
+      "vicinity": "EDSA - CONNECTICUT",
+      "class": "CR",
+      "value": 200000.0,
+      "brgy": "Wack-Wack Greenhills",
+      "rdo": "RDO 41 (Mandaluyong)",
+      "do": "D.O. 059-2022",
+      "row": 1524
+    },
+    {
+      "name": "RICHMOND",
+      "vicinity": "WYOMING - DUKE",
+      "class": "RR",
+      "value": 147000.0,
+      "brgy": "Wack-Wack Greenhills",
+      "rdo": "RDO 41 (Mandaluyong)",
+      "do": "D.O. 059-2022",
+      "row": 1525
+    },
+    {
+      "name": "ROCHESTER",
+      "vicinity": "HOLY CROSS - EDSA",
+      "class": "RR",
+      "value": 147000.0,
+      "brgy": "Wack-Wack Greenhills",
+      "rdo": "RDO 41 (Mandaluyong)",
+      "do": "D.O. 059-2022",
+      "row": 1526
+    },
+    {
+      "name": "WINCONSIN",
+      "vicinity": "WYOMING - DUKE",
+      "class": "RR",
+      "value": 147000.0,
+      "brgy": "Wack-Wack Greenhills",
+      "rdo": "RDO 41 (Mandaluyong)",
+      "do": "D.O. 059-2022",
+      "row": 1527
+    },
+    {
+      "name": "WYOMING",
+      "vicinity": "DUKE - LA SALLE",
+      "class": "RR",
+      "value": 147000.0,
+      "brgy": "Wack-Wack Greenhills",
+      "rdo": "RDO 41 (Mandaluyong)",
+      "do": "D.O. 059-2022",
+      "row": 1528
+    },
+    {
+      "name": "BERKELEY",
+      "vicinity": "HARVARD - EDSA",
+      "class": "RR",
+      "value": 147000.0,
+      "brgy": "Wack-Wack Greenhills",
+      "rdo": "RDO 41 (Mandaluyong)",
+      "do": "D.O. 059-2022",
+      "row": 1536
+    },
+    {
+      "name": "COLUMBIA",
+      "vicinity": "ORTIGAS AVE - HARVARD",
+      "class": "RR",
+      "value": 147000.0,
+      "brgy": "Wack-Wack Greenhills",
+      "rdo": "RDO 41 (Mandaluyong)",
+      "do": "D.O. 059-2022",
+      "row": 1537
+    },
+    {
+      "name": "CORNELL",
+      "vicinity": "EDSA - HARVARD",
+      "class": "RR",
+      "value": 147000.0,
+      "brgy": "Wack-Wack Greenhills",
+      "rdo": "RDO 41 (Mandaluyong)",
+      "do": "D.O. 059-2022",
+      "row": 1538
+    },
+    {
+      "name": "CROMWELL*",
+      "vicinity": "STANFORD - PRINCETON",
+      "class": "RR",
+      "value": 147000.0,
+      "brgy": "Wack-Wack Greenhills",
+      "rdo": "RDO 41 (Mandaluyong)",
+      "do": "D.O. 059-2022",
+      "row": 1539
+    },
+    {
+      "name": "FORDHAM",
+      "vicinity": "HARVARD - END",
+      "class": "RR",
+      "value": 147000.0,
+      "brgy": "Wack-Wack Greenhills",
+      "rdo": "RDO 41 (Mandaluyong)",
+      "do": "D.O. 059-2022",
+      "row": 1540
+    },
+    {
+      "name": "HARVARD",
+      "vicinity": "SHAW - NOTRE DAME",
+      "class": "RR",
+      "value": 147000.0,
+      "brgy": "Wack-Wack Greenhills",
+      "rdo": "RDO 41 (Mandaluyong)",
+      "do": "D.O. 059-2022",
+      "row": 1541
+    },
+    {
+      "name": "MAGNOLIA",
+      "vicinity": "WACK WACK RD - HARVARD",
+      "class": "RR",
+      "value": 147000.0,
+      "brgy": "Wack-Wack Greenhills",
+      "rdo": "RDO 41 (Mandaluyong)",
+      "do": "D.O. 059-2022",
+      "row": 1542
+    },
+    {
+      "name": "NOTRE DAME",
+      "vicinity": "ORTIGAS AVE - HARVARD",
+      "class": "RR",
+      "value": 147000.0,
+      "brgy": "Wack-Wack Greenhills",
+      "rdo": "RDO 41 (Mandaluyong)",
+      "do": "D.O. 059-2022",
+      "row": 1543
+    },
+    {
+      "name": "PRINCETON",
+      "vicinity": "SHAW  - WACK WACK CREEK",
+      "class": "RR",
+      "value": 147000.0,
+      "brgy": "Wack-Wack Greenhills",
+      "rdo": "RDO 41 (Mandaluyong)",
+      "do": "D.O. 059-2022",
+      "row": 1544
+    },
+    {
+      "name": "STANFORD",
+      "vicinity": "SHAW  - WACK WACK CREEK",
+      "class": "RR",
+      "value": 147000.0,
+      "brgy": "Wack-Wack Greenhills",
+      "rdo": "RDO 41 (Mandaluyong)",
+      "do": "D.O. 059-2022",
+      "row": 1545
+    },
+    {
+      "name": "WACK-WACK ROAD",
+      "vicinity": "SHAW - HARVARD",
+      "class": "RR",
+      "value": 147000.0,
+      "brgy": "Wack-Wack Greenhills",
+      "rdo": "RDO 41 (Mandaluyong)",
+      "do": "D.O. 059-2022",
+      "row": 1546
+    },
+    {
+      "name": "YALE",
+      "vicinity": "SHAW - STANFORD",
+      "class": "RR",
+      "value": 147000.0,
+      "brgy": "Wack-Wack Greenhills",
+      "rdo": "RDO 41 (Mandaluyong)",
+      "do": "D.O. 059-2022",
+      "row": 1547
+    },
+    {
+      "name": "8 WACK WACK ROAD (CONDOMINIUM)",
+      "vicinity": "WACK-WACK ROAD",
+      "class": "RC",
+      "value": 105000.0,
+      "brgy": "Wack-Wack Greenhills",
+      "rdo": "RDO 41 (Mandaluyong)",
+      "do": "D.O. 059-2022",
+      "row": 1551
+    },
+    {
+      "name": "8 WACK WACK ROAD (CONDOMINIUM)",
+      "vicinity": "WACK-WACK ROAD",
+      "class": "PS",
+      "value": 74000.0,
+      "brgy": "Wack-Wack Greenhills",
+      "rdo": "RDO 41 (Mandaluyong)",
+      "do": "D.O. 059-2022",
+      "row": 1552
+    },
+    {
+      "name": "AMA TOWERS COND.",
+      "vicinity": "EDSA",
+      "class": "CC",
+      "value": 116000.0,
+      "brgy": "Wack-Wack Greenhills",
+      "rdo": "RDO 41 (Mandaluyong)",
+      "do": "D.O. 059-2022",
+      "row": 1553
+    },
+    {
+      "name": "AMA TOWERS COND.",
+      "vicinity": "EDSA",
+      "class": "PS",
+      "value": 81000.0,
+      "brgy": "Wack-Wack Greenhills",
+      "rdo": "RDO 41 (Mandaluyong)",
+      "do": "D.O. 059-2022",
+      "row": 1554
+    },
+    {
+      "name": "BSA TWIN TOWERS",
+      "vicinity": "BANK DRIVE",
+      "class": "CC",
+      "value": 122000.0,
+      "brgy": "Wack-Wack Greenhills",
+      "rdo": "RDO 41 (Mandaluyong)",
+      "do": "D.O. 059-2022",
+      "row": 1555
+    },
+    {
+      "name": "BSA TWIN TOWERS",
+      "vicinity": "BANK DRIVE",
+      "class": "RC",
+      "value": 105000.0,
+      "brgy": "Wack-Wack Greenhills",
+      "rdo": "RDO 41 (Mandaluyong)",
+      "do": "D.O. 059-2022",
+      "row": 1556
+    },
+    {
+      "name": "BSA TWIN TOWERS",
+      "vicinity": "BANK DRIVE",
+      "class": "PS",
+      "value": 82000.0,
+      "brgy": "Wack-Wack Greenhills",
+      "rdo": "RDO 41 (Mandaluyong)",
+      "do": "D.O. 059-2022",
+      "row": 1557
+    },
+    {
+      "name": "CITYLAND WACK-WACK ROYAL MANSION*",
+      "vicinity": "WACK-WACK ROAD",
+      "class": "RC",
+      "value": 72000.0,
+      "brgy": "Wack-Wack Greenhills",
+      "rdo": "RDO 41 (Mandaluyong)",
+      "do": "D.O. 059-2022",
+      "row": 1558
+    },
+    {
+      "name": "CITYLAND WACK-WACK ROYAL MANSION*",
+      "vicinity": "WACK-WACK ROAD",
+      "class": "PS",
+      "value": 51000.0,
+      "brgy": "Wack-Wack Greenhills",
+      "rdo": "RDO 41 (Mandaluyong)",
+      "do": "D.O. 059-2022",
+      "row": 1559
+    },
+    {
+      "name": "COLUMBIA TOWER",
+      "vicinity": "ORTIGAS",
+      "class": "PS",
+      "value": 65000.0,
+      "brgy": "Wack-Wack Greenhills",
+      "rdo": "RDO 41 (Mandaluyong)",
+      "do": "D.O. 059-2022",
+      "row": 1561
+    },
+    {
+      "name": "COURT FELICIDAD",
+      "vicinity": "WACK-WACK ROAD",
+      "class": "RC",
+      "value": 64000.0,
+      "brgy": "Wack-Wack Greenhills",
+      "rdo": "RDO 41 (Mandaluyong)",
+      "do": "D.O. 059-2022",
+      "row": 1562
+    },
+    {
+      "name": "COURT FELICIDAD",
+      "vicinity": "WACK-WACK ROAD",
+      "class": "PS",
+      "value": 45000.0,
+      "brgy": "Wack-Wack Greenhills",
+      "rdo": "RDO 41 (Mandaluyong)",
+      "do": "D.O. 059-2022",
+      "row": 1563
+    },
+    {
+      "name": "GREENHILLS TOWER",
+      "vicinity": "EDSA",
+      "class": "CC",
+      "value": 121000.0,
+      "brgy": "Wack-Wack Greenhills",
+      "rdo": "RDO 41 (Mandaluyong)",
+      "do": "D.O. 059-2022",
+      "row": 1564
+    },
+    {
+      "name": "GREENHILLS TOWER",
+      "vicinity": "EDSA",
+      "class": "PS",
+      "value": 85000.0,
+      "brgy": "Wack-Wack Greenhills",
+      "rdo": "RDO 41 (Mandaluyong)",
+      "do": "D.O. 059-2022",
+      "row": 1565
+    },
+    {
+      "name": "ONE SHANGRI-LA PLACE",
+      "vicinity": "SHAW BLVD",
+      "class": "RC",
+      "value": 179000.0,
+      "brgy": "Wack-Wack Greenhills",
+      "rdo": "RDO 41 (Mandaluyong)",
+      "do": "D.O. 059-2022",
+      "row": 1566
+    },
+    {
+      "name": "ONE SHANGRI-LA PLACE",
+      "vicinity": "SHAW BLVD",
+      "class": "PS",
+      "value": 125000.0,
+      "brgy": "Wack-Wack Greenhills",
+      "rdo": "RDO 41 (Mandaluyong)",
+      "do": "D.O. 059-2022",
+      "row": 1567
+    },
+    {
+      "name": "PINNACLE COND.",
+      "vicinity": "SHAW BLVD",
+      "class": "RC",
+      "value": 84000.0,
+      "brgy": "Wack-Wack Greenhills",
+      "rdo": "RDO 41 (Mandaluyong)",
+      "do": "D.O. 059-2022",
+      "row": 1568
+    },
+    {
+      "name": "PINNACLE COND.",
+      "vicinity": "SHAW BLVD",
+      "class": "PS",
+      "value": 59000.0,
+      "brgy": "Wack-Wack Greenhills",
+      "rdo": "RDO 41 (Mandaluyong)",
+      "do": "D.O. 059-2022",
+      "row": 1569
+    },
+    {
+      "name": "ROCHESTER HOUSE CONDOMINIUM",
+      "vicinity": "ROCHESTER - WACK WACK",
+      "class": "RC",
+      "value": 95000.0,
+      "brgy": "Wack-Wack Greenhills",
+      "rdo": "RDO 41 (Mandaluyong)",
+      "do": "D.O. 059-2022",
+      "row": 1570
+    },
+    {
+      "name": "ROCHESTER HOUSE CONDOMINIUM",
+      "vicinity": "ROCHESTER - WACK WACK",
+      "class": "PS",
+      "value": 67000.0,
+      "brgy": "Wack-Wack Greenhills",
+      "rdo": "RDO 41 (Mandaluyong)",
+      "do": "D.O. 059-2022",
+      "row": 1571
+    },
+    {
+      "name": "SEC",
+      "vicinity": "EDSA-ORTIGAS",
+      "class": "CC",
+      "value": 88000.0,
+      "brgy": "Wack-Wack Greenhills",
+      "rdo": "RDO 41 (Mandaluyong)",
+      "do": "D.O. 059-2022",
+      "row": 1572
+    },
+    {
+      "name": "SEC",
+      "vicinity": "EDSA-ORTIGAS",
+      "class": "PS",
+      "value": 62000.0,
+      "brgy": "Wack-Wack Greenhills",
+      "rdo": "RDO 41 (Mandaluyong)",
+      "do": "D.O. 059-2022",
+      "row": 1573
+    },
+    {
+      "name": "SHANG RESIDENCES AT WACK-WACK",
+      "vicinity": "WACK-WACK ROAD",
+      "class": "RC",
+      "value": 147000.0,
+      "brgy": "Wack-Wack Greenhills",
+      "rdo": "RDO 41 (Mandaluyong)",
+      "do": "D.O. 059-2022",
+      "row": 1580
+    },
+    {
+      "name": "SHANG RESIDENCES AT WACK-WACK",
+      "vicinity": "WACK-WACK ROAD",
+      "class": "PS",
+      "value": 103000.0,
+      "brgy": "Wack-Wack Greenhills",
+      "rdo": "RDO 41 (Mandaluyong)",
+      "do": "D.O. 059-2022",
+      "row": 1581
+    },
+    {
+      "name": "SHAW TOWER",
+      "vicinity": "SHAW",
+      "class": "RC",
+      "value": 95000.0,
+      "brgy": "Wack-Wack Greenhills",
+      "rdo": "RDO 41 (Mandaluyong)",
+      "do": "D.O. 059-2022",
+      "row": 1582
+    },
+    {
+      "name": "SHAW TOWER",
+      "vicinity": "SHAW",
+      "class": "PS",
+      "value": 67000.0,
+      "brgy": "Wack-Wack Greenhills",
+      "rdo": "RDO 41 (Mandaluyong)",
+      "do": "D.O. 059-2022",
+      "row": 1583
+    },
+    {
+      "name": "SHAW TOWER",
+      "vicinity": "SHAW",
+      "class": "CC",
+      "value": 111000.0,
+      "brgy": "Wack-Wack Greenhills",
+      "rdo": "RDO 41 (Mandaluyong)",
+      "do": "D.O. 059-2022",
+      "row": 1584
+    },
+    {
+      "name": "SONATA PRIVATE RESIDENCES (TOWERS 1 & 2)",
+      "vicinity": "ORTIGAS",
+      "class": "RC",
+      "value": 126000.0,
+      "brgy": "Wack-Wack Greenhills",
+      "rdo": "RDO 41 (Mandaluyong)",
+      "do": "D.O. 059-2022",
+      "row": 1585
+    },
+    {
+      "name": "SONATA PRIVATE RESIDENCES (TOWERS 1 & 2)",
+      "vicinity": "ORTIGAS",
+      "class": "PS",
+      "value": 89000.0,
+      "brgy": "Wack-Wack Greenhills",
+      "rdo": "RDO 41 (Mandaluyong)",
+      "do": "D.O. 059-2022",
+      "row": 1586
+    },
+    {
+      "name": "ST. FRANCIS SHANGRI-LA PLACE",
+      "vicinity": "SAN MIGUEL AVE.",
+      "class": "RC",
+      "value": 168000.0,
+      "brgy": "Wack-Wack Greenhills",
+      "rdo": "RDO 41 (Mandaluyong)",
+      "do": "D.O. 059-2022",
+      "row": 1587
+    },
+    {
+      "name": "ST. FRANCIS SHANGRI-LA PLACE",
+      "vicinity": "SAN MIGUEL AVE.",
+      "class": "PS",
+      "value": 118000.0,
+      "brgy": "Wack-Wack Greenhills",
+      "rdo": "RDO 41 (Mandaluyong)",
+      "do": "D.O. 059-2022",
+      "row": 1588
+    },
+    {
+      "name": "ST. FRANCIS SHANGRI-LA PLACE",
+      "vicinity": "SAN MIGUEL AVE.",
+      "class": "CC",
+      "value": 189000.0,
+      "brgy": "Wack-Wack Greenhills",
+      "rdo": "RDO 41 (Mandaluyong)",
+      "do": "D.O. 059-2022",
+      "row": 1589
+    },
+    {
+      "name": "STATE FINANCING CENTER",
+      "vicinity": "ORTIGAS AVENUE",
+      "class": "CC",
+      "value": 85000.0,
+      "brgy": "Wack-Wack Greenhills",
+      "rdo": "RDO 41 (Mandaluyong)",
+      "do": "D.O. 059-2022",
+      "row": 1590
+    },
+    {
+      "name": "STATE FINANCING CENTER",
+      "vicinity": "ORTIGAS AVENUE",
+      "class": "PS",
+      "value": 59000.0,
+      "brgy": "Wack-Wack Greenhills",
+      "rdo": "RDO 41 (Mandaluyong)",
+      "do": "D.O. 059-2022",
+      "row": 1591
+    },
+    {
+      "name": "SUN PLAZA",
+      "vicinity": "SHAW",
+      "class": "CC",
+      "value": 100000.0,
+      "brgy": "Wack-Wack Greenhills",
+      "rdo": "RDO 41 (Mandaluyong)",
+      "do": "D.O. 059-2022",
+      "row": 1592
+    },
+    {
+      "name": "SUN PLAZA",
+      "vicinity": "SHAW",
+      "class": "PS",
+      "value": 71000.0,
+      "brgy": "Wack-Wack Greenhills",
+      "rdo": "RDO 41 (Mandaluyong)",
+      "do": "D.O. 059-2022",
+      "row": 1593
+    },
+    {
+      "name": "THE ADDRESS AT WACK WACK",
+      "vicinity": "WACK-WACK ROAD",
+      "class": "RC",
+      "value": 121000.0,
+      "brgy": "Wack-Wack Greenhills",
+      "rdo": "RDO 41 (Mandaluyong)",
+      "do": "D.O. 059-2022",
+      "row": 1594
+    },
+    {
+      "name": "THE ADDRESS AT WACK WACK",
+      "vicinity": "WACK-WACK ROAD",
+      "class": "PS",
+      "value": 85000.0,
+      "brgy": "Wack-Wack Greenhills",
+      "rdo": "RDO 41 (Mandaluyong)",
+      "do": "D.O. 059-2022",
+      "row": 1595
+    },
+    {
+      "name": "WACK-WACK APARTMENTS",
+      "vicinity": "WACK-WACK ROAD",
+      "class": "RC",
+      "value": 90000.0,
+      "brgy": "Wack-Wack Greenhills",
+      "rdo": "RDO 41 (Mandaluyong)",
+      "do": "D.O. 059-2022",
+      "row": 1596
+    },
+    {
+      "name": "WACK-WACK APARTMENTS",
+      "vicinity": "WACK-WACK ROAD",
+      "class": "PS",
+      "value": 63000.0,
+      "brgy": "Wack-Wack Greenhills",
+      "rdo": "RDO 41 (Mandaluyong)",
+      "do": "D.O. 059-2022",
+      "row": 1597
+    },
+    {
+      "name": "WACK-WACK TWIN TOWERS",
+      "vicinity": "WACK-WACK ROAD",
+      "class": "RC",
+      "value": 95000.0,
+      "brgy": "Wack-Wack Greenhills",
+      "rdo": "RDO 41 (Mandaluyong)",
+      "do": "D.O. 059-2022",
+      "row": 1598
+    },
+    {
+      "name": "WACK-WACK TWIN TOWERS",
+      "vicinity": "WACK-WACK ROAD",
+      "class": "PS",
+      "value": 67000.0,
+      "brgy": "Wack-Wack Greenhills",
+      "rdo": "RDO 41 (Mandaluyong)",
+      "do": "D.O. 059-2022",
+      "row": 1599
+    },
+    {
+      "name": "ALL OTHER CONDOMINIUMS / TOWNHOUSES",
+      "vicinity": "WACK-WACK ROAD",
+      "class": "RR",
+      "value": 65000.0,
+      "brgy": "Wack-Wack Greenhills",
+      "rdo": "RDO 41 (Mandaluyong)",
+      "do": "D.O. 059-2022",
+      "row": 1600
+    },
+    {
+      "name": "ALL OTHER CONDOMINIUMS / TOWNHOUSES",
+      "vicinity": "WACK-WACK ROAD",
+      "class": "RC",
+      "value": 70000.0,
+      "brgy": "Wack-Wack Greenhills",
+      "rdo": "RDO 41 (Mandaluyong)",
+      "do": "D.O. 059-2022",
+      "row": 1601
+    },
+    {
+      "name": "ALL OTHER CONDOMINIUMS / TOWNHOUSES",
+      "vicinity": "WACK-WACK ROAD",
+      "class": "PS",
+      "value": 49000.0,
+      "brgy": "Wack-Wack Greenhills",
+      "rdo": "RDO 41 (Mandaluyong)",
+      "do": "D.O. 059-2022",
+      "row": 1602
+    },
+    {
+      "name": "ALL OTHER CONDOMINIUMS / TOWNHOUSES",
+      "vicinity": "WACK-WACK ROAD",
+      "class": "CC",
+      "value": 84000.0,
+      "brgy": "Wack-Wack Greenhills",
+      "rdo": "RDO 41 (Mandaluyong)",
+      "do": "D.O. 059-2022",
+      "row": 1603
+    }
+  ],
+  "mandaluyong_ortigas": [
+    {
+      "line": [
+        "BALAGTAS",
+        "SHAW BLVD-ARAULLO",
+        "RR",
+        "60000.0"
+      ],
+      "name": "BALAGTAS",
+      "class": "RR",
+      "val": 60000.0,
+      "row": 114
+    },
+    {
+      "line": [
+        "CALDERON",
+        "SHAW BLVD-WACK WACK CREEK",
+        "RR",
+        "68000.0"
+      ],
+      "name": "CALDERON",
+      "class": "RR",
+      "val": 68000.0,
+      "row": 115
+    },
+    {
+      "line": [
+        "GOMEZVILLE",
+        "SHAW BLVD-ARAULLO",
+        "RR",
+        "60000.0"
+      ],
+      "name": "GOMEZVILLE",
+      "class": "RR",
+      "val": 60000.0,
+      "row": 122
+    },
+    {
+      "line": [
+        "HARVARD*",
+        "SHAW BLVD",
+        "RR",
+        "0.0"
+      ],
+      "name": "HARVARD*",
+      "class": "RR",
+      "val": 0.0,
+      "row": 125
+    },
+    {
+      "line": [
+        "IDEAL",
+        "SHAW BLVD-WACKWACK CREEK-SCHUYLER BOUNDARY",
+        "RR",
+        "65000.0"
+      ],
+      "name": "IDEAL",
+      "class": "RR",
+      "val": 65000.0,
+      "row": 126
+    },
+    {
+      "line": [
+        "LAUREL S.",
+        "SHAW BLVD-J.R. YULO",
+        "RR",
+        "73000.0"
+      ],
+      "name": "LAUREL S.",
+      "class": "RR",
+      "val": 73000.0,
+      "row": 129
+    },
+    {
+      "line": [
+        "LEE",
+        "CALDERON-WACK WACK CREEK-SHAW BLVD",
+        "RR",
+        "65000.0"
+      ],
+      "name": "LEE",
+      "class": "RR",
+      "val": 65000.0,
+      "row": 131
+    },
+    {
+      "line": [
+        "LUNA MENCIAS",
+        "SHAW BLVD-ARAULLO",
+        "RR",
+        "70000.0"
+      ],
+      "name": "LUNA MENCIAS",
+      "class": "RR",
+      "val": 70000.0,
+      "row": 133
+    },
+    {
+      "line": [
+        "MABINI A.",
+        "SHAW BLVD-WACK WACK",
+        "RR",
+        "68000.0"
+      ],
+      "name": "MABINI A.",
+      "class": "RR",
+      "val": 68000.0,
+      "row": 135
+    },
+    {
+      "line": [
+        "MARTINEZ A. (ACACIA LANE)",
+        "SHAW BLVD-FREEDOM PARK",
+        "RR",
+        "60000.0"
+      ],
+      "name": "MARTINEZ A. (ACACIA LANE)",
+      "class": "RR",
+      "val": 60000.0,
+      "row": 137
+    },
+    {
+      "line": [
+        "PILAR",
+        "SHAW BLVD-ARAULLO",
+        "RR",
+        "75000.0"
+      ],
+      "name": "PILAR",
+      "class": "RR",
+      "val": 75000.0,
+      "row": 147
+    },
+    {
+      "line": [
+        "REYES*",
+        "SHAW BLVD",
+        "RR",
+        "0.0"
+      ],
+      "name": "REYES*",
+      "class": "RR",
+      "val": 0.0,
+      "row": 149
+    },
+    {
+      "line": [
+        "SHAW BLVD",
+        "LEE-MAYTUNAS CREEK",
+        "RR",
+        "120000.0"
+      ],
+      "name": "SHAW BLVD",
+      "class": "RR",
+      "val": 120000.0,
+      "row": 155
+    },
+    {
+      "line": [
+        "TORRES",
+        "SHAW BLVD-ARAULLO",
+        "RR",
+        "60000.0"
+      ],
+      "name": "TORRES",
+      "class": "RR",
+      "val": 60000.0,
+      "row": 166
+    },
+    {
+      "line": [
+        "EMAR SUITES",
+        "SHAW BLVD",
+        "RC",
+        "91000.0"
+      ],
+      "name": "EMAR SUITES",
+      "class": "RC",
+      "val": 91000.0,
+      "row": 180
+    },
+    {
+      "line": [
+        "SHAW RESIDENZA",
+        "SHAW BLVD.",
+        "RC",
+        "90000.0"
+      ],
+      "name": "SHAW RESIDENZA",
+      "class": "RC",
+      "val": 90000.0,
+      "row": 188
+    },
+    {
+      "line": [
+        "THE OLIVE PLACE",
+        "SHAW BLVD - LUNA MENCIAS",
+        "RC",
+        "120000.0"
+      ],
+      "name": "THE OLIVE PLACE",
+      "class": "RC",
+      "val": 120000.0,
+      "row": 191
+    },
+    {
+      "line": [
+        "VISTA RESIDENCES",
+        "SHAW BLVD - LAUREL ST.",
+        "RC",
+        "145000.0"
+      ],
+      "name": "VISTA RESIDENCES",
+      "class": "RC",
+      "val": 145000.0,
+      "row": 195
+    },
+    {
+      "line": [
+        "29 DE AGOSTO",
+        "SHAW BLVD-SEN. NEPTALI GONZALES",
+        "RR",
+        "34000.0"
+      ],
+      "name": "29 DE AGOSTO",
+      "class": "RR",
+      "val": 34000.0,
+      "row": 214
+    },
+    {
+      "line": [
+        "CLEMENTE",
+        "SHAW BLVD  - END",
+        "RR",
+        "34000.0"
+      ],
+      "name": "CLEMENTE",
+      "class": "RR",
+      "val": 34000.0,
+      "row": 215
+    },
+    {
+      "line": [
+        "FABELLA A.V.",
+        "SHAW BLVD-SEN. NEPTALI GONZALES",
+        "RR",
+        "34000.0"
+      ],
+      "name": "FABELLA A.V.",
+      "class": "RR",
+      "val": 34000.0,
+      "row": 216
+    },
+    {
+      "line": [
+        "JACINTO E",
+        "SHAW BLVD  - END",
+        "RR",
+        "29000.0"
+      ],
+      "name": "JACINTO E",
+      "class": "RR",
+      "val": 29000.0,
+      "row": 218
+    },
+    {
+      "line": [
+        "LAWSON",
+        "SHAW BLVD - HAIG",
+        "RR",
+        "45000.0"
+      ],
+      "name": "LAWSON",
+      "class": "RR",
+      "val": 45000.0,
+      "row": 219
+    },
+    {
+      "line": [
+        "LUNA J.",
+        "SHAW BLVD-PINAGTIPUNAN",
+        "RR",
+        "32000.0"
+      ],
+      "name": "LUNA J.",
+      "class": "RR",
+      "val": 32000.0,
+      "row": 221
+    },
+    {
+      "line": [
+        "PINAGTIPUNAN",
+        "SHAW BLVD - 29 DE AGOSTO",
+        "RR",
+        "38000.0"
+      ],
+      "name": "PINAGTIPUNAN",
+      "class": "RR",
+      "val": 38000.0,
+      "row": 224
+    },
+    {
+      "line": [
+        "SHAW BLVD",
+        "A. V. FABELLA - M. YULO",
+        "RR",
+        "120000.0"
+      ],
+      "name": "SHAW BLVD",
+      "class": "RR",
+      "val": 120000.0,
+      "row": 227
+    },
+    {
+      "line": [
+        "SHAW BLVD",
+        "ACACIA LANE-M YULO",
+        "CR",
+        "150000.0"
+      ],
+      "name": "SHAW BLVD",
+      "class": "CR",
+      "val": 150000.0,
+      "row": 229
+    },
+    {
+      "line": [
+        "VARGAS J. B.",
+        "SHAW BLVD-CITY BOUNDARY-MAYTUNAS CREEK",
+        "RR",
+        "67000.0"
+      ],
+      "name": "VARGAS J. B.",
+      "class": "RR",
+      "val": 67000.0,
+      "row": 231
+    },
+    {
+      "line": [
+        "YULO M.",
+        "SHAW BLVD-C MAYTUNAS CREEK",
+        "RR",
+        "67000.0"
+      ],
+      "name": "YULO M.",
+      "class": "RR",
+      "val": 67000.0,
+      "row": 232
+    },
+    {
+      "line": [
+        "BSA TOWNHOMES I",
+        "SHAW BLVD",
+        "RC",
+        "86000.0"
+      ],
+      "name": "BSA TOWNHOMES I",
+      "class": "RC",
+      "val": 86000.0,
+      "row": 238
+    },
+    {
+      "line": [
+        "",
+        "SHAW BLVD",
+        "CC",
+        "106000.0"
+      ],
+      "name": "",
+      "class": "CC",
+      "val": 106000.0,
+      "row": 240
+    },
+    {
+      "line": [
+        "APO",
+        "EDSA-LION'S ROAD-PINATUBO",
+        "RR",
+        "45000.0"
+      ],
+      "name": "APO",
+      "class": "RR",
+      "val": 45000.0,
+      "row": 331
+    },
+    {
+      "line": [
+        "BONI AVENUE",
+        "EDSA -M.R.VICENTE(FORMERLY  DANSALAN ST)",
+        "RR",
+        "91000.0"
+      ],
+      "name": "BONI AVENUE",
+      "class": "RR",
+      "val": 91000.0,
+      "row": 335
+    },
+    {
+      "line": [
+        "EDSA",
+        "GUADALUPE - RELIANCE",
+        "CR",
+        "200000.0"
+      ],
+      "name": "EDSA",
+      "class": "CR",
+      "val": 200000.0,
+      "row": 339
+    },
+    {
+      "line": [
+        "MADISON",
+        "EDSA - PIONEER",
+        "RR",
+        "63000.0"
+      ],
+      "name": "MADISON",
+      "class": "RR",
+      "val": 63000.0,
+      "row": 342
+    },
+    {
+      "line": [
+        "MAYFLOWER *",
+        "EDSA",
+        "RR",
+        "0.0"
+      ],
+      "name": "MAYFLOWER *",
+      "class": "RR",
+      "val": 0.0,
+      "row": 344
+    },
+    {
+      "line": [
+        "MAYON",
+        "EDSA - PINATUBO",
+        "RR",
+        "45000.0"
+      ],
+      "name": "MAYON",
+      "class": "RR",
+      "val": 45000.0,
+      "row": 346
+    },
+    {
+      "line": [
+        "PIONEER",
+        "EDSA - MADISON-BUAYANG BATO CREEK",
+        "CR",
+        "110000.0"
+      ],
+      "name": "PIONEER",
+      "class": "CR",
+      "val": 110000.0,
+      "row": 352
+    },
+    {
+      "line": [
+        "RELIANCE",
+        "EDSA-PINES",
+        "I",
+        "98000.0"
+      ],
+      "name": "RELIANCE",
+      "class": "I",
+      "val": 98000.0,
+      "row": 354
+    },
+    {
+      "line": [
+        "PARAGON  PLAZA",
+        "RELIANCE-EDSA",
+        "RC",
+        "95000.0"
+      ],
+      "name": "PARAGON  PLAZA",
+      "class": "RC",
+      "val": 95000.0,
+      "row": 389
+    },
+    {
+      "line": [
+        "PIONEER WOODLANDS TOWER I & II",
+        "EDSA-PIONEER",
+        "RC",
+        "111000.0"
+      ],
+      "name": "PIONEER WOODLANDS TOWER I & II",
+      "class": "RC",
+      "val": 111000.0,
+      "row": 399
+    },
+    {
+      "line": [
+        "(PIONEER) WOODLAND PARK TOWER I",
+        "EDSA-PIONEER",
+        "RC",
+        "107000.0"
+      ],
+      "name": "(PIONEER) WOODLAND PARK TOWER I",
+      "class": "RC",
+      "val": 107000.0,
+      "row": 402
+    },
+    {
+      "line": [
+        "(PIONEER) WOODLAND PARK TOWER II",
+        "EDSA-PIONEER",
+        "RC",
+        "107000.0"
+      ],
+      "name": "(PIONEER) WOODLAND PARK TOWER II",
+      "class": "RC",
+      "val": 107000.0,
+      "row": 404
+    },
+    {
+      "line": [
+        "(PIONEER) WOODLAND PARK TOWER III",
+        "EDSA-PIONEER",
+        "RC",
+        "113000.0"
+      ],
+      "name": "(PIONEER) WOODLAND PARK TOWER III",
+      "class": "RC",
+      "val": 113000.0,
+      "row": 406
+    },
+    {
+      "line": [
+        "(PIONEER) WOODLAND PARK TOWER IV",
+        "EDSA-PIONEER",
+        "RC",
+        "113000.0"
+      ],
+      "name": "(PIONEER) WOODLAND PARK TOWER IV",
+      "class": "RC",
+      "val": 113000.0,
+      "row": 408
+    },
+    {
+      "line": [
+        "SMDC LIGHT RESIDENCES (I , II & III)",
+        "EDSA-MADISON",
+        "RC",
+        "127000.0"
+      ],
+      "name": "SMDC LIGHT RESIDENCES (I , II & III)",
+      "class": "RC",
+      "val": 127000.0,
+      "row": 414
+    },
+    {
+      "line": [
+        "EDSA",
+        "EDSA",
+        "CR",
+        "200000.0"
+      ],
+      "name": "EDSA",
+      "class": "CR",
+      "val": 200000.0,
+      "row": 473
+    },
+    {
+      "line": [
+        "BERNARDO F.",
+        "SHAW BLVD - END",
+        "RR",
+        "30000.0"
+      ],
+      "name": "BERNARDO F.",
+      "class": "RR",
+      "val": 30000.0,
+      "row": 535
+    },
+    {
+      "line": [
+        "HAIG",
+        "SHAW BLVD. - E. MAGALONA",
+        "RR",
+        "32000.0"
+      ],
+      "name": "HAIG",
+      "class": "RR",
+      "val": 32000.0,
+      "row": 540
+    },
+    {
+      "line": [
+        "MAGALONA E.",
+        "SHAW BLVD. - HAIG",
+        "RR",
+        "38000.0"
+      ],
+      "name": "MAGALONA E.",
+      "class": "RR",
+      "val": 38000.0,
+      "row": 543
+    },
+    {
+      "line": [
+        "SHAW BLVD",
+        "MAGALONA - MANILA BDRY",
+        "CR",
+        "150000.0"
+      ],
+      "name": "SHAW BLVD",
+      "class": "CR",
+      "val": 150000.0,
+      "row": 551
+    },
+    {
+      "line": [
+        "TIOSEJO JR",
+        "SHAW BLVD. - P. MARTINEZ",
+        "RR",
+        "38000.0"
+      ],
+      "name": "TIOSEJO JR",
+      "class": "RR",
+      "val": 38000.0,
+      "row": 552
+    },
+    {
+      "line": [
+        "JOSE RIZAL UNIVERSITY",
+        "SHAW BLVD",
+        "X",
+        "50000.0"
+      ],
+      "name": "JOSE RIZAL UNIVERSITY",
+      "class": "X",
+      "val": 50000.0,
+      "row": 554
+    },
+    {
+      "line": [
+        "29 DE AGOSTO",
+        "SHAW BLVD - PINAGTIPUNAN",
+        "RR",
+        "35000.0"
+      ],
+      "name": "29 DE AGOSTO",
+      "class": "RR",
+      "val": 35000.0,
+      "row": 614
+    },
+    {
+      "line": [
+        "ACACIA LANE",
+        "SHAW BLVD - 1ST ST",
+        "RR",
+        "65000.0"
+      ],
+      "name": "ACACIA LANE",
+      "class": "RR",
+      "val": 65000.0,
+      "row": 615
+    },
+    {
+      "line": [
+        "ARAULLO",
+        "SHAW BLVD- MAYTUNAS CREEK",
+        "RR",
+        "38000.0"
+      ],
+      "name": "ARAULLO",
+      "class": "RR",
+      "val": 38000.0,
+      "row": 619
+    },
+    {
+      "line": [
+        "BONIFACIO A.",
+        "SHAW BLVD - SEN. NEPTALI GONZALES",
+        "RR",
+        "38000.0"
+      ],
+      "name": "BONIFACIO A.",
+      "class": "RR",
+      "val": 38000.0,
+      "row": 621
+    },
+    {
+      "line": [
+        "CRUZ L.",
+        "SHAW BLVD - MAYTUNAS CREEK",
+        "RR",
+        "36000.0"
+      ],
+      "name": "CRUZ L.",
+      "class": "RR",
+      "val": 36000.0,
+      "row": 623
+    },
+    {
+      "line": [
+        "GONZALEZ L.",
+        "SHAW BLVD - PINAGTIPUNAN",
+        "RR",
+        "36000.0"
+      ],
+      "name": "GONZALEZ L.",
+      "class": "RR",
+      "val": 36000.0,
+      "row": 625
+    },
+    {
+      "line": [
+        "GUERRERO",
+        "SHAW BLVD - MAYTUNAS CREEK",
+        "RR",
+        "36000.0"
+      ],
+      "name": "GUERRERO",
+      "class": "RR",
+      "val": 36000.0,
+      "row": 627
+    },
+    {
+      "line": [
+        "YULO M.",
+        "SHAW BLVD - CREEK",
+        "RR",
+        "30000.0"
+      ],
+      "name": "YULO M.",
+      "class": "RR",
+      "val": 30000.0,
+      "row": 628
+    },
+    {
+      "line": [
+        "SHAW BLVD",
+        "M. YULO-MAYUNTAS CREEK",
+        "RR",
+        "120000.0"
+      ],
+      "name": "SHAW BLVD",
+      "class": "RR",
+      "val": 120000.0,
+      "row": 634
+    },
+    {
+      "line": [
+        "VICENCIO R.",
+        "SHAW BLVD - PINAGTIPUNAN",
+        "RR",
+        "47000.0"
+      ],
+      "name": "VICENCIO R.",
+      "class": "RR",
+      "val": 47000.0,
+      "row": 636
+    },
+    {
+      "line": [
+        "ARAYAT",
+        "BULUSAN - EDSA",
+        "RR",
+        "39000.0"
+      ],
+      "name": "ARAYAT",
+      "class": "RR",
+      "val": 39000.0,
+      "row": 683
+    },
+    {
+      "line": [
+        "EDSA",
+        "SHAW BLVD - ARAYAT",
+        "CR",
+        "200000.0"
+      ],
+      "name": "EDSA",
+      "class": "CR",
+      "val": 200000.0,
+      "row": 691
+    },
+    {
+      "line": [
+        "KINGS ROAD",
+        "COR SAMAT PARALLEL TO SHAW BLVD",
+        "RR",
+        "39000.0"
+      ],
+      "name": "KINGS ROAD",
+      "class": "RR",
+      "val": 39000.0,
+      "row": 698
+    },
+    {
+      "line": [
+        "DM GUEVARRA (FORMERLY LIBERTAD)",
+        "EDSA-CALBAYOG EXIT",
+        "RR",
+        "42000.0"
+      ],
+      "name": "DM GUEVARRA (FORMERLY LIBERTAD)",
+      "class": "RR",
+      "val": 42000.0,
+      "row": 700
+    },
+    {
+      "line": [
+        "",
+        "EDSA-CALBAYOG EXIT",
+        "CR",
+        "54000.0"
+      ],
+      "name": "",
+      "class": "CR",
+      "val": 54000.0,
+      "row": 701
+    },
+    {
+      "line": [
+        "MAYFLOWER",
+        "SHAW BLVD-UNITED ST-RELIANCE",
+        "I",
+        "88000.0"
+      ],
+      "name": "MAYFLOWER",
+      "class": "I",
+      "val": 88000.0,
+      "row": 708
+    },
+    {
+      "line": [
+        "NORTH EASTSIDE*",
+        "SHAW BLVD.-UNITED",
+        "CR",
+        "0.0"
+      ],
+      "name": "NORTH EASTSIDE*",
+      "class": "CR",
+      "val": 0.0,
+      "row": 710
+    },
+    {
+      "line": [
+        "OLD WACK-WACK ROAD",
+        "NUEVE DE PEBRERO-SHAW BLVD",
+        "RR",
+        "50000.0"
+      ],
+      "name": "OLD WACK-WACK ROAD",
+      "class": "RR",
+      "val": 50000.0,
+      "row": 711
+    },
+    {
+      "line": [
+        "PALLADIUM SUBD",
+        "ALONG SHAW BLVD",
+        "RR",
+        "78000.0"
+      ],
+      "name": "PALLADIUM SUBD",
+      "class": "RR",
+      "val": 78000.0,
+      "row": 713
+    },
+    {
+      "line": [
+        "RELIANCE",
+        "EDSA - PIONEER",
+        "I",
+        "90000.0"
+      ],
+      "name": "RELIANCE",
+      "class": "I",
+      "val": 90000.0,
+      "row": 719
+    },
+    {
+      "line": [
+        "SAMAT",
+        "SHAW BLVD-CALBAYOG",
+        "RR",
+        "60000.0"
+      ],
+      "name": "SAMAT",
+      "class": "RR",
+      "val": 60000.0,
+      "row": 729
+    },
+    {
+      "line": [
+        "SHAW BLVD",
+        "OLD WACK-WACK - SHERIDAN",
+        "CR",
+        "150000.0"
+      ],
+      "name": "SHAW BLVD",
+      "class": "CR",
+      "val": 150000.0,
+      "row": 738
+    },
+    {
+      "line": [
+        "SHERIDAN",
+        "SHAW BLVD. - PASIG RIVER",
+        "I",
+        "90000.0"
+      ],
+      "name": "SHERIDAN",
+      "class": "I",
+      "val": 90000.0,
+      "row": 739
+    },
+    {
+      "line": [
+        "SULTAN",
+        "EDSA - MARIVELES",
+        "RR",
+        "40000.0"
+      ],
+      "name": "SULTAN",
+      "class": "RR",
+      "val": 40000.0,
+      "row": 744
+    },
+    {
+      "line": [
+        "UNITED",
+        "SHERIDAN-EDSA",
+        "CR",
+        "105000.0"
+      ],
+      "name": "UNITED",
+      "class": "CR",
+      "val": 105000.0,
+      "row": 746
+    },
+    {
+      "line": [
+        "AMAIA SKIES SHAW",
+        "SHAW BLVD -  SAMAT",
+        "RC",
+        "130000.0"
+      ],
+      "name": "AMAIA SKIES SHAW",
+      "class": "RC",
+      "val": 130000.0,
+      "row": 755
+    },
+    {
+      "line": [
+        "AVIDA TOWERS -CENTERA",
+        "EDSA  - RELIANCE",
+        "RC",
+        "135000.0"
+      ],
+      "name": "AVIDA TOWERS -CENTERA",
+      "class": "RC",
+      "val": 135000.0,
+      "row": 759
+    },
+    {
+      "line": [
+        "FACILITIES CENTER",
+        "SHAW BLVD",
+        "CC",
+        "93000.0"
+      ],
+      "name": "FACILITIES CENTER",
+      "class": "CC",
+      "val": 93000.0,
+      "row": 774
+    },
+    {
+      "line": [
+        "FAME RESIDENCES (SMDC)",
+        "EDSA-WILLIAMS-MAYFLOWER",
+        "RC",
+        "155000.0"
+      ],
+      "name": "FAME RESIDENCES (SMDC)",
+      "class": "RC",
+      "val": 155000.0,
+      "row": 776
+    },
+    {
+      "line": [
+        "GOVERNORS PLACE CONDO",
+        "SHAW BLVD",
+        "RC",
+        "95000.0"
+      ],
+      "name": "GOVERNORS PLACE CONDO",
+      "class": "RC",
+      "val": 95000.0,
+      "row": 780
+    },
+    {
+      "line": [
+        "GRAND CENTRAL RESIDENCES",
+        "EDSA COR SULTAN",
+        "RC",
+        "108000.0"
+      ],
+      "name": "GRAND CENTRAL RESIDENCES",
+      "class": "RC",
+      "val": 108000.0,
+      "row": 782
+    },
+    {
+      "line": [
+        "JOVAN CONDOMINIUM",
+        "SHAW BLVD",
+        "CC",
+        "69000.0"
+      ],
+      "name": "JOVAN CONDOMINIUM",
+      "class": "CC",
+      "val": 69000.0,
+      "row": 792
+    },
+    {
+      "line": [
+        "LANCASTER SUITE TOWER I",
+        "SHAW BLVD",
+        "RC",
+        "105000.0"
+      ],
+      "name": "LANCASTER SUITE TOWER I",
+      "class": "RC",
+      "val": 105000.0,
+      "row": 794
+    },
+    {
+      "line": [
+        "",
+        "SHAW BLVD",
+        "CC",
+        "133000.0"
+      ],
+      "name": "",
+      "class": "CC",
+      "val": 133000.0,
+      "row": 795
+    },
+    {
+      "line": [
+        "PADDINGTON PLACE",
+        "SHAW BLVD",
+        "RC",
+        "150000.0"
+      ],
+      "name": "PADDINGTON PLACE",
+      "class": "RC",
+      "val": 150000.0,
+      "row": 800
+    },
+    {
+      "line": [
+        "PALLADIUM SUMMIT (ONE SUMMIT)",
+        "SHAW BLVD",
+        "CC",
+        "82000.0"
+      ],
+      "name": "PALLADIUM SUMMIT (ONE SUMMIT)",
+      "class": "CC",
+      "val": 82000.0,
+      "row": 802
+    },
+    {
+      "line": [
+        "SOHO CENTRAL PRIVATE RESIDENCES",
+        "SHAW BLVD-MAY FLOWER",
+        "RC",
+        "110000.0"
+      ],
+      "name": "SOHO CENTRAL PRIVATE RESIDENCES",
+      "class": "RC",
+      "val": 110000.0,
+      "row": 815
+    },
+    {
+      "line": [
+        "TWIN OAKS PLACE",
+        "SHAW BLVD - GREENFIELD DISTRICT",
+        "RC",
+        "158000.0"
+      ],
+      "name": "TWIN OAKS PLACE",
+      "class": "RC",
+      "val": 158000.0,
+      "row": 823
+    },
+    {
+      "line": [
+        "URBAN DECA TOWER",
+        "EDSA COR SIERRA MADRE",
+        "RC",
+        "128000.0"
+      ],
+      "name": "URBAN DECA TOWER",
+      "class": "RC",
+      "val": 128000.0,
+      "row": 825
+    },
+    {
+      "line": [
+        "ZITAN",
+        "SHAW BLVD - GREENFIELD DISTRICT",
+        "RC",
+        "153000.0"
+      ],
+      "name": "ZITAN",
+      "class": "RC",
+      "val": 153000.0,
+      "row": 828
+    },
+    {
+      "line": [
+        "BONI AVENUE",
+        "EDSA - PINATUBO",
+        "RR",
+        "80000.0"
+      ],
+      "name": "BONI AVENUE",
+      "class": "RR",
+      "val": 80000.0,
+      "row": 937
+    },
+    {
+      "line": [
+        "EDSA",
+        "BONI AVENUE - ARAYAT",
+        "CR",
+        "200000.0"
+      ],
+      "name": "EDSA",
+      "class": "CR",
+      "val": 200000.0,
+      "row": 948
+    },
+    {
+      "line": [
+        "GLOBE ASIATIQUE",
+        "EDSA-BONI",
+        "RC",
+        "87000.0"
+      ],
+      "name": "GLOBE ASIATIQUE",
+      "class": "RC",
+      "val": 87000.0,
+      "row": 982
+    },
+    {
+      "line": [
+        "",
+        "EDSA-BONI",
+        "CC",
+        "105000.0"
+      ],
+      "name": "",
+      "class": "CC",
+      "val": 105000.0,
+      "row": 983
+    },
+    {
+      "line": [
+        "LAUREL S.",
+        "SHAW BLVD - 9 DE FEBRERO",
+        "RR",
+        "57000.0"
+      ],
+      "name": "LAUREL S.",
+      "class": "RR",
+      "val": 57000.0,
+      "row": 1354
+    },
+    {
+      "line": [
+        "OLD WACK-WACK ROAD",
+        "SHAW BLVD - 9 DE FEBRERO",
+        "RR",
+        "72000.0"
+      ],
+      "name": "OLD WACK-WACK ROAD",
+      "class": "RR",
+      "val": 72000.0,
+      "row": 1356
+    },
+    {
+      "line": [
+        "JAIME CARDINAL SIN (formerly RODRIGUEZ E)",
+        "SHAW BLVD - 9 DE FEBRERO",
+        "RR",
+        "64000.0"
+      ],
+      "name": "JAIME CARDINAL SIN (formerly RODRIGUEZ E)",
+      "class": "RR",
+      "val": 64000.0,
+      "row": 1359
+    },
+    {
+      "line": [
+        "SHAW BLVD",
+        "9 DE FEBRERO - OLD WACK WACK RD",
+        "RR",
+        "120000.0"
+      ],
+      "name": "SHAW BLVD",
+      "class": "RR",
+      "val": 120000.0,
+      "row": 1360
+    },
+    {
+      "line": [
+        "",
+        "SHAW BLVD - F. MARTINEZ AVE.*",
+        "RR",
+        "58000.0"
+      ],
+      "name": "",
+      "class": "RR",
+      "val": 58000.0,
+      "row": 1365
+    },
+    {
+      "line": [
+        "ADB AVE.",
+        "GUADIX DRIVE -DONA J.VARGAS",
+        "CR",
+        "250000.0"
+      ],
+      "name": "ADB AVE.",
+      "class": "CR",
+      "val": 250000.0,
+      "row": 1487
+    },
+    {
+      "line": [
+        "DONA JULIA VARGAS",
+        "EDSA -ADB AVE.",
+        "CR",
+        "250000.0"
+      ],
+      "name": "DONA JULIA VARGAS",
+      "class": "CR",
+      "val": 250000.0,
+      "row": 1488
+    },
+    {
+      "line": [
+        "EDSA",
+        "CONNECTICUT - ORTIGAS AVE.",
+        "RR",
+        "200000.0"
+      ],
+      "name": "EDSA",
+      "class": "RR",
+      "val": 200000.0,
+      "row": 1489
+    },
+    {
+      "line": [
+        "",
+        "ORTIGAS AVE-SHAW BLVD",
+        "CR",
+        "250000.0"
+      ],
+      "name": "",
+      "class": "CR",
+      "val": 250000.0,
+      "row": 1491
+    },
+    {
+      "line": [
+        "GUADIX DRIVE",
+        "ADB AVE - EDSA",
+        "CR",
+        "150000.0"
+      ],
+      "name": "GUADIX DRIVE",
+      "class": "CR",
+      "val": 150000.0,
+      "row": 1492
+    },
+    {
+      "line": [
+        "LOURDES",
+        "ST. FRANCIS - SAN MIGUEL AVE.",
+        "X",
+        "120000.0"
+      ],
+      "name": "LOURDES",
+      "class": "X",
+      "val": 120000.0,
+      "row": 1493
+    },
+    {
+      "line": [
+        "ORTIGAS",
+        "CONNECTICUT - EDSA",
+        "RR",
+        "150000.0"
+      ],
+      "name": "ORTIGAS",
+      "class": "RR",
+      "val": 150000.0,
+      "row": 1495
+    },
+    {
+      "line": [
+        "POVEDA",
+        "GUADIX DRIVE - BOUNDARY",
+        "CR",
+        "150000.0"
+      ],
+      "name": "POVEDA",
+      "class": "CR",
+      "val": 150000.0,
+      "row": 1497
+    },
+    {
+      "line": [
+        "SAN MIGUEL AVE",
+        "DONA JULIA VARGAS - SHAW BLVD.",
+        "CR",
+        "200000.0"
+      ],
+      "name": "SAN MIGUEL AVE",
+      "class": "CR",
+      "val": 200000.0,
+      "row": 1498
+    },
+    {
+      "line": [
+        "SHAW BLVD",
+        "SAN MIGUEL AVE. - LEE",
+        "CR",
+        "200000.0"
+      ],
+      "name": "SHAW BLVD",
+      "class": "CR",
+      "val": 200000.0,
+      "row": 1499
+    },
+    {
+      "line": [
+        "ST FRANCIS",
+        "SHAW BLVD - BANK DR.",
+        "CR",
+        "200000.0"
+      ],
+      "name": "ST FRANCIS",
+      "class": "CR",
+      "val": 200000.0,
+      "row": 1500
+    },
+    {
+      "line": [
+        "WACK-WACK ROAD",
+        "SHAW BLVD - HARVARD",
+        "RR",
+        "126000.0"
+      ],
+      "name": "WACK-WACK ROAD",
+      "class": "RR",
+      "val": 126000.0,
+      "row": 1501
+    },
+    {
+      "line": [
+        "CONNECTICUT",
+        "EDSA / ORTIGAS AVE.",
+        "RR",
+        "147000.0"
+      ],
+      "name": "CONNECTICUT",
+      "class": "RR",
+      "val": 147000.0,
+      "row": 1510
+    },
+    {
+      "line": [
+        "FLORIDA",
+        "EDSA - CONNECTICUT",
+        "RR",
+        "147000.0"
+      ],
+      "name": "FLORIDA",
+      "class": "RR",
+      "val": 147000.0,
+      "row": 1513
+    },
+    {
+      "line": [
+        "SOUTHWESTERN*",
+        "EDSA / ORTIGAS",
+        "RR",
+        "0.0"
+      ],
+      "name": "SOUTHWESTERN*",
+      "class": "RR",
+      "val": 0.0,
+      "row": 1522
+    },
+    {
+      "line": [
+        "ORTIGAS AVENUE",
+        "EDSA - CONNECTICUT",
+        "RR",
+        "147000.0"
+      ],
+      "name": "ORTIGAS AVENUE",
+      "class": "RR",
+      "val": 147000.0,
+      "row": 1523
+    },
+    {
+      "line": [
+        "",
+        "EDSA - CONNECTICUT",
+        "CR",
+        "200000.0"
+      ],
+      "name": "",
+      "class": "CR",
+      "val": 200000.0,
+      "row": 1524
+    },
+    {
+      "line": [
+        "ROCHESTER",
+        "HOLY CROSS - EDSA",
+        "RR",
+        "147000.0"
+      ],
+      "name": "ROCHESTER",
+      "class": "RR",
+      "val": 147000.0,
+      "row": 1526
+    },
+    {
+      "line": [
+        "BERKELEY",
+        "HARVARD - EDSA",
+        "RR",
+        "147000.0"
+      ],
+      "name": "BERKELEY",
+      "class": "RR",
+      "val": 147000.0,
+      "row": 1536
+    },
+    {
+      "line": [
+        "CORNELL",
+        "EDSA - HARVARD",
+        "RR",
+        "147000.0"
+      ],
+      "name": "CORNELL",
+      "class": "RR",
+      "val": 147000.0,
+      "row": 1538
+    },
+    {
+      "line": [
+        "AMA TOWERS COND.",
+        "EDSA",
+        "CC",
+        "116000.0"
+      ],
+      "name": "AMA TOWERS COND.",
+      "class": "CC",
+      "val": 116000.0,
+      "row": 1553
+    },
+    {
+      "line": [
+        "BSA TWIN TOWERS",
+        "BANK DRIVE",
+        "CC",
+        "122000.0"
+      ],
+      "name": "BSA TWIN TOWERS",
+      "class": "CC",
+      "val": 122000.0,
+      "row": 1555
+    },
+    {
+      "line": [
+        "GREENHILLS TOWER",
+        "EDSA",
+        "CC",
+        "121000.0"
+      ],
+      "name": "GREENHILLS TOWER",
+      "class": "CC",
+      "val": 121000.0,
+      "row": 1564
+    },
+    {
+      "line": [
+        "ONE SHANGRI-LA PLACE",
+        "SHAW BLVD",
+        "RC",
+        "179000.0"
+      ],
+      "name": "ONE SHANGRI-LA PLACE",
+      "class": "RC",
+      "val": 179000.0,
+      "row": 1566
+    },
+    {
+      "line": [
+        "SEC",
+        "EDSA-ORTIGAS",
+        "CC",
+        "88000.0"
+      ],
+      "name": "SEC",
+      "class": "CC",
+      "val": 88000.0,
+      "row": 1572
+    },
+    {
+      "line": [
+        "ST. FRANCIS SHANGRI-LA PLACE",
+        "SAN MIGUEL AVE.",
+        "RC",
+        "168000.0"
+      ],
+      "name": "ST. FRANCIS SHANGRI-LA PLACE",
+      "class": "RC",
+      "val": 168000.0,
+      "row": 1587
+    },
+    {
+      "line": [
+        "WACK-WACK TWIN TOWERS",
+        "WACK-WACK ROAD",
+        "RC",
+        "95000.0"
+      ],
+      "name": "WACK-WACK TWIN TOWERS",
+      "class": "RC",
+      "val": 95000.0,
+      "row": 1598
+    }
+  ],
+  "ugong_norte": [
+    {
+      "name": "ARCADIA (CORINTHIAN GARDEN)",
+      "vicinity": "KATIPUNAN - EDSA",
+      "class": "RR",
+      "value": 112000.0,
+      "brgy": "Ugong Norte",
+      "rdo": "RDO 40 (Cubao)",
+      "do": "D.O. 21-2020",
+      "row": 2319
+    },
+    {
+      "name": "ARCADIA (CORINTHIAN GARDEN)",
+      "vicinity": "KATIPUNAN - EDSA",
+      "class": "CR",
+      "value": 130000.0,
+      "brgy": "Ugong Norte",
+      "rdo": "RDO 40 (Cubao)",
+      "do": "D.O. 21-2020",
+      "row": 2320
+    },
+    {
+      "name": "CORINTHIAN GARDENS",
+      "vicinity": "KATIPUNAN - EDSA",
+      "class": "RR",
+      "value": 122000.0,
+      "brgy": "Ugong Norte",
+      "rdo": "RDO 40 (Cubao)",
+      "do": "D.O. 21-2020",
+      "row": 2321
+    },
+    {
+      "name": "CORINTHIAN GARDENS",
+      "vicinity": "KATIPUNAN - EDSA",
+      "class": "CR",
+      "value": 140000.0,
+      "brgy": "Ugong Norte",
+      "rdo": "RDO 40 (Cubao)",
+      "do": "D.O. 21-2020",
+      "row": 2322
+    },
+    {
+      "name": "E. RODRIGUEZ JR. AVE.",
+      "vicinity": "GREENMEADOWS - BUTTERFLY",
+      "class": "CR",
+      "value": 155000.0,
+      "brgy": "Ugong Norte",
+      "rdo": "RDO 40 (Cubao)",
+      "do": "D.O. 21-2020",
+      "row": 2323
+    },
+    {
+      "name": "E. RODRIGUEZ JR. AVE.",
+      "vicinity": "GREENMEADOWS - BUTTERFLY",
+      "class": "RR",
+      "value": 155000.0,
+      "brgy": "Ugong Norte",
+      "rdo": "RDO 40 (Cubao)",
+      "do": "D.O. 21-2020",
+      "row": 2324
+    },
+    {
+      "name": "E. RODRIGUEZ JR. AVE.",
+      "vicinity": "GREENMEADOWS - BUTTERFLY",
+      "class": "I",
+      "value": 145000.0,
+      "brgy": "Ugong Norte",
+      "rdo": "RDO 40 (Cubao)",
+      "do": "D.O. 21-2020",
+      "row": 2325
+    },
+    {
+      "name": "EDSA (FORMERLY HIGHWAY 54)",
+      "vicinity": "KATIPUNAN - P. POVEDA",
+      "class": "CR",
+      "value": 180000.0,
+      "brgy": "Ugong Norte",
+      "rdo": "RDO 40 (Cubao)",
+      "do": "D.O. 21-2020",
+      "row": 2326
+    },
+    {
+      "name": "GREENMEADOWS SUBD I & II",
+      "vicinity": "GREENWOODS AVE. - E. ROD. AVE.",
+      "class": "RR",
+      "value": 112000.0,
+      "brgy": "Ugong Norte",
+      "rdo": "RDO 40 (Cubao)",
+      "do": "D.O. 21-2020",
+      "row": 2327
+    },
+    {
+      "name": "GREENWICH (CORINTHIAN)",
+      "vicinity": "DON VICENTE MADRIGAL AVE.",
+      "class": "RR",
+      "value": 112000.0,
+      "brgy": "Ugong Norte",
+      "rdo": "RDO 40 (Cubao)",
+      "do": "D.O. 21-2020",
+      "row": 2328
+    },
+    {
+      "name": "GREENWICH SUBD.",
+      "vicinity": "DON VICENTE MADRIGAL AVE.",
+      "class": "RR",
+      "value": 112000.0,
+      "brgy": "Ugong Norte",
+      "rdo": "RDO 40 (Cubao)",
+      "do": "D.O. 21-2020",
+      "row": 2329
+    },
+    {
+      "name": "ORTIGAS AVE.",
+      "vicinity": "EDSA - A.D.B. AVE.",
+      "class": "CR",
+      "value": 217000.0,
+      "brgy": "Ugong Norte",
+      "rdo": "RDO 40 (Cubao)",
+      "do": "D.O. 21-2020",
+      "row": 2330
+    },
+    {
+      "name": "ORTIGAS ROBINSON",
+      "vicinity": "EDSA - E. RODRIGUEZ JR",
+      "class": "CR",
+      "value": 240000.0,
+      "brgy": "Ugong Norte",
+      "rdo": "RDO 40 (Cubao)",
+      "do": "D.O. 21-2020",
+      "row": 2332
+    },
+    {
+      "name": "PEREZ CIRCLE",
+      "vicinity": "OCAMPO STREET",
+      "class": "RR",
+      "value": 122000.0,
+      "brgy": "Ugong Norte",
+      "rdo": "RDO 40 (Cubao)",
+      "do": "D.O. 21-2020",
+      "row": 2333
+    },
+    {
+      "name": "PEREZ CIRCLE",
+      "vicinity": "OCAMPO STREET",
+      "class": "CR",
+      "value": 140000.0,
+      "brgy": "Ugong Norte",
+      "rdo": "RDO 40 (Cubao)",
+      "do": "D.O. 21-2020",
+      "row": 2334
+    },
+    {
+      "name": "SUSANA PATERNO",
+      "vicinity": "SANSO ST.",
+      "class": "RR",
+      "value": 122000.0,
+      "brgy": "Ugong Norte",
+      "rdo": "RDO 40 (Cubao)",
+      "do": "D.O. 21-2020",
+      "row": 2335
+    },
+    {
+      "name": "INSIDE CORINTHIAN",
+      "vicinity": "SANSO ST.",
+      "class": "CR",
+      "value": 140000.0,
+      "brgy": "Ugong Norte",
+      "rdo": "RDO 40 (Cubao)",
+      "do": "D.O. 21-2020",
+      "row": 2336
+    },
+    {
+      "name": "TEMPLE DRIVE",
+      "vicinity": "KATIPUNAN - GREENMEADOWS",
+      "class": "RR",
+      "value": 112000.0,
+      "brgy": "Ugong Norte",
+      "rdo": "RDO 40 (Cubao)",
+      "do": "D.O. 21-2020",
+      "row": 2341
+    },
+    {
+      "name": "(FORMERLY ZEBRA DRIVE)",
+      "vicinity": "KATIPUNAN - GREENMEADOWS",
+      "class": "CR",
+      "value": 130000.0,
+      "brgy": "Ugong Norte",
+      "rdo": "RDO 40 (Cubao)",
+      "do": "D.O. 21-2020",
+      "row": 2342
+    },
+    {
+      "name": "WHITE PLAINS AVE.",
+      "vicinity": "EDSA-TEMPLE DRIVE",
+      "class": "RR",
+      "value": 130000.0,
+      "brgy": "Ugong Norte",
+      "rdo": "RDO 40 (Cubao)",
+      "do": "D.O. 21-2020",
+      "row": 2343
+    },
+    {
+      "name": "(FORMERLY KATIPUNAN AVE.)",
+      "vicinity": "EDSA-TEMPLE DRIVE",
+      "class": "CR",
+      "value": 145000.0,
+      "brgy": "Ugong Norte",
+      "rdo": "RDO 40 (Cubao)",
+      "do": "D.O. 21-2020",
+      "row": 2344
+    },
+    {
+      "name": "ALL OTHER STREETS",
+      "vicinity": "EDSA-TEMPLE DRIVE",
+      "class": "RR",
+      "value": 110000.0,
+      "brgy": "Ugong Norte",
+      "rdo": "RDO 40 (Cubao)",
+      "do": "D.O. 21-2020",
+      "row": 2345
+    },
+    {
+      "name": "ALL OTHER STREETS",
+      "vicinity": "EDSA-TEMPLE DRIVE",
+      "class": "X",
+      "value": 102000.0,
+      "brgy": "Ugong Norte",
+      "rdo": "RDO 40 (Cubao)",
+      "do": "D.O. 21-2020",
+      "row": 2347
+    },
+    {
+      "name": "ALL OTHER STREETS",
+      "vicinity": "EDSA-TEMPLE DRIVE",
+      "class": "GL",
+      "value": 102000.0,
+      "brgy": "Ugong Norte",
+      "rdo": "RDO 40 (Cubao)",
+      "do": "D.O. 21-2020",
+      "row": 2348
+    },
+    {
+      "name": "ALL OTHER TOWNHOUSES (CCT)",
+      "vicinity": "ACROPOLIS DRIVE",
+      "class": "RC",
+      "value": 52000.0,
+      "brgy": "Ugong Norte",
+      "rdo": "RDO 40 (Cubao)",
+      "do": "D.O. 21-2020",
+      "row": 2350
+    },
+    {
+      "name": "ALL OTHER TOWNHOUSES (CCT)",
+      "vicinity": "ACROPOLIS DRIVE",
+      "class": "CC",
+      "value": 63000.0,
+      "brgy": "Ugong Norte",
+      "rdo": "RDO 40 (Cubao)",
+      "do": "D.O. 21-2020",
+      "row": 2351
+    },
+    {
+      "name": "ALL OTHER TOWNHOUSES (CCT)",
+      "vicinity": "ACROPOLIS DRIVE",
+      "class": "PS",
+      "value": 44000.0,
+      "brgy": "Ugong Norte",
+      "rdo": "RDO 40 (Cubao)",
+      "do": "D.O. 21-2020",
+      "row": 2352
+    },
+    {
+      "name": "IVORY COURT CONDO",
+      "vicinity": "3RD GREENMEADOWS AVE.",
+      "class": "RC",
+      "value": 57000.0,
+      "brgy": "Ugong Norte",
+      "rdo": "RDO 40 (Cubao)",
+      "do": "D.O. 21-2020",
+      "row": 2353
+    },
+    {
+      "name": "ROBINSON CONDO",
+      "vicinity": "ADB AVENUE",
+      "class": "CC",
+      "value": 75000.0,
+      "brgy": "Ugong Norte",
+      "rdo": "RDO 40 (Cubao)",
+      "do": "D.O. 21-2020",
+      "row": 2354
+    },
+    {
+      "name": "ALL OTHER CONDOMINIUMS",
+      "vicinity": "ADB AVENUE",
+      "class": "RC",
+      "value": 57000.0,
+      "brgy": "Ugong Norte",
+      "rdo": "RDO 40 (Cubao)",
+      "do": "D.O. 21-2020",
+      "row": 2355
+    },
+    {
+      "name": "ALL OTHER CONDOMINIUMS",
+      "vicinity": "ADB AVENUE",
+      "class": "CC",
+      "value": 75000.0,
+      "brgy": "Ugong Norte",
+      "rdo": "RDO 40 (Cubao)",
+      "do": "D.O. 21-2020",
+      "row": 2356
+    },
+    {
+      "name": "ALL OTHER CONDOMINIUMS",
+      "vicinity": "ADB AVENUE",
+      "class": "PS",
+      "value": 52000.0,
+      "brgy": "Ugong Norte",
+      "rdo": "RDO 40 (Cubao)",
+      "do": "D.O. 21-2020",
+      "row": 2357
+    }
+  ]
+}
