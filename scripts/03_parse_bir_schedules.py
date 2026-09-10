@@ -1,9 +1,10 @@
 """
 Script: 03_parse_bir_schedules.py
-Purpose: Parse the official BIR Excel spreadsheets for the 3 governing barangays:
+Purpose: Parse the official BIR Excel spreadsheets for the governing barangays:
          1. Mandaluyong: Wack-Wack - Greenhills East (Sheet 9, DO 059-2022)
-         2. Pasig: San Antonio (Sheet 9, DO 024-2023)
-         3. Quezon City: Ugong Norte (Sheet 7, DO 021-2020)
+         2. Mandaluyong: Highway Hills (Sheet 9, DO 059-2022)
+         3. Pasig: San Antonio (Sheet 9, DO 024-2023)
+         4. Quezon City: Ugong Norte (Sheet 7, DO 021-2020)
 Output: data/ortigas/official_bir_parsed_all.json
 """
 
@@ -85,11 +86,15 @@ def parse_all():
 
     # 2. Mandaluyong City (Wack-Wack - Greenhills East ONLY: Rows 1483 to 1604)
     manda_path = os.path.join(RAW_DIR, "RDO No. 41 - Mandaluyong City.xls")
-    print(f"Parsing Mandaluyong City (Wack-Wack) from {manda_path}...")
+    print(f"Parsing Mandaluyong City (Wack-Wack & Highway Hills) from {manda_path}...")
     wb_manda = xlrd.open_workbook(manda_path)
     sheet_manda = wb_manda.sheet_by_name("Sheet 9 (DO 059-2022")
     ww_records = parse_sheet_section(sheet_manda, 1482, 1604, "Wack-Wack Greenhills", "RDO 41 (Mandaluyong)", "D.O. 059-2022")
     print(f"  -> Found {len(ww_records)} rows for Brgy. Wack-Wack - Greenhills East.")
+
+    # 2b. Mandaluyong City (Highway Hills: Rows 680 to 841)
+    hh_records = parse_sheet_section(sheet_manda, 679, 841, "Highway Hills", "RDO 41 (Mandaluyong)", "D.O. 059-2022")
+    print(f"  -> Found {len(hh_records)} rows for Brgy. Highway Hills.")
 
     # 3. Quezon City (Ugong Norte ONLY: Rows 2312 to 2358)
     qc_path = os.path.join(RAW_DIR, "RDO No. 40 - Cubao.xls")
@@ -102,13 +107,15 @@ def parse_all():
     result = {
         'san_antonio': sa_records,
         'wack_wack': ww_records,
+        'highway_hills': hh_records,
         'ugong_norte': un_records
     }
 
     with open(OUTPUT_FILE, 'w', encoding='utf-8') as f:
         json.dump(result, f, indent=2)
 
-    print(f"[SUCCESS] Saved {OUTPUT_FILE} (Total {len(sa_records) + len(ww_records) + len(un_records)} official BIR rows)")
+    total_count = len(sa_records) + len(ww_records) + len(hh_records) + len(un_records)
+    print(f"[SUCCESS] Saved {OUTPUT_FILE} (Total {total_count} official BIR rows)")
 
 if __name__ == "__main__":
     parse_all()

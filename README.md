@@ -1,9 +1,9 @@
-# Ortigas Center BIR Zonal Value Map
+# Ortigas Center & Highway Hills BIR Zonal Value Map
 
 [![Live Demo](https://img.shields.io/badge/Live%20Map-GitHub%20Pages-blue?style=for-the-badge&logo=github)](https://karlkue.github.io/ortigas-zonal-map/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg?style=for-the-badge)](LICENSE)
 
-An interactive, polygon-accurate GIS property map of the **Ortigas Center Central Business District (CBD)**, mapped directly to official Bureau of Internal Revenue (BIR) Zonal Valuation schedules across all **6 property classifications**.
+An interactive, polygon-accurate GIS property map of **Ortigas Center** and the adjacent **Barangay Highway Hills** (Greenfield District / EDSA-Shaw corridor), mapped directly to official Bureau of Internal Revenue (BIR) Zonal Valuation schedules across all **6 property classifications**.
 
 🌐 **Explore the Live Map:**  
 👉 **[https://karlkue.github.io/ortigas-zonal-map/](https://karlkue.github.io/ortigas-zonal-map/)**
@@ -12,18 +12,22 @@ An interactive, polygon-accurate GIS property map of the **Ortigas Center Centra
 
 ## 🌟 Features
 
-- **Strict 3-Barangay Purist Model**: Excludes non-CBD neighborhoods to guarantee zero rate pollution.
+- **739 Reconciled Building Polygons**: Comprehensive coverage spanning Ortigas Center and Barangay Highway Hills.
+- **Dedicated Administrative Overlays**:
+  - `Ortigas Center CBD Perimeter` (128-point boundary loop)
+  - `Barangay Highway Hills Boundary` (127-point boundary loop, OSM relation `104445`)
+  - `Barangay San Antonio Boundary` (38-point Pasig sub-boundary)
 - **6 Dedicated Valuation Layers**:
   - `CR` — Commercial Regular (Raw commercial land per sqm)
   - `CC` — Commercial Condo (Office & commercial units per sqm)
   - `RR` — Residential Regular (Residential land per sqm)
   - `RC` — Residential Condo (High-rise residential units per sqm)
-  - `PS` — Parking Slot (Vehicle parking spaces per sqm)
+  - `PS` — Parking Slot (Vehicle parking spaces per sqm, statutory 70% rule)
   - `X / GL` — Institutional & Government (Taxable & exempt institutions)
 - **Official Schedule Citations**: Inspect any parcel to view its exact BIR Department Order, RDO, Sheet name, and Row number.
 - **Distinction Between Specific vs Baseline Rates**: Clear UI indicators for whether a building has an explicit schedule line item or falls back to the statutory street/barangay baseline.
 - **Context-Aware UX**: Non-applicable parcels are greyed out and made unclickable for the active layer.
-- **Instant Search & Real-Time Filter**: Search across all named towers, corporate headquarters, and commercial centers.
+- **Instant Search & Real-Time Filter**: Search across all named towers, corporate headquarters, and commercial centers (Twin Oaks, Zitan, Fame Residences, Avida Towers Centera, St. Francis Shangri-La, Megamall, etc.).
 - **Transfer Tax Estimator**: Real-time tax calculator for Capital Gains Tax (CGT 6%), Documentary Stamp Tax (DST 1.5%), and Local Transfer Tax (~0.75%).
 
 ---
@@ -33,6 +37,7 @@ An interactive, polygon-accurate GIS property map of the **Ortigas Center Centra
 | LGU / City | BIR RDO | Zone / Barangay | Department Order (DO) | Sheet & Effective Date |
 | :--- | :--- | :--- | :--- | :--- |
 | **Mandaluyong City** | **RDO 41** | `WACK-WACK - GREENHILLS EAST` | **D.O. 059-2022** (8th Rev) | Sheet 9 • Sep 22, 2022 |
+| **Mandaluyong City** | **RDO 41** | `HIGHWAY HILLS` | **D.O. 059-2022** (8th Rev) | Sheet 9 • Sep 22, 2022 |
 | **Pasig City** | **RDO 43** | `SAN ANTONIO` | **D.O. 024-2023** (7th Rev) | Sheet 9 • Jun 02, 2023 |
 | **Quezon City** | **RDO 40 (Cubao)** | `UGONG NORTE` | **D.O. 021-2020** (7th Rev) | Sheet 7 • Aug 18, 2020 |
 
@@ -53,46 +58,32 @@ An interactive, polygon-accurate GIS property map of the **Ortigas Center Centra
 │   │   │   ├── RDO No. 43 - Pasig City.xls
 │   │   │   └── RDO No. 40 - Cubao.xls
 │   │   └── osm/                         # Raw OpenStreetMap building geometry dump
-│   │       └── ortigas_osm_buildings_raw.json
+│   │       ├── ortigas_osm_buildings_raw.json
+│   │       └── highway_hills_osm_raw.json
 │   │
-│   └── ortigas/                         # Reconciled Ortigas Center dataset
+│   └── ortigas/                         # Reconciled dataset
 │       ├── README.md                    # Data dictionary & usage instructions
-│       ├── boundaries.json              # GeoJSON boundary coordinates (CBD & San Antonio)
-│       ├── final_reconciled_properties.json  # Reconciled GIS + tax dataset
-│       └── official_bir_parsed_all.json # Parsed tabular BIR schedule records
+│       ├── boundaries.json              # GeoJSON boundary coordinates (CBD, Highway Hills, San Antonio)
+│       ├── final_reconciled_properties.json  # Reconciled GIS + tax dataset (739 properties)
+│       └── official_bir_parsed_all.json # Parsed tabular BIR schedule records (553 entries)
 │
 └── scripts/                             # End-to-end reproducible pipeline
     ├── 01_download_bir_excels.py        # Automated BIR XLS downloader
     ├── 02_fetch_osm_buildings.py        # Overpass API footprint extractor
     ├── 03_parse_bir_schedules.py        # Robust multi-line BIR XLS parser
     ├── 04_reconcile_and_match.py        # Spatial PIP & entity matching engine
-    └── 05_build_map_html.js             # Compiles dataset into standalone index.html
+    ├── 05_build_map_html.py             # Python compiler for standalone index.html
+    └── 05_build_map_html.js             # Node.js wrapper for build pipeline
 ```
-
----
-
-## 📖 Replicating for Other CBDs
-
-Want to build a similar map for **Bonifacio Global City (BGC)**, **Makati CBD**, **Eastwood City**, **Alabang / Filinvest**, or **Cebu IT Park**?
-
-👉 Read our comprehensive **[PLAYBOOK.md](PLAYBOOK.md)** for:
-- Step-by-step methodology for handling legacy BIR `.xls` workbooks.
-- Overpass QL query templates for OpenStreetMap building footprints.
-- Point-in-polygon spatial filtering and alias dictionaries.
-- Complete parameter recipes for BGC, Makati, Eastwood, and Alabang.
 
 ---
 
 ## 🚀 Running the Pipeline Locally
 
 ### Prerequisites
-- Python 3.8+ with `xlrd` and `requests`:
+- Python 3.8+ with `xlrd`:
   ```bash
-  pip install xlrd requests
-  ```
-- Node.js 16+ (for compiling `index.html`):
-  ```bash
-  node -v
+  pip install xlrd
   ```
 
 ### Step-by-Step Execution
@@ -100,17 +91,18 @@ Want to build a similar map for **Bonifacio Global City (BGC)**, **Makati CBD**,
 # 1. (Optional) Download fresh BIR XLS files from BIR portal
 python scripts/01_download_bir_excels.py
 
-# 2. Extract OpenStreetMap building footprints for Ortigas Center
+# 2. Extract OpenStreetMap building footprints
 python scripts/02_fetch_osm_buildings.py
 
-# 3. Parse tabular schedules from the 3 BIR workbooks
+# 3. Parse tabular schedules from the BIR workbooks
 python scripts/03_parse_bir_schedules.py
 
 # 4. Run spatial reconciliation and entity matching
 python scripts/04_reconcile_and_match.py
 
 # 5. Rebuild the standalone index.html web app
-node scripts/05_build_map_html.js
+python scripts/05_build_map_html.py
+# (or: node scripts/05_build_map_html.js)
 ```
 
 ---
