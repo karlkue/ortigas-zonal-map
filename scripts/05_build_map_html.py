@@ -10,8 +10,9 @@ Outputs:
 
 import json
 import os
+import datetime
 
-BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+BASE_DIR = r"c:\Users\karl_\Documents\antigravity\mysterious-salk"
 BOUNDARIES_FILE = os.path.join(BASE_DIR, "data", "ortigas", "boundaries.json")
 PROPERTIES_FILE = os.path.join(BASE_DIR, "data", "ortigas", "final_reconciled_properties.json")
 OUTPUT_HTML = os.path.join(BASE_DIR, "index.html")
@@ -28,12 +29,19 @@ hh_ring_json = json.dumps(boundaries["barangayHighwayHillsPerimeter"])
 bbox_bounds_json = json.dumps(boundaries.get("combinedBboxBounds", boundaries["bboxBounds"]))
 properties_json = json.dumps(properties)
 prop_count = len(properties)
+hh_count = sum(1 for p in properties if p.get("brgy") == "Highway Hills")
+ortigas_count = prop_count - hh_count
+
+build_timestamp = datetime.datetime.now().strftime("%Y-%m-%d %H:%M:%S")
 
 html_content = f"""<!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
+  <meta http-equiv="Pragma" content="no-cache" />
+  <meta http-equiv="Expires" content="0" />
   <title>Ortigas Center &amp; Highway Hills - Official BIR Zonal Values Property Map</title>
   
   <!-- Leaflet CSS -->
@@ -44,27 +52,234 @@ html_content = f"""<!DOCTYPE html>
     html, body {{ height: 100%; width: 100%; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; overflow: hidden; color: #0f172a; }}
     #map {{ height: 100%; width: 100%; z-index: 1; }}
 
-    .floating-card {{ position: absolute; z-index: 1000; background: rgba(255, 255, 255, 0.98); border-radius: 12px; box-shadow: 0 8px 32px rgba(0, 0, 0, 0.18); backdrop-filter: blur(12px); border: 1px solid rgba(0, 0, 0, 0.08); transition: all 0.2s ease; }}
-    .panel {{ top: 16px; right: 16px; width: 440px; max-height: calc(100vh - 32px); display: flex; flex-direction: column; }}
-    .panel-header {{ padding: 16px 20px 12px 20px; border-bottom: 1px solid #e2e8f0; }}
-    .panel-header h1 {{ font-size: 1.15rem; font-weight: 700; color: #0f172a; display: flex; align-items: center; justify-content: space-between; }}
-    .badge-bir {{ font-size: 0.68rem; background: #059669; color: white; padding: 2px 7px; border-radius: 9999px; font-weight: 700; letter-spacing: 0.5px; text-transform: uppercase; }}
-    .source-tag {{ display: inline-flex; align-items: center; gap: 4px; font-size: 0.72rem; color: #1e40af; background: #eff6ff; border: 1px solid #bfdbfe; padding: 3px 8px; border-radius: 6px; text-decoration: none; font-weight: 600; margin-top: 6px; }}
+    /* Centered Top Floating District Selector Bar */
+    .district-nav-bar {{
+      position: absolute;
+      top: 16px;
+      left: 50%;
+      transform: translateX(-50%);
+      z-index: 1000;
+      display: flex;
+      align-items: center;
+      gap: 6px;
+      background: rgba(255, 255, 255, 0.96);
+      backdrop-filter: blur(14px);
+      -webkit-backdrop-filter: blur(14px);
+      padding: 5px 8px;
+      border-radius: 32px;
+      box-shadow: 0 6px 24px rgba(15, 23, 42, 0.2), 0 1px 3px rgba(15, 23, 42, 0.1);
+      border: 1px solid rgba(226, 232, 240, 0.95);
+      max-width: calc(100vw - 32px);
+      overflow-x: auto;
+    }}
+    .district-btn {{
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      padding: 6px 14px;
+      border-radius: 20px;
+      border: 1px solid transparent;
+      background: #f1f5f9;
+      color: #334155;
+      font-size: 0.78rem;
+      font-weight: 700;
+      cursor: pointer;
+      transition: all 0.2s ease;
+      white-space: nowrap;
+    }}
+    .district-btn:hover {{
+      background: #e2e8f0;
+      color: #0f172a;
+      transform: translateY(-1px);
+    }}
+    .district-btn.active {{
+      background: #2563eb;
+      color: #ffffff;
+      box-shadow: 0 2px 8px rgba(37, 99, 235, 0.35);
+    }}
+    .district-btn.btn-hh.active {{
+      background: #059669;
+      box-shadow: 0 2px 8px rgba(5, 150, 105, 0.35);
+    }}
+    .district-btn.btn-cbd.active {{
+      background: #1e3a8a;
+      box-shadow: 0 2px 8px rgba(30, 58, 138, 0.35);
+    }}
+    .district-count-pill {{
+      font-size: 0.70rem;
+      padding: 1px 6px;
+      border-radius: 10px;
+      background: rgba(0,0,0,0.08);
+      color: inherit;
+      font-weight: 800;
+    }}
+    .district-btn.active .district-count-pill {{
+      background: rgba(255,255,255,0.25);
+    }}
+
+    /* On-map Permanent District Labels */
+    .district-map-badge {{
+      background: #ffffff;
+      border-radius: 8px;
+      padding: 6px 12px;
+      font-weight: 800;
+      font-size: 0.76rem;
+      box-shadow: 0 4px 16px rgba(0,0,0,0.25);
+      cursor: pointer;
+      white-space: nowrap;
+      display: flex;
+      align-items: center;
+      gap: 7px;
+      border: 2.5px solid;
+      transition: transform 0.15s ease, box-shadow 0.15s ease;
+      user-select: none;
+    }}
+    .district-map-badge:hover {{
+      transform: scale(1.06);
+      box-shadow: 0 8px 22px rgba(0,0,0,0.32);
+    }}
+    .badge-hh {{
+      border-color: #059669;
+      color: #065f46;
+      background: #ecfdf5;
+    }}
+    .badge-cbd {{
+      border-color: #1e3a8a;
+      color: #1e3a8a;
+      background: #eff6ff;
+    }}
+
+    .floating-card {{
+      position: absolute;
+      z-index: 1000;
+      background: rgba(255, 255, 255, 0.98);
+      border-radius: 12px;
+      box-shadow: 0 8px 32px rgba(0, 0, 0, 0.18);
+      backdrop-filter: blur(12px);
+      border: 1px solid rgba(0, 0, 0, 0.08);
+      transition: all 0.2s ease;
+    }}
+    .panel {{
+      top: 16px;
+      right: 16px;
+      width: 440px;
+      max-height: calc(100vh - 32px);
+      display: flex;
+      flex-direction: column;
+    }}
+    .panel-header {{
+      padding: 14px 18px 12px 18px;
+      border-bottom: 1px solid #e2e8f0;
+    }}
+    .panel-title-row {{
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 8px;
+    }}
+    .panel-header h1 {{
+      font-size: 1.10rem;
+      font-weight: 700;
+      color: #0f172a;
+    }}
+    .panel-controls {{
+      display: flex;
+      align-items: center;
+      gap: 6px;
+    }}
+    .badge-bir {{
+      font-size: 0.68rem;
+      background: #059669;
+      color: white;
+      padding: 2px 7px;
+      border-radius: 9999px;
+      font-weight: 700;
+      letter-spacing: 0.5px;
+      text-transform: uppercase;
+    }}
+    .panel-toggle-btn {{
+      background: #f1f5f9;
+      border: 1px solid #cbd5e1;
+      color: #475569;
+      font-size: 0.72rem;
+      font-weight: 600;
+      padding: 3px 8px;
+      border-radius: 5px;
+      cursor: pointer;
+      transition: all 0.15s;
+    }}
+    .panel-toggle-btn:hover {{
+      background: #e2e8f0;
+      color: #0f172a;
+    }}
+    .source-tag {{
+      display: inline-flex;
+      align-items: center;
+      gap: 4px;
+      font-size: 0.72rem;
+      color: #1e40af;
+      background: #eff6ff;
+      border: 1px solid #bfdbfe;
+      padding: 3px 8px;
+      border-radius: 6px;
+      text-decoration: none;
+      font-weight: 600;
+      margin-top: 6px;
+    }}
     .source-tag:hover {{ background: #dbeafe; }}
 
     .tab-bar {{ display: flex; border-bottom: 1px solid #e2e8f0; background: #f8fafc; }}
-    .tab-btn {{ flex: 1; padding: 10px 4px; border: none; background: transparent; font-size: 0.76rem; font-weight: 600; color: #64748b; cursor: pointer; text-align: center; border-bottom: 2px solid transparent; transition: all 0.15s; }}
+    .tab-btn {{
+      flex: 1;
+      padding: 10px 4px;
+      border: none;
+      background: transparent;
+      font-size: 0.76rem;
+      font-weight: 600;
+      color: #64748b;
+      cursor: pointer;
+      text-align: center;
+      border-bottom: 2px solid transparent;
+      transition: all 0.15s;
+    }}
     .tab-btn:hover {{ color: #0f172a; background: #f1f5f9; }}
     .tab-btn.active {{ color: #2563eb; border-bottom-color: #2563eb; background: #ffffff; }}
 
     .tab-content {{ padding: 16px 20px; overflow-y: auto; flex: 1; }}
     .tab-pane {{ display: none; }}
     .tab-pane.active {{ display: block; }}
-    .section-title {{ font-size: 0.75rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.5px; color: #64748b; margin-top: 14px; margin-bottom: 8px; }}
+    .section-title {{
+      font-size: 0.75rem;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+      color: #64748b;
+      margin-top: 14px;
+      margin-bottom: 8px;
+    }}
     .section-title:first-child {{ margin-top: 0; }}
 
-    .layer-selector-card {{ background: #f8fafc; border: 1px solid #e2e8f0; border-radius: 8px; padding: 8px; display: flex; flex-direction: column; gap: 5px; }}
-    .layer-radio-row {{ display: flex; align-items: center; gap: 10px; font-size: 0.81rem; font-weight: 600; color: #334155; padding: 6px 10px; border-radius: 6px; cursor: pointer; transition: background 0.15s; }}
+    .layer-selector-card {{
+      background: #f8fafc;
+      border: 1px solid #e2e8f0;
+      border-radius: 8px;
+      padding: 8px;
+      display: flex;
+      flex-direction: column;
+      gap: 5px;
+    }}
+    .layer-radio-row {{
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      font-size: 0.81rem;
+      font-weight: 600;
+      color: #334155;
+      padding: 6px 10px;
+      border-radius: 6px;
+      cursor: pointer;
+      transition: background 0.15s;
+    }}
     .layer-radio-row:hover {{ background: #f1f5f9; }}
     .layer-radio-row.active {{ background: #eff6ff; color: #1d4ed8; border: 1px solid #bfdbfe; }}
     .layer-radio-row input[type="radio"] {{ accent-color: #2563eb; cursor: pointer; }}
@@ -76,11 +291,43 @@ html_content = f"""<!DOCTYPE html>
     .pill-ps {{ background: #dcfce7; color: #15803d; }}
     .pill-inst {{ background: #e0e7ff; color: #4338ca; }}
 
-    .rate-hud {{ bottom: 24px; left: 16px; width: 340px; max-width: calc(100vw - 32px); background: rgba(255, 255, 255, 0.96); backdrop-filter: blur(16px); -webkit-backdrop-filter: blur(16px); border-radius: 12px; box-shadow: 0 12px 36px rgba(15, 23, 42, 0.18), 0 2px 8px rgba(15, 23, 42, 0.08); border: 1px solid rgba(226, 232, 240, 0.95); overflow: hidden; z-index: 999; }}
-    .rate-hud-header {{ padding: 10px 14px; background: #f8fafc; border-bottom: 1px solid #e2e8f0; display: flex; align-items: center; justify-content: space-between; cursor: pointer; user-select: none; }}
+    .rate-hud {{
+      bottom: 24px;
+      left: 16px;
+      width: 340px;
+      max-width: calc(100vw - 32px);
+      background: rgba(255, 255, 255, 0.96);
+      backdrop-filter: blur(16px);
+      -webkit-backdrop-filter: blur(16px);
+      border-radius: 12px;
+      box-shadow: 0 12px 36px rgba(15, 23, 42, 0.18), 0 2px 8px rgba(15, 23, 42, 0.08);
+      border: 1px solid rgba(226, 232, 240, 0.95);
+      overflow: hidden;
+      z-index: 999;
+    }}
+    .rate-hud-header {{
+      padding: 10px 14px;
+      background: #f8fafc;
+      border-bottom: 1px solid #e2e8f0;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      cursor: pointer;
+      user-select: none;
+    }}
     .rate-hud-title {{ display: flex; align-items: center; gap: 8px; font-size: 0.82rem; font-weight: 700; color: #0f172a; }}
     .rate-hud-pill {{ font-size: 0.68rem; font-weight: 800; padding: 2px 7px; border-radius: 4px; letter-spacing: 0.5px; }}
-    .rate-hud-toggle {{ background: transparent; border: 1px solid #cbd5e1; color: #475569; cursor: pointer; font-size: 0.72rem; font-weight: 600; padding: 2px 8px; border-radius: 5px; transition: all 0.15s; }}
+    .rate-hud-toggle {{
+      background: transparent;
+      border: 1px solid #cbd5e1;
+      color: #475569;
+      cursor: pointer;
+      font-size: 0.72rem;
+      font-weight: 600;
+      padding: 2px 8px;
+      border-radius: 5px;
+      transition: all 0.15s;
+    }}
     .rate-hud-toggle:hover {{ background: #e2e8f0; color: #0f172a; }}
     .rate-hud-body {{ padding: 10px 14px 12px 14px; display: flex; flex-direction: column; gap: 7px; }}
     .rate-gradient-bar {{ height: 5px; border-radius: 3px; width: 100%; margin-bottom: 3px; }}
@@ -94,8 +341,50 @@ html_content = f"""<!DOCTYPE html>
     .rate-tier-na .rate-tier-val {{ color: #64748b; font-weight: 600; font-size: 0.74rem; }}
     .rate-tier-na .rate-tier-desc {{ color: #94a3b8; font-size: 0.67rem; }}
 
-    .shortcut-pill {{ font-size: 0.70rem; font-weight: 600; padding: 3px 8px; border-radius: 12px; border: 1px solid #cbd5e1; background: #ffffff; color: #334155; cursor: pointer; transition: all 0.15s; white-space: nowrap; }}
+    .shortcut-pill {{
+      font-size: 0.70rem;
+      font-weight: 600;
+      padding: 3px 8px;
+      border-radius: 12px;
+      border: 1px solid #cbd5e1;
+      background: #ffffff;
+      color: #334155;
+      cursor: pointer;
+      transition: all 0.15s;
+      white-space: nowrap;
+    }}
     .shortcut-pill:hover {{ background: #2563eb; color: #ffffff; border-color: #2563eb; }}
+    .pill-hh-quick {{ border-color: #86efac; background: #f0fdf4; color: #166534; }}
+    .pill-hh-quick:hover {{ background: #059669; color: #ffffff; border-color: #059669; }}
+
+    .dir-tabs {{
+      display: flex;
+      gap: 6px;
+      margin-bottom: 8px;
+    }}
+    .dir-tab-btn {{
+      flex: 1;
+      padding: 5px 8px;
+      border-radius: 6px;
+      border: 1px solid #cbd5e1;
+      background: #f8fafc;
+      font-size: 0.72rem;
+      font-weight: 700;
+      color: #64748b;
+      cursor: pointer;
+      text-align: center;
+      transition: all 0.15s;
+    }}
+    .dir-tab-btn:hover {{ background: #e2e8f0; color: #0f172a; }}
+    .dir-tab-btn.active {{
+      background: #2563eb;
+      color: #ffffff;
+      border-color: #2563eb;
+    }}
+    .dir-tab-btn.btn-hh-tab.active {{
+      background: #059669;
+      border-color: #059669;
+    }}
 
     .form-group {{ margin-bottom: 12px; }}
     .form-group label {{ display: block; font-size: 0.76rem; font-weight: 600; color: #334155; margin-bottom: 4px; }}
@@ -116,10 +405,44 @@ html_content = f"""<!DOCTYPE html>
     .btn {{ display: flex; align-items: center; justify-content: center; gap: 6px; width: 100%; padding: 8px 12px; border-radius: 6px; font-size: 0.82rem; font-weight: 600; cursor: pointer; border: none; margin-top: 8px; transition: all 0.15s; }}
     .btn-primary {{ background: #2563eb; color: white; }}
     .btn-primary:hover {{ background: #1d4ed8; }}
+
+    .version-tag {{ font-size: 0.68rem; color: #94a3b8; text-align: center; margin-top: 12px; padding-bottom: 4px; }}
+
+    @media (max-width: 768px) {{
+      .panel {{
+        width: calc(100% - 32px);
+        right: 16px;
+        top: auto;
+        bottom: 16px;
+        max-height: 55vh;
+      }}
+      .district-nav-bar {{
+        top: 10px;
+      }}
+      .rate-hud {{
+        display: none;
+      }}
+    }}
   </style>
 </head>
 <body>
   <div id="map"></div>
+
+  <!-- Centered Top Floating District Quick-Switcher Bar -->
+  <div class="district-nav-bar">
+    <button class="district-btn active" id="nav-btn-all" onclick="focusDistrict('all')">
+      <span>🌐 All Zones</span>
+      <span class="district-count-pill">{prop_count}</span>
+    </button>
+    <button class="district-btn btn-hh" id="nav-btn-hh" onclick="focusDistrict('hh')">
+      <span>🟢 Brgy. Highway Hills</span>
+      <span class="district-count-pill">{hh_count}</span>
+    </button>
+    <button class="district-btn btn-cbd" id="nav-btn-cbd" onclick="focusDistrict('cbd')">
+      <span>🔵 Ortigas CBD</span>
+      <span class="district-count-pill">{ortigas_count}</span>
+    </button>
+  </div>
 
   <!-- On-Map Floating Rate Color Card HUD -->
   <div id="rate-hud" class="floating-card rate-hud">
@@ -137,25 +460,28 @@ html_content = f"""<!DOCTYPE html>
   </div>
 
   <!-- Main Floating Dashboard Panel -->
-  <div class="floating-card panel">
+  <div class="floating-card panel" id="main-panel">
     <div class="panel-header">
-      <h1>
-        Ortigas &amp; Highway Hills Zonal Map
-        <span class="badge-bir">Official BIR</span>
-      </h1>
+      <div class="panel-title-row">
+        <h1>Ortigas &amp; Highway Hills Zonal Map</h1>
+        <div class="panel-controls">
+          <span class="badge-bir">Official BIR</span>
+          <button class="panel-toggle-btn" id="panel-toggle-btn" onclick="toggleMainPanel()">− Minimize</button>
+        </div>
+      </div>
       <a class="source-tag" href="https://www.bir.gov.ph/index.php/zonal-values.html" target="_blank" rel="noopener">
         <span>🏛️ BIR Department Orders 059-2022 &bull; 024-2023 &bull; 021-2020</span>
       </a>
     </div>
 
-    <div class="tab-bar">
+    <div class="tab-bar" id="main-tab-bar">
       <button class="tab-btn active" onclick="switchTab('tab-layers')">🗺️ Layers</button>
-      <button class="tab-btn" onclick="switchTab('tab-directory')">🏢 Properties</button>
+      <button class="tab-btn" onclick="switchTab('tab-directory')">🏢 Properties ({prop_count})</button>
       <button class="tab-btn" onclick="switchTab('tab-calculator')">🧮 Tax Calc</button>
       <button class="tab-btn" onclick="switchTab('tab-audit')">📋 Audit Trail</button>
     </div>
 
-    <div class="tab-content">
+    <div class="tab-content" id="main-tab-content">
       <div id="tab-layers" class="tab-pane active">
         <div class="section-title">Select Property Classification Layer</div>
         <div class="layer-selector-card">
@@ -194,23 +520,30 @@ html_content = f"""<!DOCTYPE html>
         <div class="section-title">Active Classification Info</div>
         <div id="layer-summary-box" style="font-size: 0.76rem; color: #334155; line-height: 1.45; background: #f8fafc; padding: 10px; border-radius: 8px; border: 1px solid #e2e8f0;"></div>
 
+        <div class="section-title">Quick District Focus</div>
+        <div style="display: flex; gap: 6px; margin-top: 4px;">
+          <button class="btn btn-primary" style="flex: 1; margin-top: 0; padding: 7px 4px; font-size: 0.74rem; background: #059669;" onclick="focusDistrict('hh')">🟢 Brgy. Highway Hills</button>
+          <button class="btn btn-primary" style="flex: 1; margin-top: 0; padding: 7px 4px; font-size: 0.74rem; background: #1e3a8a;" onclick="focusDistrict('cbd')">🔵 Ortigas Center CBD</button>
+          <button class="btn btn-primary" style="flex: 1; margin-top: 0; padding: 7px 4px; font-size: 0.74rem; background: #475569;" onclick="focusDistrict('all')">🌐 View All</button>
+        </div>
+
         <div class="section-title">Governing BIR Department Orders</div>
         <div style="font-size: 0.75rem; color: #475569; line-height: 1.45; background: #f8fafc; padding: 10px; border-radius: 8px; border: 1px solid #e2e8f0;">
-          <strong>Total Mapped Properties:</strong> {prop_count} building footprints<br/>
+          <strong>Total Mapped Properties:</strong> {prop_count} verified building footprints<br/>
+          • <strong>Mandaluyong City (RDO 41):</strong> D.O. 059-2022 (Brgy. Highway Hills [{hh_count} bldgs] &amp; Brgy. Wack-Wack)<br/>
           • <strong>Pasig City (RDO 43):</strong> D.O. 024-2023 (Brgy. San Antonio)<br/>
-          • <strong>Mandaluyong City (RDO 41):</strong> D.O. 059-2022 (Brgy. Wack-Wack &amp; Brgy. Highway Hills)<br/>
           • <strong>Quezon City (RDO 40):</strong> D.O. 21-2020 (Brgy. Ugong Norte)<br/>
           <em>* Note: Greyed out polygons on any layer represent non-applicable property types and are completely unclickable.</em>
         </div>
 
         <div class="section-title">Perimeter Overlays</div>
         <label style="display: flex; align-items: center; margin-bottom: 6px; font-size: 0.82rem; cursor: pointer;">
-          <input type="checkbox" id="chk-cbd" checked style="margin-right: 8px;" />
-          <span>Ortigas Center Boundary (128-pt Loop)</span>
+          <input type="checkbox" id="chk-hh" checked style="margin-right: 8px;" />
+          <span>🟢 Brgy. Highway Hills Boundary (Mandaluyong)</span>
         </label>
         <label style="display: flex; align-items: center; margin-bottom: 6px; font-size: 0.82rem; cursor: pointer;">
-          <input type="checkbox" id="chk-hh" checked style="margin-right: 8px;" />
-          <span>Brgy. Highway Hills Boundary (Mandaluyong)</span>
+          <input type="checkbox" id="chk-cbd" checked style="margin-right: 8px;" />
+          <span>🔵 Ortigas Center CBD Boundary (128-pt Loop)</span>
         </label>
         <label style="display: flex; align-items: center; margin-bottom: 6px; font-size: 0.82rem; cursor: pointer;">
           <input type="checkbox" id="chk-sa" style="margin-right: 8px;" />
@@ -220,35 +553,44 @@ html_content = f"""<!DOCTYPE html>
           <input type="checkbox" id="chk-bbox" style="margin-right: 8px;" />
           <span>Bounding Box Envelope</span>
         </label>
-        <div style="display: flex; gap: 6px; margin-top: 8px;">
-          <button class="btn btn-primary" style="flex: 1; margin-top: 0; padding: 6px 4px; font-size: 0.74rem;" onclick="fitCbd()">Ortigas Center</button>
-          <button class="btn btn-primary" style="flex: 1; margin-top: 0; padding: 6px 4px; font-size: 0.74rem; background: #059669;" onclick="fitHh()">Highway Hills</button>
-          <button class="btn btn-primary" style="flex: 1; margin-top: 0; padding: 6px 4px; font-size: 0.74rem; background: #475569;" onclick="fitAll()">Fit All</button>
-        </div>
       </div>
 
       <div id="tab-directory" class="tab-pane">
-        <div class="form-group">
-          <label>Filter across all {prop_count} properties:</label>
-          <input type="text" id="dir-filter" class="form-control" placeholder="Search building, street, or Excel row..." onkeyup="filterDirectory()" />
+        <!-- District Filter Tabs -->
+        <div class="dir-tabs">
+          <button class="dir-tab-btn active" id="dtab-all" onclick="filterByDistrict('all')">All ({prop_count})</button>
+          <button class="dir-tab-btn btn-hh-tab" id="dtab-hh" onclick="filterByDistrict('Highway Hills')">🟢 Highway Hills ({hh_count})</button>
+          <button class="dir-tab-btn" id="dtab-cbd" onclick="filterByDistrict('Ortigas')">🔵 Ortigas CBD ({ortigas_count})</button>
         </div>
+
+        <div class="form-group">
+          <input type="text" id="dir-filter" class="form-control" placeholder="Search building name, street, or Excel row..." onkeyup="filterDirectory()" />
+        </div>
+
         <div style="margin-bottom: 10px;">
-          <div style="font-size: 0.70rem; font-weight: 700; color: #64748b; margin-bottom: 5px; text-transform: uppercase; letter-spacing: 0.4px;">Quick Landmark Jump:</div>
-          <div style="display: flex; flex-wrap: wrap; gap: 5px;">
-            <button class="shortcut-pill" onclick="quickJump('One Shangri-La Place')">📍 One Shangri-La</button>
-            <button class="shortcut-pill" onclick="quickJump('The St. Francis Shangri-La Place')">📍 St. Francis</button>
-            <button class="shortcut-pill" onclick="quickJump('Twin Oaks')">📍 Twin Oaks</button>
-            <button class="shortcut-pill" onclick="quickJump('Zitan')">📍 Zitan</button>
-            <button class="shortcut-pill" onclick="quickJump('Fame')">📍 Fame Residences</button>
-            <button class="shortcut-pill" onclick="quickJump('Avida')">📍 Avida Centera</button>
-            <button class="shortcut-pill" onclick="quickJump('Soho Central')">📍 Soho Central</button>
+          <div style="font-size: 0.70rem; font-weight: 700; color: #065f46; margin-bottom: 4px; text-transform: uppercase; letter-spacing: 0.4px;">🟢 Highway Hills Highlights:</div>
+          <div style="display: flex; flex-wrap: wrap; gap: 4px; margin-bottom: 8px;">
+            <button class="shortcut-pill pill-hh-quick" onclick="quickJump('Twin Oaks')">Twin Oaks Place</button>
+            <button class="shortcut-pill pill-hh-quick" onclick="quickJump('Zitan')">Zitan Tower</button>
+            <button class="shortcut-pill pill-hh-quick" onclick="quickJump('Fame')">Fame Residences</button>
+            <button class="shortcut-pill pill-hh-quick" onclick="quickJump('Soho Central')">Soho Central</button>
+            <button class="shortcut-pill pill-hh-quick" onclick="quickJump('Avida')">Avida Towers Centera</button>
+            <button class="shortcut-pill pill-hh-quick" onclick="quickJump('California')">California Garden</button>
+            <button class="shortcut-pill pill-hh-quick" onclick="quickJump('Lancaster')">Lancaster Suites</button>
+          </div>
+
+          <div style="font-size: 0.70rem; font-weight: 700; color: #1e3a8a; margin-bottom: 4px; text-transform: uppercase; letter-spacing: 0.4px;">🔵 Ortigas Center CBD Highlights:</div>
+          <div style="display: flex; flex-wrap: wrap; gap: 4px;">
+            <button class="shortcut-pill" onclick="quickJump('One Shangri-La Place')">One Shangri-La</button>
+            <button class="shortcut-pill" onclick="quickJump('The St. Francis Shangri-La Place')">St. Francis Shang</button>
             <button class="shortcut-pill" onclick="quickJump('Megamall')">SM Megamall</button>
             <button class="shortcut-pill" onclick="quickJump('Galleon')">The Galleon</button>
             <button class="shortcut-pill" onclick="quickJump('Tektite')">Tektite Towers</button>
-            <button class="shortcut-pill" onclick="quickJump('Asian Development Bank')">ADB Headquarters</button>
+            <button class="shortcut-pill" onclick="quickJump('Asian Development Bank')">ADB HQ</button>
             <button class="shortcut-pill" onclick="quickJump('Robinsons Galleria')">Robinsons Galleria</button>
           </div>
         </div>
+
         <div class="table-container">
           <table class="zonal-table" id="directory-table">
             <thead>
@@ -294,32 +636,37 @@ html_content = f"""<!DOCTYPE html>
       <div id="tab-audit" class="tab-pane">
         <div class="section-title">Official BIR Source Audit Trail</div>
         <div style="font-size: 0.76rem; color: #334155; line-height: 1.5; display: flex; flex-direction: column; gap: 8px;">
+          <div style="padding: 8px; background: #ecfdf5; border-left: 3px solid #059669; border-radius: 4px;">
+            <strong style="color: #065f46;">Mandaluyong City &mdash; Brgy. Highway Hills (RDO 41):</strong><br/>
+            • Workbook: <code>RDO No. 41 - Mandaluyong City.xls</code><br/>
+            • Schedule: Sheet 9 (DO 059-2022, 8th Revision)<br/>
+            • Coverage: Rows 680 to 841 (140 schedule line items) exclusively for Brgy. Highway Hills.<br/>
+            • Key Areas: Greenfield District, Shaw Blvd, EDSA Mandaluyong, Sierra Madre, Mayflower, Reliance, Sheridan, Pioneer, California Garden Square.
+          </div>
           <div style="padding: 8px; background: #eff6ff; border-left: 3px solid #2563eb; border-radius: 4px;">
             <strong style="color: #1e40af;">Pasig City &mdash; Brgy. San Antonio (RDO 43):</strong><br/>
             • Workbook: <code>RDO No. 43 - Pasig City.xls</code><br/>
             • Schedule: Sheet 9 (DO 24-2023, 7th Revision)<br/>
-            • Coverage: Rows 2642 to 3056 exclusively for Brgy. San Antonio.
+            • Coverage: Rows 2642 to 3056 exclusively for Brgy. San Antonio (Ortigas CBD east of ADB Ave).
           </div>
           <div style="padding: 8px; background: #faf5ff; border-left: 3px solid #7e22ce; border-radius: 4px;">
             <strong style="color: #6b21a8;">Mandaluyong City &mdash; Brgy. Wack-Wack (RDO 41):</strong><br/>
             • Workbook: <code>RDO No. 41 - Mandaluyong City.xls</code><br/>
             • Schedule: Sheet 9 (DO 059-2022, 8th Revision)<br/>
-            • Coverage: Rows 1483 to 1604 exclusively for Brgy. Wack-Wack - Greenhills East.
-          </div>
-          <div style="padding: 8px; background: #ecfdf5; border-left: 3px solid #059669; border-radius: 4px;">
-            <strong style="color: #065f46;">Mandaluyong City &mdash; Brgy. Highway Hills (RDO 41):</strong><br/>
-            • Workbook: <code>RDO No. 41 - Mandaluyong City.xls</code><br/>
-            • Schedule: Sheet 9 (DO 059-2022, 8th Revision)<br/>
-            • Coverage: Rows 680 to 841 exclusively for Brgy. Highway Hills (Greenfield District, Shaw-EDSA, Pioneer).
+            • Coverage: Rows 1483 to 1604 exclusively for Brgy. Wack-Wack - Greenhills East (Ortigas CBD west of ADB Ave).
           </div>
           <div style="padding: 8px; background: #fff7ed; border-left: 3px solid #ea580c; border-radius: 4px;">
             <strong style="color: #9a3412;">Quezon City &mdash; Brgy. Ugong Norte (RDO 40):</strong><br/>
             • Workbook: <code>RDO No. 40 - Cubao.xls</code><br/>
             • Schedule: Sheet 7 (DO 21-2020, 6th Revision)<br/>
-            • Coverage: Rows 2312 to 2358 exclusively for Brgy. Ugong Norte.
+            • Coverage: Rows 2312 to 2358 exclusively for Brgy. Ugong Norte (Robinsons Galleria, Corinthian, Crowne Plaza).
           </div>
         </div>
       </div>
+    </div>
+    
+    <div class="version-tag" id="panel-version-tag">
+      Build Timestamp: {build_timestamp} &bull; 739 Properties &bull; D.O. 059-2022, 024-2023, 021-2020
     </div>
   </div>
 
@@ -340,12 +687,37 @@ html_content = f"""<!DOCTYPE html>
     L.control.zoom({{ position: 'bottomright' }}).addTo(map);
     L.control.layers({{ "OpenStreetMap (Streets)": osm, "Esri World Imagery (Satellite)": satellite, "CartoDB Positron (Light)": positron }}, null, {{ position: 'topleft' }}).addTo(map);
 
-    const cbdLayer = L.polygon(cbdPolygonCoords, {{ color: '#1e3a8a', weight: 3.5, opacity: 0.9, fillColor: 'transparent' }}).addTo(map);
-    const hhLayer = L.polygon(highwayHillsCoords, {{ color: '#059669', weight: 3, dashArray: '4, 4', fillColor: '#10b981', fillOpacity: 0.05 }}).addTo(map);
-    const saLayer = L.polygon(sanAntonioCoords, {{ color: '#2563eb', weight: 2, dashArray: '5, 5', fillColor: '#3b82f6', fillOpacity: 0.05 }});
-    const bboxLayer = L.rectangle(bboxBounds, {{ color: '#ef4444', weight: 2, dashArray: '5, 5', fillColor: '#ef4444', fillOpacity: 0.03 }});
+    // Boundary Overlays
+    const cbdLayer = L.polygon(cbdPolygonCoords, {{ color: '#1e3a8a', weight: 3.5, opacity: 0.9, fillColor: '#3b82f6', fillOpacity: 0.03 }}).addTo(map);
+    cbdLayer.bindTooltip('<b>Ortigas Center CBD</b><br/>Pasig • Mandaluyong • Quezon City', {{ sticky: true }});
+
+    const hhLayer = L.polygon(highwayHillsCoords, {{ color: '#059669', weight: 3.5, dashArray: '6, 6', fillColor: '#10b981', fillOpacity: 0.08 }}).addTo(map);
+    hhLayer.bindTooltip('<b>Barangay Highway Hills</b><br/>Mandaluyong City (RDO 41)', {{ sticky: true }});
+
+    const saLayer = L.polygon(sanAntonioCoords, {{ color: '#2563eb', weight: 2, dashArray: '5, 5', fillColor: '#3b82f6', fillOpacity: 0.04 }});
+    const bboxLayer = L.rectangle(bboxBounds, {{ color: '#ef4444', weight: 2, dashArray: '5, 5', fillColor: '#ef4444', fillOpacity: 0.02 }});
+
+    // Permanent District Map Label Badges
+    const hhBadgeIcon = L.divIcon({{
+      className: 'custom-district-icon',
+      html: '<div class="district-map-badge badge-hh">🟢 BRGY. HIGHWAY HILLS (132 Bldgs)</div>',
+      iconSize: [210, 34],
+      iconAnchor: [105, 17]
+    }});
+    const hhBadgeMarker = L.marker([14.5805, 121.0495], {{ icon: hhBadgeIcon, interactive: true }}).addTo(map);
+    hhBadgeMarker.on('click', () => focusDistrict('hh'));
+
+    const cbdBadgeIcon = L.divIcon({{
+      className: 'custom-district-icon',
+      html: '<div class="district-map-badge badge-cbd">🔵 ORTIGAS CENTER CBD (607 Bldgs)</div>',
+      iconSize: [210, 34],
+      iconAnchor: [105, 17]
+    }});
+    const cbdBadgeMarker = L.marker([14.5875, 121.0600], {{ icon: cbdBadgeIcon, interactive: true }}).addTo(map);
+    cbdBadgeMarker.on('click', () => focusDistrict('cbd'));
 
     let currentLayerMode = 'CR';
+    let currentDistrictFilter = 'all';
 
     function isPropertyApplicable(p, mode) {{
       if (mode === 'CR' || mode === 'RR') return true;
@@ -597,6 +969,27 @@ html_content = f"""<!DOCTYPE html>
       }}
     }}
 
+    let isPanelMinimized = false;
+    function toggleMainPanel() {{
+      const tabBar = document.getElementById('main-tab-bar');
+      const tabContent = document.getElementById('main-tab-content');
+      const versionTag = document.getElementById('panel-version-tag');
+      const toggleBtn = document.getElementById('panel-toggle-btn');
+      
+      isPanelMinimized = !isPanelMinimized;
+      if (isPanelMinimized) {{
+        tabBar.style.display = 'none';
+        tabContent.style.display = 'none';
+        versionTag.style.display = 'none';
+        toggleBtn.textContent = '+ Expand';
+      }} else {{
+        tabBar.style.display = 'flex';
+        tabContent.style.display = 'block';
+        versionTag.style.display = 'block';
+        toggleBtn.textContent = '− Minimize';
+      }}
+    }}
+
     function renderRateHud(mode) {{
       const badge = document.getElementById('rate-hud-badge');
       const heading = document.getElementById('rate-hud-heading');
@@ -706,6 +1099,7 @@ html_content = f"""<!DOCTYPE html>
         else {{ valDisplay = p.isInstitutional ? p.instClass + ' (' + p.instType.split(' ')[0] + ')' : p.primaryCode; cellColor = p.isInstitutional ? '#9333ea' : '#64748b'; }}
 
         const tr = document.createElement('tr');
+        tr.dataset.brgy = p.brgy;
         tr.innerHTML = `
           <td><strong>` + p.name + `</strong><br/><span style="color: #64748b; font-size: 0.70rem;">` + p.street + `, ` + p.brgy + `</span></td>
           <td><span style="font-size: 0.70rem; font-weight:600; color: #475569;">Row ` + p.exactBirRow + `</span><br/><span style="font-size: 0.65rem; color: #94a3b8;">` + p.exactBirSheet.split(' ')[0] + `</span></td>
@@ -714,6 +1108,7 @@ html_content = f"""<!DOCTYPE html>
         tr.onclick = () => focusProperty(p);
         dirTbody.appendChild(tr);
       }});
+      filterDirectory();
     }}
 
     function populateCalculatorDropdown() {{
@@ -726,31 +1121,65 @@ html_content = f"""<!DOCTYPE html>
       }});
     }}
 
+    function filterByDistrict(dist) {{
+      currentDistrictFilter = dist;
+      document.getElementById('dtab-all').classList.toggle('active', dist === 'all');
+      document.getElementById('dtab-hh').classList.toggle('active', dist === 'Highway Hills');
+      document.getElementById('dtab-cbd').classList.toggle('active', dist === 'Ortigas');
+      filterDirectory();
+    }}
+
     function filterDirectory() {{
       const q = document.getElementById('dir-filter').value.toLowerCase();
       const rows = dirTbody.querySelectorAll('tr');
       rows.forEach(r => {{
         const text = r.textContent.toLowerCase();
-        r.style.display = text.includes(q) ? '' : 'none';
+        const brgy = r.dataset.brgy;
+        let matchDist = true;
+        if (currentDistrictFilter === 'Highway Hills') matchDist = (brgy === 'Highway Hills');
+        else if (currentDistrictFilter === 'Ortigas') matchDist = (brgy !== 'Highway Hills');
+
+        const matchQuery = text.includes(q);
+        r.style.display = (matchDist && matchQuery) ? '' : 'none';
       }});
     }}
 
     function quickJump(term) {{
+      switchTab('tab-directory');
       document.getElementById('dir-filter').value = term;
-      filterDirectory();
+      filterByDistrict('all');
       const match = properties.find(p => p.name.toLowerCase().includes(term.toLowerCase()) || (p.exactBirName && p.exactBirName.toLowerCase().includes(term.toLowerCase())));
       if (match) focusProperty(match);
     }}
 
     function focusProperty(p) {{
-      map.setView(p.center, 18);
+      map.flyTo(p.center, 18, {{ duration: 1.0 }});
       const targetPoly = propertyPolygons.find(poly => poly.propertyData.id === p.id);
       if (targetPoly) {{
-        targetPoly.openPopup();
-        targetPoly.setStyle({{ weight: 3, color: '#f59e0b' }});
         setTimeout(() => {{
-          targetPoly.setStyle(getPropertyStyle(p, currentLayerMode));
-        }}, 2500);
+          targetPoly.openPopup();
+          targetPoly.setStyle({{ weight: 3, color: '#f59e0b' }});
+          setTimeout(() => {{
+            targetPoly.setStyle(getPropertyStyle(p, currentLayerMode));
+          }}, 3000);
+        }}, 600);
+      }}
+    }}
+
+    function focusDistrict(dist) {{
+      document.getElementById('nav-btn-all').classList.toggle('active', dist === 'all');
+      document.getElementById('nav-btn-hh').classList.toggle('active', dist === 'hh');
+      document.getElementById('nav-btn-cbd').classList.toggle('active', dist === 'cbd');
+
+      if (dist === 'hh') {{
+        map.flyToBounds(hhLayer.getBounds(), {{ padding: [60, 60], duration: 1.2 }});
+        filterByDistrict('Highway Hills');
+      }} else if (dist === 'cbd') {{
+        map.flyToBounds(cbdLayer.getBounds(), {{ padding: [60, 60], duration: 1.2 }});
+        filterByDistrict('Ortigas');
+      }} else {{
+        map.flyToBounds(bboxBounds, {{ padding: [30, 30], duration: 1.2 }});
+        filterByDistrict('all');
       }}
     }}
 
@@ -795,10 +1224,6 @@ html_content = f"""<!DOCTYPE html>
     document.getElementById('chk-sa').addEventListener('change', e => {{ if (e.target.checked) map.addLayer(saLayer); else map.removeLayer(saLayer); }});
     document.getElementById('chk-bbox').addEventListener('change', e => {{ if (e.target.checked) map.addLayer(bboxLayer); else map.removeLayer(bboxLayer); }});
 
-    function fitCbd() {{ map.fitBounds(cbdLayer.getBounds(), {{ padding: [40, 40] }}); }}
-    function fitHh() {{ map.fitBounds(hhLayer.getBounds(), {{ padding: [40, 40] }}); }}
-    function fitAll() {{ map.fitBounds(bboxBounds, {{ padding: [30, 30] }}); }}
-
     renderRateHud('CR');
     renderActiveLayerSummary('CR');
     renderDirectoryRows();
@@ -811,4 +1236,4 @@ html_content = f"""<!DOCTYPE html>
 with open(OUTPUT_HTML, "w", encoding="utf-8") as f:
     f.write(html_content)
 
-print(f"[SUCCESS] Generated production map at {OUTPUT_HTML} with {prop_count} properties.")
+print(f"[SUCCESS] Generated production map at {OUTPUT_HTML} with {prop_count} properties ({hh_count} in Highway Hills, {ortigas_count} in Ortigas CBD).")
